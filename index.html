@@ -1,97 +1,516 @@
-index.html        <p class="eyebrow">About us</p>
-        <h2>Built for dependable operations and long-term partnerships.</h2>
-      </div>
-      <div class="rich-text">
-        <p>Hun Power Maintenance Company is a trader and service provider headquartered in Dammam, Kingdom of Saudi Arabia. Our team combines field experience, responsive customer support, and carefully selected products to help clients increase reliability and reduce downtime.</p>
-        <p>We focus on quality, safety, and practical engineering solutions, supporting customers with maintenance programs, technical consulting, equipment spares, and site-ready service teams.</p>
-      </div>
-    </section>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Hun Power Maintenance Company provides industrial products, maintenance, lubrication, filtration, rotating equipment, and project support services from Dammam, Saudi Arabia."
+    />
+    <title>Hun Power Maintenance Company | Industrial Maintenance & Reliability</title>
+    <link rel="preconnect" href="https://images.unsplash.com" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header" id="top">
+      <a class="brand" href="#top" aria-label="Hun Power Maintenance Company home">
+        <img class="brand-logo" src="assets/hun-logo.png" alt="Hun Power Maintenance Company logo" />
+        <span>
+          <strong>Hun Power</strong>
+          <small>Maintenance Company</small>
+        </span>
+      </a>
 
-    <section class="section-shell" id="services">
-      <div class="section-heading">
-        <p class="eyebrow">Service offering</p>
-        <h2>Comprehensive maintenance and engineering services.</h2>
-        <p>From planned shutdowns to urgent reliability challenges, our capabilities cover the systems that keep industrial operations moving.</p>
-      </div>
-      <div class="card-grid three-columns">
-        <article class="service-card"><span>01</span><h3>Plant Maintenance & Turnaround</h3><p>Planning, execution, inspection, and recovery support for scheduled maintenance windows.</p></article>
-        <article class="service-card"><span>02</span><h3>Rotating Equipment Repair</h3><p>Steam turbines, pumps, gearboxes, rotor balancing, parts support, and engineering services.</p></article>
-        <article class="service-card"><span>03</span><h3>Electrical Engineering</h3><p>Power distribution support, reliability reviews, troubleshooting, and project coordination.</p></article>
-        <article class="service-card"><span>04</span><h3>Oil Mist Lubrication</h3><p>Design, installation, maintenance, and performance improvement for lubrication systems.</p></article>
-        <article class="service-card"><span>05</span><h3>Lube Oil Purifier Maintenance</h3><p>Filtration, dehydration, varnish control, and fluid-conditioning equipment support.</p></article>
-        <article class="service-card"><span>06</span><h3>Quality Assurance Programs</h3><p>Documented processes, safety-first execution, and continuous improvement for client sites.</p></article>
-      </div>
-    </section>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
 
-    <section class="section-shell feature-panel" id="products">
-      <div>
-        <p class="eyebrow">Products offering</p>
-<label for="productSelect">Choose a product:</label>
-  <select id="productSelect">
-    <option value="">-- Select a product --</option>
-  </select>
-
-  <div id="productInfo">
-    <strong id="infoName"></strong><br>        <h2>Industrial products selected for cleaner, safer, faster maintenance.</h2>
-        <p>We supply lubrication system spares, compressed air and gas filters, fluid test kits, oil storage accessories, hydraulic hoses, fittings, bearings, couplings, mechanical seals, and industrial lubricants.</p>
-      </div>
-      <div class="product-list">
-        <span>Lubrication systems</span><span>Fluid conditioning</span><span>Hydraulic supplies</span><span>Bearings & seals</span><span>Oil handling</span><span>Filtration spares</span>
-      </div>
-    </section>
-
-    <section class="section-shell split reverse" id="rentals">
-      <div class="image-card">
-        <div class="gear-circle">⚙</div>
-        <h3>Rental-ready support</h3>
-        <p>Access temporary equipment and field support when project timelines demand speed and flexibility.</p>
-      </div>
-      <div>
-        <p class="eyebrow">Rental offering</p>
-        <h2>Flexible resources for shutdowns, commissioning, and maintenance campaigns.</h2>
-        <p class="rich-text">Our rental approach helps customers bridge equipment gaps, accelerate project execution, and maintain productivity without long procurement delays.</p>
-      </div>
-    </section>
-
-    <section class="section-shell" id="projects">
-      <div class="section-heading">
-        <p class="eyebrow">Past projects</p>
-        <h2>Focused execution for high-value industrial environments.</h2>
-      </div>
-      <div class="project-strip">
-        <div><strong>Shutdown support</strong><span>Coordinated teams for safe, time-bound maintenance.</span></div>
-        <div><strong>Lubrication upgrades</strong><span>Cleaner oil, cooler bearings, and reduced waste.</span></div>
-        <div><strong>Equipment recovery</strong><span>Mechanical and electrical troubleshooting for uptime.</span></div>
-      </div>
-    </section>
-
-    <section class="cta-section" id="contact">
-      <div class="section-shell cta-inner">
-        <div>
-          <p class="eyebrow">Contact us</p>
-          <h2>Ready to improve reliability at your facility?</h2>
-          <p>Tell us about your maintenance requirement and our team will help identify the right product, service, or rental solution.</p>
+      <nav class="site-nav" id="site-nav" aria-label="Primary navigation">
+        <a href="#about">About</a>
+        <div class="nav-item has-dropdown">
+          <button class="dropdown-toggle" type="button" aria-expanded="false" aria-controls="service-menu">
+            Services
+            <span aria-hidden="true">▾</span>
+          </button>
+          <div class="dropdown-menu" id="service-menu">
+            <a href="#service-maintenance">Plant Maintenance & Turnarounds</a>
+            <a href="#service-oil-mist">Oil Mist Lubrication</a>
+            <a href="#service-mechanical">Mechanical & Rotating Equipment</a>
+            <a href="#service-electrical">Electrical Engineering</a>
+            <a href="#service-fluid">Oil Analysis, Purifier & Varnish Removal</a>
+            <a href="#services">All Services</a>
+          </div>
         </div>
-        <address class="contact-card">
-          <strong>Hu Power Maintenance Company</strong>
-          <span>Prince Mohammed Bin Fahd Road, At Tubayshi, Dammam 32233, KSA</span>
-          <a href="tel:+966550327581">+966 550 327 581</a>
-          <a href="tel:+966138301332">013 830 1332</a>
-          <a href="mailto:Admin@hunalquwah.com">Admin@hunalquwah.com</a>
-          <a href="mailto:Sales@hunalquwah.com">Sales@hunalquwah.com</a>
-          <span>Hours: 07:00 am – 04:00 pm</span>
-        </address>
-      </div>
-    </section>
-  </main>
+        <div class="nav-item has-dropdown">
+          <button class="dropdown-toggle" type="button" aria-expanded="false" aria-controls="product-menu">
+            Products
+            <span aria-hidden="true">▾</span>
+          </button>
+          <div class="dropdown-menu" id="product-menu">
+            <a href="#product-lubrication">Oil Mist & Lube Systems</a>
+            <a href="#product-filtration">Filtration & Drying</a>
+            <a href="#product-fluid">Fluid Conditioning</a>
+            <a href="#product-instruments">Instruments & Gauges</a>
+            <a href="#product-hydraulic">Hydraulics, Hoses & Fittings</a>
+            <a href="#product-mechanical">Bearings, Seals, Pumps & Boosters</a>
+            <a href="#products">All Products</a>
+          </div>
+        </div>
+        <a href="#rental">Rental</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#careers">Careers</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
 
-  <footer class="site-footer">
-    <div class="section-shell footer-inner">
-      <p>© 2026 Hu Power Maintenance Company. All Rights Reserved.</p>
+    <main>
+      <section class="hero" aria-label="Industrial maintenance hero">
+        <video
+          class="hero-video"
+          autoplay
+          muted
+          loop
+          playsinline
+          poster="https://images.unsplash.com/photo-1513828583688-c52646db42da?auto=format&fit=crop&w=1800&q=85"
+          aria-hidden="true"
+        >
+          <source src="https://cdn.pixabay.com/video/2021/03/12/67364-523634547_large.mp4" type="video/mp4" />
+        </video>
+        <div class="hero-fallback" aria-hidden="true"></div>
+        <div class="hero-overlay"></div>
+
+        <div class="hero-content">
+          <p class="eyebrow">Industrial Products & Services | Dammam, KSA</p>
+          <h1>Innovative engineering solutions in action</h1>
+          <p>
+            A trusted partner for plant maintenance, turnarounds, lubrication reliability,
+            filtration, rotating equipment support, procurement, and technical services.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#contact">Request Support</a>
+            <a class="button secondary" href="#services">View Services</a>
+          </div>
+        </div>
+
+        <div class="hero-panel" aria-label="Company highlights">
+          <div>
+            <strong>Saudi Based</strong>
+            <span>Head office in Dammam</span>
+          </div>
+          <div>
+            <strong>Reliability Focus</strong>
+            <span>Lubrication, filtration, oil mist</span>
+          </div>
+          <div>
+            <strong>Industrial Reach</strong>
+            <span>Plant services, spares, tools, PPE</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="section intro" id="about">
+        <div class="section-heading">
+          <p class="eyebrow">Your Vision, Our Expertise</p>
+          <h2>Kingdom-leading trading and service support from Dammam</h2>
+        </div>
+        <div class="intro-copy">
+          <p>
+            Hun Power Maintenance Co. (HPMC) is a kingdom-leading trading and service
+            provider with its head office in Dammam, Kingdom of Saudi Arabia. With an
+            expanding distribution network and a team of experienced engineers and sales
+            associates, HPMC provides an optimized product mix for business reliability.
+          </p>
+          <p>
+            For 30 combined years, the team has supplied high-quality products and services
+            throughout GCC areas. HPMC focuses on innovative solutions, commitment to
+            excellence, and the highest level of customer service and support.
+          </p>
+        </div>
+      </section>
+
+      <section class="section values">
+        <article>
+          <span>01</span>
+          <h3>Vision</h3>
+          <p>
+            To be recognized for dependable, high-quality industrial products and services
+            that directly support customer success.
+          </p>
+        </article>
+        <article>
+          <span>02</span>
+          <h3>Mission</h3>
+          <p>
+            To deliver innovative engineering solutions with excellence, responsive service,
+            and practical support across Saudi Arabia.
+          </p>
+        </article>
+        <article>
+          <span>03</span>
+          <h3>Promise</h3>
+          <p>
+            Reliable products, disciplined execution, and a service-first team focused on
+            long-term industrial performance.
+          </p>
+        </article>
+      </section>
+
+      <section class="section accreditations">
+        <div class="section-heading centered">
+          <p class="eyebrow">Quality and Accreditations</p>
+          <h2>Certified systems for dependable industrial service</h2>
+        </div>
+        <div class="badge-grid">
+          <span>ISO 9001 Certified</span>
+          <span>Occupational health & safety ISO 45001 Certified</span>
+          <span>Cyber Security CCC Certified</span>
+        </div>
+      </section>
+
+      <section class="section services" id="services">
+        <div class="section-heading centered">
+          <p class="eyebrow">Service Offering</p>
+          <h2>Innovative engineering solutions by Hun Power Maintenance Co</h2>
+          <p class="quote">The engineer has been, and is, a maker of history. - James Kip Finch</p>
+        </div>
+
+        <div class="service-grid">
+          <article id="service-maintenance">
+            <img src="https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=900&q=80" alt="Industrial plant maintenance technician" />
+            <div>
+              <h3>Plant Maintenance & Turnarounds</h3>
+              <p>Planned maintenance, shutdown support, inspection coordination, and execution assistance for industrial facilities.</p>
+            </div>
+          </article>
+          <article>
+            <img src="https://images.unsplash.com/photo-1518709268805-4e9042af2176?auto=format&fit=crop&w=900&q=80" alt="Industrial project engineering workspace" />
+            <div>
+              <h3>Project Management Expertise</h3>
+              <p>Practical planning, procurement coordination, documentation, and site support for maintenance and reliability projects.</p>
+            </div>
+          </article>
+          <article>
+            <img src="https://images.unsplash.com/photo-1581093458791-9d42e91f69c5?auto=format&fit=crop&w=900&q=80" alt="Engineer inspecting mechanical equipment" />
+            <div>
+              <h3>Consulting Services</h3>
+              <p>Reliability improvement, lubrication consultancy, contamination control reviews, and engineered recommendations.</p>
+            </div>
+          </article>
+          <article>
+            <img src="https://images.unsplash.com/photo-1606220838315-056192d5e927?auto=format&fit=crop&w=900&q=80" alt="Quality control and industrial measurement" />
+            <div>
+              <h3>Quality Assurance Programs</h3>
+              <p>Structured inspection, documentation, vendor support, and service practices aligned with dependable operations.</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section specialty">
+        <div class="section-heading">
+          <p class="eyebrow">Specialized Services</p>
+          <h2>Built for lubrication health and equipment reliability</h2>
+        </div>
+        <div class="specialty-list">
+          <span id="service-oil-mist">Oil mist lubrication services</span>
+          <span id="service-mechanical">Mechanical design and rotating equipment repairs</span>
+          <span id="service-electrical">Electrical engineering solutions</span>
+          <span id="service-fluid">Lube oil purifier maintenance</span>
+          <span>Oil analysis and testing</span>
+          <span>Varnish removal support</span>
+          <span>Filtration and breathers</span>
+          <span>Project management and QA programs</span>
+        </div>
+      </section>
+
+      <section class="feature-band" id="products">
+        <div>
+          <p class="eyebrow">Products Offering</p>
+          <h2>The ultimate filtration, lubrication, and industrial supply portfolio</h2>
+          <p>
+            HPMC supplies products for compressed air and gas filtration, oil mist
+            lubrication, instruments, fluid conditioning, oil handling, industrial
+            lubricants, spill control, hydraulic systems, bearings, seals, pumps, and site
+            safety.
+          </p>
+        </div>
+        <div class="product-list">
+          <a id="product-lubrication" href="#product-catalog">Mist lubrication systems and spares</a>
+          <a id="product-filtration" href="#product-catalog">Walker filtration and drying technology</a>
+          <a id="product-fluid" href="#product-catalog">Fluid conditioning and testing equipment</a>
+          <a id="product-instruments" href="#product-catalog">Instrument spares, gauges, and transmitters</a>
+          <a id="product-hydraulic" href="#product-catalog">Hydraulics, hoses, fittings, and oil handling</a>
+          <a id="product-mechanical" href="#product-catalog">Bearings, couplings, mechanical seals, pumps, and boosters</a>
+        </div>
+      </section>
+
+      <section class="section product-catalog" id="product-catalog">
+        <div class="section-heading centered">
+          <p class="eyebrow">Product List</p>
+          <h2>Product categories matched to Hun Power Maintenance Company</h2>
+        </div>
+        <div class="catalog-grid">
+          <article>
+            <h3>Medical and Breathing Air</h3>
+            <ul>
+              <li>Compressed air and gas filters</li>
+              <li>Water separators</li>
+              <li>Coalescing, dust, silicone-free, duplex, ammonia, refrigerant, high-pressure, and high-temperature filters</li>
+              <li>Breathable compressed air</li>
+              <li>Heater and filter heater packages</li>
+              <li>Alpha medical sterile filters, vacuum filters, PRO MV medical vacuum filters, and air dryers</li>
+            </ul>
+          </article>
+          <article>
+            <h3>Condensate, Gas, and Air Oil Separators</h3>
+            <ul>
+              <li>Drain valve equipment</li>
+              <li>CondenSmart zero-loss, vacuum, timer, high-pressure timer, and mechanical float drains</li>
+              <li>SmartSep oil water separator and service kits</li>
+              <li>Specialist gas, hydrogen, and oxygen filtration</li>
+              <li>Vacuum pump, compressor, and replacement air oil separator elements</li>
+            </ul>
+          </article>
+          <article>
+            <h3>Mist Lubrication System & Spares</h3>
+            <p>
+              Oil mist systems support centrifugal pumps, electric motors, steam turbines,
+              rolling element bearings, mechanical seals, and rotating machinery with
+              measured, continuous thin-film lubrication.
+            </p>
+            <ul>
+              <li>HPMC oil mist lubrication system</li>
+              <li>Oil mist lubrication spare parts</li>
+              <li>Custom lubrication system</li>
+              <li>Grease lubrication system</li>
+              <li>Lube skid spares</li>
+            </ul>
+          </article>
+          <article>
+            <h3>Instrument Spares</h3>
+            <ul>
+              <li>Pressure gauges and differential pressure gauges</li>
+              <li>Thermocouples</li>
+              <li>Transducers and transmitters</li>
+              <li>Thermowells</li>
+              <li>Ambient temperature gauges</li>
+              <li>Level gauges and switches</li>
+              <li>Digital pressure and temperature instruments</li>
+            </ul>
+          </article>
+          <article>
+            <h3>Fluid Conditioning Equipment</h3>
+            <ul>
+              <li>Vacuum dehydration and water removal equipment</li>
+              <li>Varnish removal and acid scavenging units</li>
+              <li>Fluid handling and storage</li>
+              <li>Offline filtration systems</li>
+              <li>Portable filter carts</li>
+              <li>High-velocity oil flushing skids</li>
+              <li>Transformer oil filtration skids</li>
+              <li>Filter housing assemblies and filters</li>
+            </ul>
+          </article>
+          <article>
+            <h3>Fluid Test Kit and Accessories</h3>
+            <ul>
+              <li>Portable fluid monitor</li>
+              <li>Online particle monitor</li>
+              <li>Varnish test kit</li>
+              <li>Sample port fittings</li>
+              <li>Turbine oil analysis kit</li>
+            </ul>
+          </article>
+          <article>
+            <h3>Oil Storage and Handling Accessories</h3>
+            <ul>
+              <li>Spill flooring, drip trays, and basins</li>
+              <li>Oil transfer containers</li>
+              <li>Containment pallets and decks</li>
+              <li>Fluid storage cabinets</li>
+              <li>Drum dollies, carts, trucks, and trolleys</li>
+            </ul>
+          </article>
+          <article>
+            <h3>Fluid Transfer Solution</h3>
+            <p>
+              iCan brand containers help make fluid top-offs safer, faster, and easier for
+              professional maintenance teams.
+            </p>
+          </article>
+          <article>
+            <h3>Industrial and Automotive Lubricants</h3>
+            <ul>
+              <li>Lube mist oil, hydraulic oil, compressor oil, and cutting oil</li>
+              <li>Food grade lubricants</li>
+              <li>Greases</li>
+              <li>Silicone fluid</li>
+              <li>Coolants</li>
+              <li>Refrigeration lubricants</li>
+            </ul>
+          </article>
+          <article>
+            <h3>Oil Spill Control</h3>
+            <ul>
+              <li>Absorbent pads, socks, rolls, and cushions</li>
+              <li>Dispensing stations</li>
+              <li>Super absorbent powder</li>
+              <li>Absorbent granules</li>
+              <li>Marine absorbent booms</li>
+            </ul>
+          </article>
+          <article>
+            <h3>Industrial Hydraulic Systems, Controls, Hoses & Fittings</h3>
+            <ul>
+              <li>Custom hydraulic and industrial hose supplies and replacement</li>
+              <li>Pipes, tubes, flanges, fittings, brass fittings, hose fittings, and clamps</li>
+              <li>Fasteners and stainless steel mesh</li>
+            </ul>
+          </article>
+          <article>
+            <h3>Bearings, Couplings, Mechanical Seals, Pumps & Boosters</h3>
+            <ul>
+              <li>Ball, deep groove, angular contact, spherical roller, needle roller, and tapered roller bearings</li>
+              <li>Air-driven liquid pumps</li>
+              <li>Gas boosters</li>
+              <li>Electric piston pumps</li>
+              <li>Manual pumps</li>
+              <li>Diaphragm pumps</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section class="section lube-room">
+        <img src="https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?auto=format&fit=crop&w=1200&q=80" alt="Industrial workshop and equipment storage area" />
+        <div>
+          <p class="eyebrow">Customized Lube Room</p>
+          <h2>Cleaner storage. Better lubricant condition. Stronger equipment life.</h2>
+          <p>
+            Maintain the purity of lubricant by keeping it free from contaminants and water
+            ingress. A conditioning station creates a safe, contaminant-free environment and
+            uses filtration processes to prevent contamination from entering the plant.
+            Customizable lube room solutions support hydraulic and lubricant oil storage and
+            handling for any size and fluid requirement.
+          </p>
+          <a class="text-link" href="#contact">Discuss a lube room project</a>
+        </div>
+      </section>
+
+      <section class="section rental" id="rental">
+        <div class="section-heading centered">
+          <p class="eyebrow">Rental Offering</p>
+          <h2>Rental support for maintenance, filtration, and site work</h2>
+        </div>
+        <div class="rental-grid">
+          <article>
+            <h3>Filtration and Oil Conditioning Units</h3>
+            <p>Temporary equipment support for oil conditioning, flushing, transfer, water removal, and contamination control.</p>
+          </article>
+          <article>
+            <h3>Maintenance and Turnaround Tools</h3>
+            <p>Industrial tools and field equipment for planned shutdowns, rotating equipment work, and urgent maintenance activity.</p>
+          </article>
+          <article>
+            <h3>Technical Manpower and Supervision</h3>
+            <p>Experienced technicians, engineers, and supervisors for mechanical, lubrication, reliability, and project scopes.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section gallery" id="gallery">
+        <div class="section-heading">
+          <p class="eyebrow">Image Sequence</p>
+          <h2>Past projects and highlighted projects</h2>
+        </div>
+        <div class="sequence">
+          <figure>
+            <img src="https://images.unsplash.com/photo-1581092921461-39b9d08a9b21?auto=format&fit=crop&w=900&q=80" alt="Engineer reviewing industrial site plan" />
+            <figcaption><strong>Assess</strong><span>Inspect condition and define the service scope.</span></figcaption>
+          </figure>
+          <figure>
+            <img src="https://images.unsplash.com/photo-1581092160562-40aa08e78837?auto=format&fit=crop&w=900&q=80" alt="Technicians working on industrial equipment" />
+            <figcaption><strong>Execute</strong><span>Deploy technicians, tools, spares, and controls.</span></figcaption>
+          </figure>
+          <figure>
+            <img src="https://images.unsplash.com/photo-1581092334651-ddf26d9a09d0?auto=format&fit=crop&w=900&q=80" alt="Industrial quality inspection" />
+            <figcaption><strong>Verify</strong><span>Confirm performance through inspection and reporting.</span></figcaption>
+          </figure>
+          <figure>
+            <img src="https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?auto=format&fit=crop&w=900&q=80" alt="Industrial maintenance facility" />
+            <figcaption><strong>Sustain</strong><span>Improve reliability with preventive programs.</span></figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="section careers" id="careers">
+        <div class="section-heading">
+          <p class="eyebrow">Careers</p>
+          <h2>We're hiring. Join our team.</h2>
+        </div>
+        <div class="career-copy">
+          <p>
+            HPMC is committed to sustainable engineering, manufacturing, and developing
+            long-term careers. The company recruits talented, ambitious, and driven
+            individuals to be part of its growth plans.
+          </p>
+          <p>
+            People are HPMC's greatest asset. Employees are given the opportunity to
+            progress their own careers and help drive the business forward.
+          </p>
+          <a class="button primary" href="mailto:Admin@hunalquwah.com?subject=Career%20Application%20-%20Hun%20Power%20Maintenance%20Company">Apply Now</a>
+        </div>
+      </section>
+
+      <section class="cta">
+        <div>
+          <p class="eyebrow">Ready for Reliable Support?</p>
+          <h2>Talk to Hun Power Maintenance Company</h2>
+        </div>
+        <a class="button primary" href="tel:+966550327581">Call +966 550 327 581</a>
+      </section>
+
+      <section class="section contact" id="contact">
+        <div class="contact-details">
+          <p class="eyebrow">Contact Us</p>
+          <h2>We are happy to assist you</h2>
+          <p>Prince Mohammed Bin Fahd Road, At Tubayshi, Dammam 32233, Kingdom of Saudi Arabia</p>
+          <p><strong>Mobile:</strong> <a href="tel:+966550327581">+966 550 327 581</a></p>
+          <p><strong>Phone:</strong> <a href="tel:+966138301332">013 830 1332</a></p>
+          <p><strong>Email:</strong> <a href="mailto:Admin@hunalquwah.com">Admin@hunalquwah.com</a></p>
+          <p><strong>Sales:</strong> <a href="mailto:Sales@hunalquwah.com">Sales@hunalquwah.com</a></p>
+          <p><strong>Hours:</strong> 07:00 am - 02:00 pm</p>
+        </div>
+
+        <form class="contact-form" action="mailto:Sales@hunalquwah.com" method="post" enctype="text/plain">
+          <label>
+            Name
+            <input type="text" name="name" autocomplete="name" required />
+          </label>
+          <label>
+            Email
+            <input type="email" name="email" autocomplete="email" required />
+          </label>
+          <label>
+            Contact Number
+            <input type="tel" name="phone" autocomplete="tel" required />
+          </label>
+          <label>
+            Message
+            <textarea name="message" rows="5" required></textarea>
+          </label>
+          <button class="button primary" type="submit">Send Inquiry</button>
+        </form>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Copyright © 2026 Hun Power Maintenance Company. All Rights Reserved.</p>
       <a href="#top">Back to top</a>
-    </div>
-  </footer>
+    </footer>
 
-  <script src="script.js"></script>
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>
