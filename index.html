@@ -28,63 +28,60 @@
       </button>
 
       <nav class="site-nav" id="site-nav" aria-label="Primary navigation">
-        <a href="#about">About</a>
-        <div class="nav-item has-dropdown">
-          <button class="dropdown-toggle" type="button" aria-expanded="false" aria-controls="product-menu">
-           <nav>
-  <a href="#">Home</a>
+         
+<nav>
+  <a href="#" class="nav-link">Home</a>
  
-  <div class="dropdown">
-    <a href="#" class="top-link">Products</a>
-    <ul class="dropdown-menu">
+  <div class="dropdown" id="product-dropdown">
+    <button class="dropdown-toggle" id="product-toggle" aria-haspopup="true" aria-expanded="false">
+      Products
+      <span aria-hidden="true">▾</span>
+    </button>
  
-      <li class="has-sub">
-        <a href="#">Compressed Air Filters</a>
-        <ul class="sub-menu">
-          <li><a href="#">Water Separators</a></li>
-          <li><a href="#">Coalescing Filters</a></li>
-          <li><a href="#">Particulate Filters</a></li>
-          <li><a href="#">High Pressure Filters</a></li>
-        </ul>
-      </li>
+    <div class="dropdown-menu" id="product-menu">
  
-      <li class="has-sub">
-        <a href="#">Compressed Air Dryers</a>
-        <ul class="sub-menu">
-          <li><a href="#">Heatless Desiccant Dryers</a></li>
-          <li><a href="#">Low Flow Dryers</a></li>
-        </ul>
-      </li>
+      <div class="has-sub">
+        <span class="dropdown-item">Lubrication Systems</span>
+        <div class="sub-menu">
+          <a href="#product-oil-mist">Oil Mist & Lube Systems</a>
+          <a href="#product-grease">Automated Grease Systems</a>
+          <a href="#product-pumps">Lubrication Pumps</a>
+        </div>
+      </div>
  
-      <li class="has-sub">
-        <a href="#">Condensate Management</a>
-        <ul class="sub-menu">
-          <li><a href="#">Drain Valve Equipment</a></li>
-          <li><a href="#">Electronic Drains</a></li>
-          <li><a href="#">Oil Water Separators</a></li>
-        </ul>
-      </li>
+      <div class="has-sub">
+        <span class="dropdown-item">Filtration Products</span>
+        <div class="sub-menu">
+          <a href="#product-filtration">Filtration & Drying</a>
+          <a href="#product-air-filters">Compressed Air Filters</a>
+          <a href="#product-oil-filters">Oil Filters</a>
+        </div>
+      </div>
  
-      <li class="has-sub">
-        <a href="#">Vacuum</a>
-        <ul class="sub-menu">
-          <li><a href="#">Vacuum Pump Protection</a></li>
-          <li><a href="#">Vacuum Pump Exhaust</a></li>
-          <li><a href="#">Filter Elements</a></li>
-        </ul>
-      </li>
+      <div class="has-sub">
+        <span class="dropdown-item">Fluid Conditioning</span>
+        <div class="sub-menu">
+          <a href="#product-fluid">Fluid Conditioning Units</a>
+          <a href="#product-separators">Water Separators</a>
+        </div>
+      </div>
  
-      <li><a href="#">Accessories & Spare Parts</a></li>
-      <li><a href="#">All Products</a></li>
+      <a href="#product-spares">Industrial Spares</a>
  
-    </ul>
+      <div class="has-sub">
+        <span class="dropdown-item">Instruments & Gauges</span>
+        <div class="sub-menu">
+          <a href="#product-pressure">Pressure Gauges</a>
+          <a href="#product-flow">Flow Meters</a>
+        </div>
+      </div>
   </div>
         <div class="nav-item has-dropdown">
           <button class="dropdown-toggle" type="button" aria-expanded="false" aria-controls="service-menu">
             Rental Offering
             <span aria-hidden="true">▾</span>
           </button>
-          <div class="dropdown-menu" id="sRental Offering-menu">
+          <div class="dropdown-menu" id="Rental Offering-menu">
             <a href="#Rental">Fluid Conditioning Equipement</a>
             <a href="#Rental">Varnish Removal Equipement</a>
             <a href="#Rental">Lube Oil Flushing Equipement</a>
