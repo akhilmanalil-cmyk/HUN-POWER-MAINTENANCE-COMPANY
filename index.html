@@ -3,789 +3,1759 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Hun Power Maintenance Company|Industrial Service|Oil Mist service| Across Saudi Arabia, Bahrain & India</title>
-<meta name="description" content="Welcome to Hun Power Maintenance Company.">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+<meta name="description"
+content="HUN POWER MAINTENANCE COMPANY - Industrial Engineering,Oil Mist Service saudi Arabia, Maintenance, Contracting and Industrial Supply across Saudi Arabia, Bahrain and India.">
+
+<title>HUN POWER MAINTENANCE COMPANY | Industrial Engineering & Maintenance</title>
+
 <style>
-:root{
-  --navy-950:#ffffff; --navy-900:#f6f7f9; --navy-800:#eef1f4; --navy-700:#e2e6ec;
-  --red-600:#c8102e; --red-500:#e2173a; --red-glow:rgba(200,16,46,0.35);
-  --white:#ffffff; --ink:#0b1830; --grey-50:#f5f6f8; --grey-200:#e3e6ea; --grey-500:#5b6675; --grey-700:#48505c;
-  --line-d:rgba(9,17,35,0.12); --line-l:rgba(9,17,35,0.1);
-  --radius:3px;
-} 
-*{margin:0;padding:0;box-sizing:border-box;}
-html{scroll-behavior:smooth;}
-body{background:var(--navy-950);color:var(--grey-500);font-family:'Inter',sans-serif;font-size:16px;line-height:1.65;overflow-x:hidden;}
-h1,h2,h3,h4{font-family:'Sora',sans-serif;color:var(--ink);font-weight:700;letter-spacing:-0.01em;}
-.mono{font-family:'IBM Plex Mono',monospace;}
-a{color:inherit;text-decoration:none;}
-img{max-width:100%;display:block;}
-button{font-family:inherit;}
-.wrap{max-width:1280px;margin:0 auto;padding:0 32px;}
-.section-light{background:var(--grey-50);color:var(--grey-700);}
-.section-light h2,.section-light h3{color:var(--ink);}
-::selection{background:var(--red-600);color:var(--white);}
-:focus-visible{outline:2px solid var(--red-500);outline-offset:3px;}
-.eyebrow{font-family:'IBM Plex Mono',monospace;font-size:12px;letter-spacing:0.16em;text-transform:uppercase;color:var(--red-500);display:flex;align-items:center;gap:10px;margin-bottom:16px;}
-.eyebrow::before{content:"";width:22px;height:2px;background:var(--red-600);display:inline-block;}
-.section-head{max-width:680px;margin-bottom:52px;}
-.section-head h2{font-size:34px;line-height:1.15;}
-.section-head p{margin-top:14px;font-size:15.5px;}
-section{padding:100px 0;}
-@media(max-width:768px){section{padding:64px 0;} .wrap{padding:0 20px;}}
+/* =========================================================
+   HUN POWER MAINTENANCE COMPANY - COMPLETE WEBSITE
+   HTML + CSS + JAVASCRIPT
+   ========================================================= */
 
-#scrollbar{position:fixed;top:0;left:0;height:3px;background:linear-gradient(90deg,var(--red-600),var(--red-500));z-index:300;width:0%;transition:width .1s linear;}
-
-.topbar{background:var(--navy-950);border-bottom:1px solid var(--line-d);font-family:'IBM Plex Mono',monospace;font-size:11.5px;color:var(--grey-500);}
-.topbar .wrap{display:flex;justify-content:space-between;align-items:center;padding:9px 32px;flex-wrap:wrap;gap:8px;}
-.topbar .tb-left{display:flex;gap:22px;flex-wrap:wrap;}
-.topbar a:hover{color:var(--red-600);}
-.lang-switch{display:flex;gap:0;border:1px solid var(--line-d);border-radius:var(--radius);overflow:hidden;}
-.lang-switch button{background:none;border:none;color:var(--grey-500);padding:4px 10px;cursor:pointer;font-family:'IBM Plex Mono',monospace;font-size:11px;}
-.lang-switch button.active{background:var(--red-600);color:var(--white);}
-
-header{position:sticky;top:0;z-index:200;background:rgba(255,255,255,0.92);backdrop-filter:blur(12px);border-bottom:1px solid var(--line-d);}
-.navrow{display:flex;align-items:center;justify-content:space-between;padding:16px 32px;max-width:1280px;margin:0 auto;gap:20px;}
-.brand{display:flex;align-items:center;gap:12px;flex-shrink:0;}
-.tri-mark{width:40px;height:40px;position:relative;flex-shrink:0;}
-.tri-mark span{position:absolute;width:15px;height:34px;border-radius:1px;bottom:0;}
-.tri-mark span:nth-child(1){left:0;background:var(--grey-500);height:22px;}
-.tri-mark span:nth-child(2){left:13px;background:var(--red-600);height:34px;}
-.tri-mark span:nth-child(3){left:26px;background:var(--grey-200);border:1px solid var(--line-d);height:27px;}
-.brand-text .name{font-family:'Sora',sans-serif;font-weight:800;color:var(--ink);font-size:16.5px;letter-spacing:0.01em;line-height:1.1;}
-.brand-text .sub{font-family:'IBM Plex Mono',monospace;font-size:9.5px;color:var(--grey-500);letter-spacing:0.09em;}
-nav.mainnav{display:flex;align-items:center;gap:0;}
-nav.mainnav>a,.nav-item>button{font-size:13.5px;font-weight:500;color:#3d4a5c;padding:10px 14px;border-radius:var(--radius);background:none;border:none;cursor:pointer;display:flex;align-items:center;gap:6px;transition:color .15s;white-space:nowrap;}
-nav.mainnav>a:hover,.nav-item>button:hover{color:var(--red-600);}
-.nav-item{position:relative;}
-.caret{width:7px;height:7px;border-right:1.5px solid currentColor;border-bottom:1.5px solid currentColor;transform:rotate(45deg);margin-top:-2px;transition:transform .2s;}
-.nav-item.open .caret{transform:rotate(-135deg);margin-top:2px;}
-.mega{position:absolute;top:calc(100% + 14px);left:50%;transform:translateX(-50%) translateY(-8px);background:var(--navy-800);border:1px solid var(--line-d);border-radius:var(--radius);padding:22px;box-shadow:0 30px 60px rgba(0,0,0,0.5);opacity:0;visibility:hidden;pointer-events:none;transition:opacity .18s,transform .18s;}
-.nav-item.open .mega{opacity:1;visibility:visible;pointer-events:auto;transform:translateX(-50%) translateY(0);}
-.mega.companies{width:640px;display:grid;grid-template-columns:repeat(3,1fr);gap:14px;}
-.mega .co-tile{border:1px solid var(--line-d);border-radius:var(--radius);padding:16px;transition:border-color .15s,background .15s;display:block;}
-.mega .co-tile:hover{border-color:var(--red-600);background:var(--navy-700);}
-.mega .co-tile .flag{width:26px;height:18px;border-radius:2px;margin-bottom:10px;display:block;}
-.mega .co-tile .cname{font-family:'Sora',sans-serif;color:var(--ink);font-size:13.5px;font-weight:600;margin-bottom:3px;}
-.mega .co-tile .cloc{font-family:'IBM Plex Mono',monospace;font-size:10px;color:var(--grey-500);}
-.mega.services{width:560px;display:grid;grid-template-columns:1fr 1fr;gap:2px;}
-.mega.services a{padding:9px 12px;border-radius:var(--radius);font-size:12.5px;color:#3d4a5c;display:block;}
-.mega.services a:hover{background:var(--navy-700);color:var(--ink);}
-.mega-head{grid-column:1/-1;font-family:'IBM Plex Mono',monospace;font-size:10px;color:var(--grey-500);letter-spacing:0.08em;text-transform:uppercase;padding-bottom:10px;margin-bottom:8px;border-bottom:1px solid var(--line-d);}
-.rfq-btn{font-family:'IBM Plex Mono',monospace;font-size:12px;font-weight:600;letter-spacing:0.03em;color:var(--white);background:var(--red-600);padding:11px 20px;border-radius:var(--radius);border:1px solid var(--red-600);white-space:nowrap;transition:background .15s;}
-.rfq-btn:hover{background:var(--red-500);}
-.icon-btn{background:none;border:1px solid var(--line-d);border-radius:var(--radius);width:38px;height:38px;display:flex;align-items:center;justify-content:center;color:#3d4a5c;cursor:pointer;flex-shrink:0;}
-.icon-btn:hover{border-color:var(--red-500);color:var(--red-600);}
-.burger{display:none;}
-@media(max-width:1180px){nav.mainnav{display:none;} .burger{display:flex;}}
-
-.hero{position:relative;padding:100px 0 70px;overflow:hidden;background:radial-gradient(ellipse 80% 60% at 70% 0%, rgba(200,16,46,0.14), transparent 60%), var(--navy-950);}
-.hero-grid{display:grid;grid-template-columns:1.05fr 0.95fr;gap:50px;align-items:center;position:relative;z-index:2;}
-.hero .flag-strip{display:flex;gap:10px;margin-bottom:24px;flex-wrap:wrap;}
-.flag-chip{display:flex;align-items:center;gap:7px;border:1px solid var(--line-d);border-radius:20px;padding:5px 12px 5px 6px;font-family:'IBM Plex Mono',monospace;font-size:10.5px;color:#3d4a5c;}
-.flag-chip .dot{width:16px;height:16px;border-radius:50%;flex-shrink:0;background-size:cover;}
-.hero h1{font-size:52px;line-height:1.08;margin-bottom:22px;}
-.hero h1 .accent{color:var(--red-500);}
-.hero p.lead{font-size:17px;color:#3d4a5c;max-width:520px;margin-bottom:34px;}
-.hero-ctas{display:flex;gap:14px;flex-wrap:wrap;}
-.btn-ghost{font-family:'IBM Plex Mono',monospace;font-size:12.5px;font-weight:600;color:var(--ink);border:1px solid var(--line-d);padding:13px 22px;border-radius:var(--radius);transition:border-color .15s,color .15s;}
-.btn-ghost:hover{border-color:var(--red-500);color:var(--red-500);}
-.btn-solid{font-family:'IBM Plex Mono',monospace;font-size:12.5px;font-weight:600;color:var(--white);background:var(--red-600);border:1px solid var(--red-600);padding:13px 22px;border-radius:var(--radius);transition:background .15s;}
-.btn-solid:hover{background:var(--red-500);}
-
-.net-wrap{position:relative;height:420px;display:flex;align-items:center;justify-content:center;}
-.net-wrap svg{width:100%;height:100%;}
-.net-line{stroke-dasharray:6 5;opacity:0.6;animation:dash 3s linear infinite;}
-@keyframes dash{to{stroke-dashoffset:-100;}}
-.pulse{animation:pulse 2.4s ease-in-out infinite;}
-@keyframes pulse{0%,100%{r:5;opacity:1;}50%{r:9;opacity:0.35;}}
-@media(prefers-reduced-motion:reduce){.net-line{animation:none;} .pulse{animation:none;}}
-
-.marquee{border-top:1px solid var(--line-d);border-bottom:1px solid var(--line-d);background:var(--navy-900);overflow:hidden;padding:14px 0;}
-.marquee-track{display:flex;width:max-content;animation:scroll 38s linear infinite;}
-.marquee-track span{font-family:'IBM Plex Mono',monospace;font-size:12px;letter-spacing:0.07em;color:var(--grey-500);padding:0 26px;white-space:nowrap;}
-.marquee-track span::after{content:"◆";color:var(--red-600);margin-left:26px;font-size:8px;}
-@keyframes scroll{0%{transform:translateX(0);}100%{transform:translateX(-50%);}}
-
-.intro-grid{display:grid;grid-template-columns:1.1fr 0.9fr;gap:56px;align-items:start;}
-.intro-grid p{font-size:15.5px;margin-bottom:16px;}
-.plate{border:1px solid var(--line-d);border-radius:var(--radius);background:var(--navy-900);overflow:hidden;}
-.plate-head{background:var(--navy-700);padding:14px 20px;font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:0.1em;color:var(--red-500);text-transform:uppercase;border-bottom:1px solid var(--line-d);}
-.plate-row{display:flex;justify-content:space-between;gap:14px;padding:13px 20px;border-bottom:1px solid var(--line-d);font-size:13px;}
-.plate-row:last-child{border-bottom:none;}
-.plate-row .k{color:var(--grey-500);font-family:'IBM Plex Mono',monospace;font-size:11px;}
-.plate-row .v{color:var(--ink);font-weight:500;text-align:right;}
-
-.stats-band{background:var(--navy-900);border-top:1px solid var(--line-d);border-bottom:1px solid var(--line-d);}
-.stats-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--line-d);}
-.stat-cell{background:var(--navy-950);padding:44px 24px;text-align:center;}
-.stat-cell .num{font-family:'Sora',sans-serif;font-size:44px;font-weight:800;color:var(--ink);display:flex;align-items:baseline;justify-content:center;gap:2px;}
-.stat-cell .num .suffix{color:var(--red-500);font-size:26px;}
-.stat-cell .lbl{font-family:'IBM Plex Mono',monospace;font-size:11px;color:var(--grey-500);letter-spacing:0.06em;text-transform:uppercase;margin-top:8px;}
-@media(max-width:768px){.stats-grid{grid-template-columns:repeat(2,1fr);}}
-
-.co-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;}
-.co-card{border:1px solid var(--line-d);border-radius:var(--radius);overflow:hidden;background:var(--navy-900);position:relative;transition:transform .25s ease,border-color .25s ease;}
-.co-card:hover{transform:translateY(-6px);border-color:var(--red-600);}
-.co-card .co-top{height:6px;}
-.co-card .co-body{padding:30px 28px 28px;}
-.co-card .co-flag{width:34px;height:24px;border-radius:2px;margin-bottom:18px;}
-.co-card h3{font-size:19px;margin-bottom:4px;}
-.co-card .co-country{font-family:'IBM Plex Mono',monospace;font-size:11px;color:var(--grey-500);letter-spacing:0.05em;margin-bottom:16px;}
-.co-card .chips{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:22px;}
-.co-card .chip{font-family:'IBM Plex Mono',monospace;font-size:10px;border:1px solid var(--line-d);border-radius:20px;padding:4px 10px;color:#3d4a5c;}
-.co-card .co-link{font-family:'IBM Plex Mono',monospace;font-size:12px;font-weight:600;color:var(--red-500);display:inline-flex;align-items:center;gap:6px;}
-.co-card .co-link:hover{color:var(--ink);}
-
-.ind-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:14px;}
-.ind-tile{border:1px solid var(--line-l);border-radius:var(--radius);padding:22px 16px;text-align:center;background:var(--white);transition:border-color .2s,box-shadow .2s,transform .2s;}
-.ind-tile:hover{border-color:var(--red-600);box-shadow:0 12px 26px rgba(9,17,35,0.08);transform:translateY(-4px);}
-.ind-tile .ico{color:var(--red-600);margin:0 auto 12px;}
-.ind-tile .t{font-family:'Sora',sans-serif;font-size:13px;font-weight:600;color:var(--navy-950);}
-@media(max-width:900px){.ind-grid{grid-template-columns:repeat(3,1fr);}}
-@media(max-width:560px){.ind-grid{grid-template-columns:repeat(2,1fr);}}
-
-.svc-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;}
-.svc-card{border:1px solid var(--line-d);border-radius:var(--radius);padding:26px 22px;background:var(--navy-900);position:relative;overflow:hidden;transition:transform .25s,border-color .25s;}
-.svc-card::before{content:"";position:absolute;top:0;left:0;width:0;height:2px;background:var(--red-600);transition:width .3s ease;}
-.svc-card:hover{transform:translateY(-5px);border-color:var(--red-600);}
-.svc-card:hover::before{width:100%;}
-.svc-card .ico{color:var(--red-500);margin-bottom:16px;}
-.svc-card h3{font-size:14.5px;margin-bottom:8px;}
-.svc-card p{font-size:12.5px;color:var(--grey-500);line-height:1.55;}
-@media(max-width:900px){.svc-grid{grid-template-columns:repeat(2,1fr);}}
-@media(max-width:560px){.svc-grid{grid-template-columns:1fr;}}
-
-.map-wrap{position:relative;border:1px solid var(--line-l);border-radius:var(--radius);background:var(--white);padding:40px;}
-.map-svg{width:100%;height:auto;}
-.map-legend{display:flex;gap:26px;flex-wrap:wrap;margin-top:26px;}
-.map-legend .item{display:flex;align-items:center;gap:8px;font-family:'IBM Plex Mono',monospace;font-size:11.5px;color:var(--grey-700);}
-.map-legend .sw{width:10px;height:10px;border-radius:50%;}
-
-.client-wall{display:grid;grid-template-columns:repeat(5,1fr);gap:1px;background:var(--line-d);border:1px solid var(--line-d);}
-.client-tile{background:var(--navy-900);padding:26px 16px;display:flex;align-items:center;justify-content:center;text-align:center;font-family:'Sora',sans-serif;font-weight:700;color:#59667a;font-size:13.5px;letter-spacing:0.02em;transition:color .2s;}
-.client-tile:hover{color:var(--red-600);}
-@media(max-width:900px){.client-wall{grid-template-columns:repeat(3,1fr);}}
-@media(max-width:560px){.client-wall{grid-template-columns:repeat(2,1fr);}}
-
-.why-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line-d);border:1px solid var(--line-d);}
-.why-card{background:var(--navy-900);padding:32px 28px;}
-.why-card .num{font-family:'IBM Plex Mono',monospace;font-size:12px;color:var(--red-500);margin-bottom:14px;}
-.why-card h3{font-size:16px;margin-bottom:10px;}
-.why-card p{font-size:13px;color:var(--grey-500);}
-@media(max-width:900px){.why-grid{grid-template-columns:1fr 1fr;}}
-@media(max-width:560px){.why-grid{grid-template-columns:1fr;}}
-
-.proj-filters{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:32px;}
-.proj-filters button{border:1px solid var(--line-l);background:var(--white);color:var(--grey-700);padding:9px 16px;border-radius:20px;font-family:'IBM Plex Mono',monospace;font-size:11.5px;cursor:pointer;transition:all .15s;}
-.proj-filters button.active,.proj-filters button:hover{background:var(--red-600);color:var(--white);border-color:var(--red-600);}
-.proj-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;}
-.proj-card{border-radius:var(--radius);overflow:hidden;background:var(--white);border:1px solid var(--line-l);}
-.proj-thumb{height:170px;position:relative;overflow:hidden;}
-.proj-body{padding:20px 22px;}
-.proj-body .tag{font-family:'IBM Plex Mono',monospace;font-size:10px;color:var(--red-600);text-transform:uppercase;letter-spacing:0.06em;margin-bottom:8px;display:block;}
-.proj-body h3{color:var(--navy-950);font-size:15px;margin-bottom:6px;}
-.proj-body p{font-size:12.5px;color:var(--grey-700);}
-@media(max-width:900px){.proj-grid{grid-template-columns:1fr 1fr;}}
-@media(max-width:560px){.proj-grid{grid-template-columns:1fr;}}
-
-.test-wrap{max-width:780px;margin:0 auto;text-align:center;position:relative;}
-.test-quote{font-family:'Sora',sans-serif;font-size:22px;line-height:1.5;color:var(--ink);font-weight:500;min-height:150px;}
-.test-meta{margin-top:24px;font-family:'IBM Plex Mono',monospace;font-size:12px;color:var(--grey-500);}
-.test-dots{display:flex;justify-content:center;gap:8px;margin-top:28px;}
-.test-dots button{width:8px;height:8px;border-radius:50%;background:var(--line-d);border:none;cursor:pointer;padding:0;}
-.test-dots button.active{background:var(--red-600);}
-
-.news-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;}
-.news-card{border:1px solid var(--line-l);border-radius:var(--radius);overflow:hidden;background:var(--white);}
-.news-thumb{height:150px;}
-.news-body{padding:20px 22px;}
-.news-body .date{font-family:'IBM Plex Mono',monospace;font-size:10.5px;color:var(--red-600);}
-.news-body h3{color:var(--navy-950);font-size:15px;margin:8px 0 6px;}
-.news-body p{font-size:12.5px;color:var(--grey-700);}
-@media(max-width:900px){.news-grid{grid-template-columns:1fr;}}
-
-.cta-band{border-radius:var(--radius);background:linear-gradient(120deg, var(--navy-900) 0%, var(--navy-950) 100%);border:1px solid var(--line-d);padding:60px;display:flex;justify-content:space-between;align-items:center;gap:30px;flex-wrap:wrap;position:relative;overflow:hidden;}
-.cta-band::after{content:"";position:absolute;top:-40%;right:-10%;width:400px;height:400px;background:radial-gradient(circle, rgba(200,16,46,0.25), transparent 70%);}
-.cta-band h2{font-size:28px;max-width:480px;position:relative;}
-
-footer{background:var(--navy-950);border-top:1px solid var(--line-d);padding:64px 0 26px;}
-.foot-grid{display:grid;grid-template-columns:1.5fr 0.8fr 0.8fr 0.8fr 0.9fr;gap:32px;margin-bottom:48px;}
-.foot-brand p{font-size:13px;color:var(--grey-500);margin-top:14px;max-width:260px;}
-.foot-col h4{font-family:'IBM Plex Mono',monospace;font-size:10.5px;color:var(--grey-500);letter-spacing:0.08em;text-transform:uppercase;margin-bottom:16px;}
-.foot-col a{display:block;font-size:13px;color:#3d4a5c;margin-bottom:10px;}
-.foot-col a:hover{color:var(--red-500);}
-.foot-bottom{border-top:1px solid var(--line-d);padding-top:22px;display:flex;justify-content:space-between;font-family:'IBM Plex Mono',monospace;font-size:11px;color:var(--grey-500);flex-wrap:wrap;gap:10px;}
-@media(max-width:900px){.foot-grid{grid-template-columns:1fr 1fr;}}
-
-.floaters{position:fixed;bottom:24px;right:24px;z-index:250;display:flex;flex-direction:column;gap:12px;align-items:flex-end;}
-.fab{width:52px;height:52px;border-radius:50%;display:flex;align-items:center;justify-content:center;cursor:pointer;box-shadow:0 10px 26px rgba(0,0,0,0.35);border:none;color:#fff;}
-.fab.wa{background:#25D366;}
-.fab.chat{background:var(--red-600);}
-.fab.top{background:var(--navy-800);border:1px solid var(--line-d);color:var(--ink);opacity:0;pointer-events:none;transition:opacity .2s;}
-.fab.top.show{opacity:1;pointer-events:auto;}
-
-#cookie{position:fixed;left:20px;right:20px;bottom:20px;max-width:560px;margin:0 auto;background:var(--navy-800);border:1px solid var(--line-d);border-radius:var(--radius);padding:18px 22px;display:flex;gap:16px;align-items:center;justify-content:space-between;z-index:260;flex-wrap:wrap;box-shadow:0 20px 50px rgba(0,0,0,0.4);transform:translateY(140%);transition:transform .4s ease;}
-#cookie.show{transform:translateY(0);}
-#cookie p{font-size:12.5px;color:#3d4a5c;}
-#cookie button{font-family:'IBM Plex Mono',monospace;font-size:11.5px;font-weight:600;color:var(--white);background:var(--red-600);border:none;padding:9px 16px;border-radius:var(--radius);cursor:pointer;white-space:nowrap;}
-
-#searchOverlay{position:fixed;inset:0;background:rgba(255,255,255,0.96);z-index:290;display:none;align-items:flex-start;justify-content:center;padding-top:14vh;}
-#searchOverlay.open{display:flex;}
-.search-box{width:min(640px,90vw);}
-.search-box input{width:100%;background:transparent;border:none;border-bottom:2px solid var(--red-600);color:var(--ink);font-family:'Sora',sans-serif;font-size:28px;padding:12px 0;}
-.search-box input:focus{outline:none;}
-.search-box .hint{font-family:'IBM Plex Mono',monospace;font-size:11.5px;color:var(--grey-500);margin-top:16px;}
-
-.reveal{opacity:0;transform:translateY(28px);transition:opacity .7s ease,transform .7s ease;}
-.reveal.in{opacity:1;transform:translateY(0);}
-@media(prefers-reduced-motion:reduce){.reveal{opacity:1;transform:none;transition:none;}}
-
-#mobileDrawer{display:none;}
-@media(max-width:1180px){
-  #mobileDrawer.open{display:block;position:fixed;inset:0;top:0;background:var(--navy-950);z-index:280;overflow:auto;padding:20px 24px 60px;}
-  #mobileDrawer .m-top{display:flex;justify-content:space-between;align-items:center;padding-bottom:20px;border-bottom:1px solid var(--line-d);margin-bottom:10px;}
-  #mobileDrawer .m-link{display:block;padding:14px 4px;border-bottom:1px solid var(--line-d);font-size:16px;color:var(--ink);font-weight:500;}
-  #mobileDrawer details{border-bottom:1px solid var(--line-d);}
-  #mobileDrawer summary{padding:14px 4px;font-size:16px;color:var(--ink);font-weight:500;cursor:pointer;list-style:none;display:flex;justify-content:space-between;}
-  #mobileDrawer .m-sub{padding:2px 4px 14px 12px;display:grid;gap:2px;}
-  #mobileDrawer .m-sub a{font-size:13.5px;color:#3d4a5c;padding:8px 0;}
+:root {
+    --red: #d71920;
+    --dark: #0b1117;
+    --dark2: #121a21;
+    --black: #05080b;
+    --white: #ffffff;
+    --light: #f4f6f7;
+    --gray: #69737d;
+    --line: #dfe3e6;
+    --max: 1400px;
 }
-@media(max-width:960px){.hero-grid,.intro-grid{grid-template-columns:1fr;} .net-wrap{order:-1;height:280px;} .co-grid{grid-template-columns:1fr;} .hero h1{font-size:36px;}}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: var(--light);
+    color: #10151b;
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+button,
+input,
+textarea,
+select {
+    font-family: inherit;
+}
+
+/* =========================================================
+   HEADER
+   ========================================================= */
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 78px;
+    z-index: 1000;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0 6%;
+
+    background: rgba(5, 8, 11, 0.94);
+    backdrop-filter: blur(15px);
+
+    border-bottom: 1px solid rgba(255,255,255,.08);
+}
+
+.logo {
+    font-size: 25px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    color: white;
+}
+
+.logo span {
+    color: var(--red);
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+nav a {
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: .3s;
+}
+
+nav a:hover {
+    color: var(--red);
+}
+
+.nav-button {
+    background: var(--red);
+    padding: 12px 20px;
+}
+
+.nav-button:hover {
+    color: white;
+    background: #b81218;
+}
+
+.menu-button {
+    display: none;
+    border: none;
+    background: none;
+    color: white;
+    font-size: 28px;
+    cursor: pointer;
+}
+
+/* =========================================================
+   HERO
+   ========================================================= */
+
+.hero {
+    min-height: 100vh;
+
+    display: flex;
+    align-items: center;
+
+    position: relative;
+    overflow: hidden;
+
+    background:
+        linear-gradient(
+            90deg,
+            rgba(3,7,10,.97) 0%,
+            rgba(7,13,18,.91) 50%,
+            rgba(7,13,18,.72) 100%
+        ),
+        url("https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?auto=format&fit=crop&w=2200&q=85")
+        center/cover;
+}
+
+.hero::after {
+    content: "";
+
+    position: absolute;
+
+    width: 650px;
+    height: 650px;
+
+    right: -200px;
+    top: 100px;
+
+    border: 1px solid rgba(215,25,32,.5);
+
+    transform: rotate(35deg);
+}
+
+.hero-content {
+    position: relative;
+    z-index: 2;
+
+    max-width: 900px;
+
+    margin-left: 8%;
+    padding-top: 80px;
+}
+
+.eyebrow {
+    color: #ff3c43;
+
+    font-size: 12px;
+    font-weight: 800;
+
+    letter-spacing: 4px;
+
+    margin-bottom: 20px;
+}
+
+.hero h1 {
+    color: white;
+
+    font-size: clamp(50px, 7vw, 92px);
+
+    line-height: .98;
+
+    margin-bottom: 30px;
+}
+
+.hero h1 span {
+    color: var(--red);
+}
+
+.hero-text {
+    max-width: 720px;
+
+    color: #c4ccd2;
+
+    font-size: 19px;
+
+    margin-bottom: 35px;
+}
+
+.buttons {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.btn {
+    display: inline-block;
+
+    padding: 15px 25px;
+
+    font-size: 12px;
+
+    font-weight: 800;
+
+    letter-spacing: 1px;
+
+    text-transform: uppercase;
+
+    transition: .3s;
+
+    cursor: pointer;
+}
+
+.btn-red {
+    background: var(--red);
+    color: white;
+}
+
+.btn-red:hover {
+    background: #b51017;
+    transform: translateY(-2px);
+}
+
+.btn-outline {
+    border: 1px solid rgba(255,255,255,.45);
+    color: white;
+}
+
+.btn-outline:hover {
+    border-color: white;
+    background: white;
+    color: black;
+}
+
+.hero-stats {
+    display: flex;
+    gap: 70px;
+
+    margin-top: 65px;
+}
+
+.hero-stat strong {
+    display: block;
+
+    color: white;
+
+    font-size: 30px;
+}
+
+.hero-stat small {
+    color: #9ca6ae;
+
+    font-size: 11px;
+
+    text-transform: uppercase;
+
+    letter-spacing: 1px;
+}
+
+/* =========================================================
+   GENERAL
+   ========================================================= */
+
+.section {
+    padding: 110px 8%;
+}
+
+.section-label {
+    color: var(--red);
+
+    font-size: 11px;
+
+    font-weight: 800;
+
+    letter-spacing: 4px;
+
+    margin-bottom: 20px;
+}
+
+.section-title {
+    font-size: clamp(40px, 5vw, 68px);
+
+    line-height: 1.05;
+
+    margin-bottom: 45px;
+}
+
+.section-title span {
+    color: #89929a;
+}
+
+.two-column {
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+
+    gap: 90px;
+}
+
+/* =========================================================
+   ABOUT
+   ========================================================= */
+
+.about {
+    background: white;
+}
+
+.about-text {
+    color: #5e6871;
+
+    font-size: 18px;
+
+    margin-bottom: 20px;
+}
+
+.about-box {
+    border-left: 4px solid var(--red);
+
+    padding: 30px;
+
+    background: var(--light);
+}
+
+.about-box strong {
+    font-size: 20px;
+}
+
+/* =========================================================
+   SERVICES
+   ========================================================= */
+
+.services {
+    background: var(--dark);
+
+    color: white;
+}
+
+.services .section-title {
+    color: white;
+}
+
+.service-grid {
+    display: grid;
+
+    grid-template-columns:
+        repeat(3, 1fr);
+
+    gap: 1px;
+
+    background: #394149;
+}
+
+.service {
+    min-height: 260px;
+
+    padding: 35px;
+
+    background: var(--dark2);
+
+    transition: .3s;
+}
+
+.service:hover {
+    background: #1b252d;
+
+    transform: translateY(-5px);
+}
+
+.service-number {
+    color: var(--red);
+
+    font-size: 12px;
+
+    font-weight: bold;
+
+    letter-spacing: 2px;
+}
+
+.service h3 {
+    font-size: 23px;
+
+    margin-top: 45px;
+
+    margin-bottom: 12px;
+}
+
+.service p {
+    color: #aeb7be;
+}
+
+/* =========================================================
+   INDUSTRIES
+   ========================================================= */
+
+.industries {
+    background: #eef0f0;
+}
+
+.industry-grid {
+    display: grid;
+
+    grid-template-columns:
+        repeat(4, 1fr);
+
+    border-top: 1px solid var(--line);
+
+    border-left: 1px solid var(--line);
+}
+
+.industry {
+    min-height: 150px;
+
+    display: flex;
+
+    align-items: center;
+
+    padding: 25px;
+
+    border-right: 1px solid var(--line);
+
+    border-bottom: 1px solid var(--line);
+
+    font-weight: 900;
+
+    font-size: 14px;
+
+    letter-spacing: 2px;
+}
+
+/* =========================================================
+   COMPANIES
+   ========================================================= */
+
+.companies {
+    background: white;
+}
+
+.company-grid {
+    display: grid;
+
+    grid-template-columns:
+        repeat(3, 1fr);
+
+    gap: 20px;
+}
+
+.company-card {
+    padding: 40px;
+
+    min-height: 350px;
+
+    background: #f5f6f6;
+
+    border-top: 5px solid var(--red);
+
+    transition: .3s;
+}
+
+.company-card:hover {
+    transform: translateY(-7px);
+
+    box-shadow:
+        0 20px 50px rgba(0,0,0,.08);
+}
+
+.country {
+    color: var(--red);
+
+    font-size: 11px;
+
+    font-weight: 900;
+
+    letter-spacing: 3px;
+}
+
+.company-card h3 {
+    font-size: 27px;
+
+    line-height: 1.15;
+
+    margin: 25px 0;
+}
+
+.company-card p {
+    color: var(--gray);
+
+    margin-bottom: 25px;
+}
+
+.company-link {
+    color: var(--red);
+
+    font-weight: 800;
+}
+
+/* =========================================================
+   HSE
+   ========================================================= */
+
+.hse {
+    background: #e5e8e7;
+}
+
+.hse-list {
+    display: flex;
+
+    flex-direction: column;
+}
+
+.hse-item {
+    padding: 22px 0;
+
+    border-bottom: 1px solid #c8cdcc;
+}
+
+.hse-item strong {
+    font-size: 20px;
+}
+
+.hse-item p {
+    color: var(--gray);
+
+    margin-top: 5px;
+}
+
+/* =========================================================
+   CTA
+   ========================================================= */
+
+.cta {
+    padding: 110px 8%;
+
+    color: white;
+
+    background:
+        linear-gradient(
+            90deg,
+            rgba(8,12,16,.98),
+            rgba(8,12,16,.85)
+        ),
+        url("https://images.unsplash.com/photo-1581094794329-c8112a89af12?auto=format&fit=crop&w=2200&q=85")
+        center/cover;
+}
+
+.cta h2 {
+    font-size: clamp(45px, 6vw, 80px);
+
+    line-height: 1;
+
+    margin-bottom: 35px;
+}
+
+.cta h2 span {
+    color: var(--red);
+}
+
+/* =========================================================
+   CONTACT
+   ========================================================= */
+
+.contact {
+    background: white;
+}
+
+.contact-description {
+    color: var(--gray);
+
+    font-size: 18px;
+}
+
+.contact-form {
+    display: grid;
+
+    gap: 18px;
+}
+
+.form-group label {
+    display: block;
+
+    font-size: 11px;
+
+    font-weight: 900;
+
+    text-transform: uppercase;
+
+    letter-spacing: 1px;
+
+    margin-bottom: 7px;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    width: 100%;
+
+    padding: 15px;
+
+    border: 1px solid #ccd2d5;
+
+    background: #f9fafb;
+
+    outline: none;
+
+    transition: .3s;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+    border-color: var(--red);
+
+    background: white;
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+/* =========================================================
+   FOOTER
+   ========================================================= */
+
+footer {
+    background: var(--black);
+
+    color: #929ba2;
+
+    padding: 60px 8%;
+}
+
+.footer-top {
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    gap: 30px;
+
+    padding-bottom: 35px;
+
+    border-bottom: 1px solid #252c32;
+}
+
+.footer-logo {
+    font-size: 28px;
+
+    font-weight: 900;
+
+    color: white;
+}
+
+.footer-logo span {
+    color: var(--red);
+}
+
+.footer-links {
+    display: flex;
+
+    gap: 25px;
+
+    flex-wrap: wrap;
+}
+
+.footer-links a {
+    font-size: 11px;
+
+    color: #aeb6bc;
+
+    text-transform: uppercase;
+
+    letter-spacing: 1px;
+}
+
+.footer-bottom {
+    padding-top: 25px;
+
+    font-size: 12px;
+}
+
+/* =========================================================
+   WHATSAPP
+   ========================================================= */
+
+.whatsapp {
+    position: fixed;
+
+    right: 25px;
+    bottom: 25px;
+
+    z-index: 1000;
+
+    width: 58px;
+    height: 58px;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    border-radius: 50%;
+
+    background: #25D366;
+
+    color: white;
+
+    font-size: 28px;
+
+    box-shadow:
+        0 8px 30px rgba(0,0,0,.25);
+}
+
+/* =========================================================
+   RESPONSIVE
+   ========================================================= */
+
+@media(max-width: 1000px) {
+
+    nav {
+        gap: 15px;
+    }
+
+    nav a {
+        font-size: 10px;
+    }
+
+    .service-grid {
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .company-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .industry-grid {
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media(max-width: 750px) {
+
+    header {
+        height: 70px;
+    }
+
+    .menu-button {
+        display: block;
+    }
+
+    nav {
+        display: none;
+
+        position: absolute;
+
+        top: 70px;
+
+        left: 0;
+
+        width: 100%;
+
+        flex-direction: column;
+
+        align-items: flex-start;
+
+        padding: 25px;
+
+        background: #080d12;
+    }
+
+    nav.active {
+        display: flex;
+    }
+
+    .hero-content {
+        margin-left: 6%;
+        margin-right: 6%;
+    }
+
+    .hero h1 {
+        font-size: 55px;
+    }
+
+    .hero-stats {
+        gap: 25px;
+
+        flex-wrap: wrap;
+    }
+
+    .two-column {
+        grid-template-columns: 1fr;
+
+        gap: 40px;
+    }
+
+    .service-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .industry-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .footer-top {
+        flex-direction: column;
+
+        align-items: flex-start;
+    }
+}
+
+@media(max-width: 500px) {
+
+    .section {
+        padding: 80px 6%;
+    }
+
+    .hero h1 {
+        font-size: 48px;
+    }
+
+    .hero-text {
+        font-size: 16px;
+    }
+
+    .hero-stats {
+        margin-top: 40px;
+    }
+
+    .buttons {
+        flex-direction: column;
+
+        align-items: flex-start;
+    }
+}
 </style>
 </head>
+
 <body>
 
-<div id="scrollbar"></div>
-
-<div class="topbar">
-  <div class="wrap">
-    <div class="tb-left">
-      <a href="mailto:Admin@hunalquwah.com"Admin@hunalquwah.com</a>
-      <a href="tel:+966-550327581">+966-55032751</a>
-      <span>KSA · Bahrain · India</span>
-    </div>
-    <div style="display:flex;align-items:center;gap:16px;">
-      <div class="lang-switch" role="group" aria-label="Language">
-        <button class="active" type="button">EN</button>
-        <button type="button">AR</button>
-      </div>
-    </div>
-  </div>
-</div>
+<!-- ======================================================
+     HEADER
+     ====================================================== -->
 
 <header>
-  <div class="navrow">
-    <a href="#home" class="brand">
-      <span class="tri-mark"><span></span><span></span><span></span></span>
-      <span class="brand-text"><span class="name">HUN POWER MAINTEANACE COMPANY</span><br>
+
+    <a href="#home" class="logo">
+        <span>HUN</span> GROUP
     </a>
-    <nav class="mainnav">
-      <a href="#home">Home</a>
-      <a href="#about-group">About Group</a>
 
-      <div class="nav-item" data-nav>
-        <button aria-expanded="false" aria-haspopup="true">Companies <span class="caret"></span></button>
-        <div class="mega companies">
-          <div class="mega-head">Our Companies</div>
-          <a class="co-tile" href="#hunpower"><span class="flag" style="background:linear-gradient(180deg,#0b6c3f 34%,#fff 34%);"></span><div class="cname">Hun Power</div><div class="cloc">Saudi Arabia</div></a>
-          <a class="co-tile" href="#avram"><span class="flag" style="background:linear-gradient(180deg,#ce1126 50%,#fff 50%);"></span><div class="cname">Avram Apex Gulf</div><div class="cloc">Kingdom of Bahrain</div></a>
-          <a class="co-tile" href="#abk"><span class="flag" style="background:linear-gradient(180deg,#ff9933 33%,#fff 33%,#fff 66%,#138808 66%);"></span><div class="cname">ABK Industrial</div><div class="cloc">India</div></a>
-        </div>
-      </div>
-      <div class="nav-item" data-nav>        
-        <button aria-expanded="false" aria-haspopup="true">Products <span class="caret"></span></button>        
-        <div class="mega products">
-          <div class="mega-head">Products</div> 
-          <div class="prod-col">            
-            <div class="prod-col-head">Oil Filtration &amp; Conditioning</div>            
-            <a href="#prod-air-filtration">Compressed Air &amp; Gas Filtration</a>            
-            <a href="#prod-fluid-conditioning">Fluid Conditioning Equipment</a>            
-            <a href="#prod-filter-elements">Filter Elements &amp; Spares</a>            
-            <a href="#prod-oil-storage">Oil Storage &amp; Handling</a>          
-          </div>          
-          <div class="prod-col">            
-            <div class="prod-col-head">Lubrication &amp; Hydraulics</div>            
-            <a href="#prod-oil-mist">Oil Mist Systems &amp; Spares</a>            
-            <a href="#prod-lubricant-supply">Lubricant Supply &amp; Transfer</a>            
-            <a href="#prod-hydraulics">Hydraulic Systems, Hoses &amp; Fittings</a>            
-            <a href="#prod-pumps">Pump &amp; Booster Systems</a>          
-          </div>          
-          <div class="prod-col">            
-            <div class="prod-col-head">Instrumentation &amp; Safety</div>            
-            <a href="#prod-gauges">Pressure Gauges &amp; Instruments</a>            
-            <a href="#prod-test-kits">Fluid Test Kits &amp; Accessories</a>            
-            <a href="#prod-bearings">Bearings, Couplings &amp; Seals</a>            
-            <a href="#prod-spill-control">Oil Spill Control</a>          
-          </div>        
-        </div>      
-      </div>       
-      <div class="nav-item" data-nav>        
-        <button aria-expanded="false" aria-haspopup="true">Services <span class="caret"></span></button>        
-        <div class="mega services">          
-          <div class="mega-head">Group Services</div>          
-          <a href="#services">Oil Filtration</a>          
-          <a href="#services">Oil Flushing</a>          
-          <a href="#services">Oil Mist Systems</a>          
-          <a href="#services">Hydraulic Services</a>          
-          <a href="#services">Shutdown Support</a>          
-          <a href="#services">Mechanical Maintenance</a>          
-          <a href="#services">Industrial Contracting</a>          
-          <a href="#services">Fabrication &amp; Welding</a>          
-          <a href="#services">Rental Equipment</a>          
-          <a href="#services">Industrial Spare Parts</a>          
-          <a href="#services">Engineering Consultancy</a>          
-          <a href="#services">Commissioning</a>        
-        </div>      
-      </div>
+    <button
+        class="menu-button"
+        onclick="toggleMenu()"
+        aria-label="Open Menu">
+        ☰
+    </button>
 
-      <a href="#projects">Projects</a>
-      <a href="#careers">Careers</a>
-      <a href="/contact.html">Contact</a>
+    <nav id="navigation">
+
+        <a href="#home">Home</a>
+
+        <a href="#about">About</a>
+
+        <a href="#services">Services</a>
+
+        <a href="#industries">Industries</a>
+
+        <a href="#companies">Companies</a>
+
+        <a href="#hse">HSE & Quality</a>
+
+        <a href="#contact" class="nav-button">
+            Contact
+        </a>
+
     </nav>
-    <div style="display:flex;align-items:center;gap:10px;">
-      <button class="icon-btn" id="searchBtn" aria-label="Search"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg></button>
-      <a href="/contact.html" class="rfq-btn">Request Quotation</a>
-      <button class="icon-btn burger" id="burgerBtn" aria-label="Open menu"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 6h18M3 12h18M3 18h18"/></svg></button>
-    </div>
-  </div>
+
 </header>
 
-<div id="mobileDrawer">
-  <div class="m-top">
-    <span class="brand-text"><span class="name">HPMC GROUP</span></span>
-    <button class="icon-btn" id="closeDrawer" aria-label="Close menu">✕</button>
-  </div>
-  <a class="m-link" href="#home">Home</a>
-  <a class="m-link" href="#about-group">About Group</a>
-  <details><summary>Companies <span class="caret"></span></summary>
-    <div class="m-sub"><a href="#hunpower">Hun Power — Saudi Arabia</a><a href="#avram">Avram Apex Gulf — Bahrain</a><a href="#abk">ABK Industrial — India</a></div>
-  </details>
-  <details><summary>Services <span class="caret"></span></summary>
-    <div class="m-sub"><a href="#services">Oil Filtration</a><a href="#services">Oil Mist Systems</a><a href="#services">Mechanical Maintenance</a><a href="#services">Industrial Contracting</a><a href="#services">Fabrication &amp; Welding</a><a href="#services">Rental Equipment</a></div>
-  </details>
-  <a class="m-link" href="#industries">Industries</a>
-  <a class="m-link" href="#projects">Projects</a>
-  <a class="m-link" href="#careers">Careers</a>
-  <a class="m-link" href="/contact.html">Contact</a>
-</div>
 
-<div id="searchOverlay">
-  <div class="search-box">
-    <input type="text" placeholder="Search services, projects, downloads…" id="searchInput">
-    <div class="hint">Press ESC to close</div>
-  </div>
-</div>
+<!-- ======================================================
+     HERO
+     ====================================================== -->
 
-<section class="hero" id="home">
-  <div class="wrap hero-grid">
-    <div>
-      <div class="flag-strip">
-        <span class="flag-chip"><span class="dot" style="background:linear-gradient(180deg,#0b6c3f 34%,#fff 34%);"></span>Saudi Arabia</span>
-        <span class="flag-chip"><span class="dot" style="background:linear-gradient(180deg,#ce1126 50%,#fff 50%);"></span>Bahrain</span>
-        <span class="flag-chip"><span class="dot" style="background:linear-gradient(180deg,#ff9933 33%,#fff 33%,#fff 66%,#138808 66%);"></span>India</span>
-      </div>
-      <h1>One Group. Three Nations. <span class="accent">Engineered to run.</span></h1>
-      <p class="lead">HPMC Group unites Hun Power Maintenance, Avram Apex Gulf Industrial &amp; Contracting, and ABK Industrial &amp; Contracting — delivering oil filtration, mechanical maintenance, industrial contracting and EPC capability to refinery, petrochemical, power and marine clients across the Gulf and South Asia.</p>
-      <div class="hero-ctas">
-        <a href="#companies" class="btn-solid">Explore Our Companies</a>
-        <a href="/contact.html" class="btn-ghost">Request a Quotation</a>
-      </div>
+<section id="home" class="hero">
+
+    <div class="hero-content">
+
+        <div class="eyebrow">
+            ENGINEERING • MAINTENANCE • INDUSTRIAL SUPPLY
+        </div>
+
+        <h1>
+            Engineering
+            <span>reliability</span>
+            for critical industries.
+        </h1>
+
+        <p class="hero-text">
+
+            Integrated industrial maintenance,
+            engineering, contracting and technical
+            supply for oil & gas, petrochemical,
+            refinery, power and heavy industries.
+
+        </p>
+
+        <div class="buttons">
+
+            <a
+                href="#services"
+                class="btn btn-red">
+                Explore Services
+            </a>
+
+            <a
+                href="#contact"
+                class="btn btn-outline">
+                Request Enquiry
+            </a>
+
+        </div>
+
+        <div class="hero-stats">
+
+            <div class="hero-stat">
+                <strong>03</strong>
+                <small>Markets</small>
+            </div>
+
+            <div class="hero-stat">
+                <strong>10+</strong>
+                <small>Capabilities</small>
+            </div>
+
+            <div class="hero-stat">
+                <strong>24/7</strong>
+                <small>Project Support</small>
+            </div>
+
+        </div>
+
     </div>
-    <div class="net-wrap">
-      <svg viewBox="0 0 400 400" fill="none">
-        <circle cx="200" cy="200" r="150" stroke="rgba(9,17,35,0.08)" stroke-width="1"/>
-        <circle cx="200" cy="200" r="105" stroke="rgba(9,17,35,0.12)" stroke-width="1"/>
-        <line class="net-line" x1="120" y1="140" x2="260" y2="120" stroke="#e2173a"/>
-        <line class="net-line" x1="260" y1="120" x2="270" y2="270" stroke="#e2173a"/>
-        <line class="net-line" x1="120" y1="140" x2="270" y2="270" stroke="#e2173a"/>
-        <circle cx="120" cy="140" r="5" fill="#e2173a" class="pulse"/><circle cx="120" cy="140" r="5" fill="#e2173a"/>
-        <text x="132" y="136" fill="#3d4a5c" font-family="IBM Plex Mono, monospace" font-size="11">HUN POWER · KSA</text>
-        <circle cx="260" cy="120" r="5" fill="#e2173a" class="pulse" style="animation-delay:.6s"/><circle cx="260" cy="120" r="5" fill="#e2173a"/>
-        <text x="272" y="116" fill="#3d4a5c" font-family="IBM Plex Mono, monospace" font-size="11">AVRAM APEX · BHR</text>
-        <circle cx="270" cy="270" r="5" fill="#e2173a" class="pulse" style="animation-delay:1.2s"/><circle cx="270" cy="270" r="5" fill="#e2173a"/>
-        <text x="282" y="266" fill="#3d4a5c" font-family="IBM Plex Mono, monospace" font-size="11">ABK · INDIA</text>
-        <g stroke="rgba(9,17,35,0.35)" stroke-width="1.4" opacity="0.7">
-          <path d="M60 320 h30 v-24 h20 v-40 h18 v18 h16 v-30 h20 v40 h18 v-14 h20"/>
-        </g>
-      </svg>
-    </div>
-  </div>
+
 </section>
 
-<div class="marquee"><div class="marquee-track" id="marqueeTrack"></div></div>
 
-<section id="about-group">
-  <div class="wrap intro-grid">
-    <div class="reveal">
-      <div class="eyebrow">About HPMC Group</div>
-      <h2 style="font-size:32px;margin-bottom:22px;">Three companies. One engineering standard.</h2>
-      <p>HPMC Group is an industrial holding structure bringing together three independently operating companies — each rooted in its own market, each held to the same engineering discipline. Hun Power Maintenance Company anchors the Group's presence in the Kingdom of Saudi Arabia, Avram Apex Gulf Industrial &amp; Contracting serves the Kingdom of Bahrain, and ABK Industrial &amp; Contracting operates from India across manufacturing, EPC and procurement.</p>
-      <p>Together, the Group covers the full lifecycle of industrial assets — from oil filtration and mechanical maintenance through fabrication, commissioning and full EPC delivery — for clients in oil &amp; gas, petrochemical, power generation, marine, steel and manufacturing.</p>
-      <a href="#companies" class="btn-ghost" style="display:inline-block;margin-top:6px;">Meet the three companies →</a>
+<!-- ======================================================
+     ABOUT
+     ====================================================== -->
+
+<section id="about" class="section about">
+
+    <div class="section-label">
+        01 / ABOUT HUN GROUP
     </div>
-    <div class="plate reveal">
-      <div class="plate-head">Group Data Plate</div>
-      <div class="plate-row"><span class="k">STRUCTURE</span><span class="v">3 Operating Companies</span></div>
-      <div class="plate-row"><span class="k">FOOTPRINT</span><span class="v">Saudi Arabia · Bahrain · India</span></div>
-      <div class="plate-row"><span class="k">CORE SECTORS</span><span class="v">Oil &amp; Gas, Petrochemical, Power, Marine</span></div>
-      <div class="plate-row"><span class="k">DISCIPLINE</span><span class="v">Maintenance · Contracting · EPC</span></div>
-      <div class="plate-row"><span class="k">STANDARDS</span><span class="v">Safety · Quality · Integrity</span></div>
+
+    <div class="two-column">
+
+        <div>
+
+            <h2 class="section-title">
+                Built for uptime.
+                <span>Focused on results.</span>
+            </h2>
+
+        </div>
+
+        <div>
+
+            <p class="about-text">
+
+                HUN GROUP brings together specialist
+                industrial companies serving demanding
+                engineering and maintenance environments
+                across Saudi Arabia, Bahrain and India.
+
+            </p>
+
+            <p class="about-text">
+
+                Our operating model combines field
+                execution, technical expertise, industrial
+                spares and responsive project support.
+
+            </p>
+
+            <div class="about-box">
+
+                <strong>
+                    Our objective
+                </strong>
+
+                <p>
+                    Improve equipment reliability,
+                    reduce downtime and deliver safe,
+                    practical industrial solutions.
+                </p>
+
+            </div>
+
+        </div>
+
     </div>
-  </div>
+
 </section>
 
-<div class="stats-band">
-  <div class="wrap" style="padding:0;">
-    <div class="stats-grid">
-      <div class="stat-cell reveal"><div class="num"><span data-count="3">0</span></div><div class="lbl">Group Companies</div></div>
-      <div class="stat-cell reveal"><div class="num"><span data-count="3">0</span></div><div class="lbl">Countries of Operation</div></div>
-      <div class="stat-cell reveal"><div class="num"><span data-count="15">0</span><span class="suffix">+</span></div><div class="lbl">Years Combined Experience</div></div>
-      <div class="stat-cell reveal"><div class="num"><span data-count="200">0</span><span class="suffix">+</span></div><div class="lbl">Projects Delivered</div></div>
-    </div>
-  </div>
-</div>
 
-<section id="companies">
-  <div class="wrap">
-    <div class="section-head reveal">
-      <div class="eyebrow">The Group</div>
-      <h2>Three companies, purpose-built for their markets.</h2>
-      <p>Each company operates independently within its home market while drawing on shared Group engineering standards, safety culture and quality systems.</p>
+<!-- ======================================================
+     SERVICES
+     ====================================================== -->
+
+<section id="services" class="section services">
+
+    <div class="section-label">
+        02 / OUR CAPABILITIES
     </div>
-    <div class="co-grid" id="coGrid"></div>
-  </div>
+
+    <h2 class="section-title">
+        Industrial services
+        <span>with field expertise.</span>
+    </h2>
+
+    <div class="service-grid">
+
+        <article class="service">
+
+            <div class="service-number">01</div>
+
+            <h3>
+                Oil Mist PM & CM
+            </h3>
+
+            <p>
+                Inspection, troubleshooting,
+                commissioning, preventive and
+                corrective maintenance of oil mist
+                lubrication systems.
+            </p>
+
+        </article>
+
+
+        <article class="service">
+
+            <div class="service-number">02</div>
+
+            <h3>
+                Oil Filtration
+            </h3>
+
+            <p>
+                Oil purification, filtration consulting,
+                contamination control and oil
+                cleanliness improvement.
+            </p>
+
+        </article>
+
+
+        <article class="service">
+
+            <div class="service-number">03</div>
+
+            <h3>
+                Oil Flushing
+            </h3>
+
+            <p>
+                Industrial oil flushing and
+                pre-commissioning cleanliness
+                support for lubrication systems.
+            </p>
+
+        </article>
+
+
+        <article class="service">
+
+            <div class="service-number">04</div>
+
+            <h3>
+                Mechanical Services
+            </h3>
+
+            <p>
+                Mechanical repair, plant maintenance,
+                pumps, rotating equipment and
+                machinery support.
+            </p>
+
+        </article>
+
+
+        <article class="service">
+
+            <div class="service-number">05</div>
+
+            <h3>
+                Heat Exchangers
+            </h3>
+
+            <p>
+                Radiator, refrigerator and heat
+                exchanger maintenance and
+                inspection services.
+            </p>
+
+        </article>
+
+
+        <article class="service">
+
+            <div class="service-number">06</div>
+
+            <h3>
+                Hydraulic & Hose
+            </h3>
+
+            <p>
+                Hose fabrication, inspection,
+                replacement and hydraulic
+                maintenance support.
+            </p>
+
+        </article>
+
+
+        <article class="service">
+
+            <div class="service-number">07</div>
+
+            <h3>
+                Fabrication & Welding
+            </h3>
+
+            <p>
+                Industrial fabrication, welding,
+                structural modifications and
+                site support.
+            </p>
+
+        </article>
+
+
+        <article class="service">
+
+            <div class="service-number">08</div>
+
+            <h3>
+                Equipment Rental
+            </h3>
+
+            <p>
+                Oil filtration machines, generators
+                and selected industrial equipment
+                for projects and shutdowns.
+            </p>
+
+        </article>
+
+
+        <article class="service">
+
+            <div class="service-number">09</div>
+
+            <h3>
+                Industrial Spares
+            </h3>
+
+            <p>
+                Technical sourcing and supply of
+                industrial spare parts and
+                maintenance materials.
+            </p>
+
+        </article>
+
+    </div>
+
 </section>
 
-<section id="industries" class="section-light">
-  <div class="wrap">
-    <div class="section-head reveal">
-      <div class="eyebrow">Industries Served</div>
-      <h2>Built for the sectors that can't afford downtime.</h2>
+
+<!-- ======================================================
+     INDUSTRIES
+     ====================================================== -->
+
+<section id="industries" class="section industries">
+
+    <div class="section-label">
+        03 / INDUSTRIES
     </div>
-    <div class="ind-grid" id="indGrid"></div>
-  </div>
+
+    <h2 class="section-title">
+        Where reliability
+        <span>matters most.</span>
+    </h2>
+
+    <div class="industry-grid">
+
+        <div class="industry">
+            OIL & GAS
+        </div>
+
+        <div class="industry">
+            PETROCHEMICAL
+        </div>
+
+        <div class="industry">
+            REFINERIES
+        </div>
+
+        <div class="industry">
+            POWER
+        </div>
+
+        <div class="industry">
+            MARINE
+        </div>
+
+        <div class="industry">
+            MANUFACTURING
+        </div>
+
+        <div class="industry">
+            EPC
+        </div>
+
+        <div class="industry">
+            HEAVY INDUSTRY
+        </div>
+
+    </div>
+
 </section>
 
-<section id="services">
-  <div class="wrap">
-    <div class="section-head reveal">
-      <div class="eyebrow">Our Services</div>
-      <h2>Full-scope capability, delivered across three companies.</h2>
-      <p>From routine oil filtration to complete EPC delivery — the Group's combined service portfolio spans every stage of an industrial asset's working life.</p>
+
+<!-- ======================================================
+     COMPANIES
+     ====================================================== -->
+
+<section id="companies" class="section companies">
+
+    <div class="section-label">
+        04 / HUN GROUP
     </div>
-    <div class="svc-grid" id="svcGrid"></div>
-  </div>
+
+    <h2 class="section-title">
+        Three companies.
+        <span>One industrial mindset.</span>
+    </h2>
+
+    <div class="company-grid">
+
+        <article class="company-card">
+
+            <div class="country">
+                SAUDI ARABIA
+            </div>
+
+            <h3>
+                Hun Power Maintenance Company
+            </h3>
+
+            <p>
+
+                Industrial maintenance, reliability
+                services, oil mist, filtration,
+                mechanical support and technical
+                supply.
+
+            </p>
+
+            <a href="#contact" class="company-link">
+                Contact Hun Power →
+            </a>
+
+        </article>
+
+
+        <article class="company-card">
+
+            <div class="country">
+                BAHRAIN
+            </div>
+
+            <h3>
+                Avram Apex Gulf Industrial
+                & Contracting W.L.L.
+            </h3>
+
+            <p>
+
+                Industrial contracting and specialist
+                engineering services supporting
+                Bahrain and the wider GCC.
+
+            </p>
+
+            <a href="#contact" class="company-link">
+                Contact Avram Apex Gulf →
+            </a>
+
+        </article>
+
+
+        <article class="company-card">
+
+            <div class="country">
+                INDIA
+            </div>
+
+            <h3>
+                ABK Industrial &
+                Contracting Pvt. Ltd.
+            </h3>
+
+            <p>
+
+                Industrial engineering, contracting
+                and technical supply capabilities
+                supporting the Indian market.
+
+            </p>
+
+            <a href="#contact" class="company-link">
+                Contact ABK Industrial →
+            </a>
+
+        </article>
+
+    </div>
+
 </section>
 
-<section id="presence" class="section-light">
-  <div class="wrap">
-    <div class="section-head reveal">
-      <div class="eyebrow">Global Presence</div>
-      <h2>Three offices. One connected delivery network.</h2>
+
+<!-- ======================================================
+     HSE
+     ====================================================== -->
+
+<section id="hse" class="section hse">
+
+    <div class="section-label">
+        05 / HSE & QUALITY
     </div>
-    <div class="map-wrap reveal">
-      <svg class="map-svg" viewBox="0 0 900 340" fill="none">
-        <g opacity="0.25" stroke="#8b95a5" stroke-width="0.7">
-          <path d="M60 60 L840 60 M60 120 L840 120 M60 180 L840 180 M60 240 L840 240 M60 300 L840 300"/>
-          <path d="M150 30 L150 320 M300 30 L300 320 M450 30 L450 320 M600 30 L600 320 M750 30 L750 320"/>
-        </g>
-        <line class="net-line" x1="330" y1="150" x2="360" y2="130" stroke="#c8102e"/>
-        <line class="net-line" x1="360" y1="130" x2="560" y2="190" stroke="#c8102e"/>
-        <line class="net-line" x1="330" y1="150" x2="560" y2="190" stroke="#c8102e"/>
-        <circle cx="330" cy="150" r="6" fill="#c8102e" class="pulse"/><circle cx="330" cy="150" r="6" fill="#c8102e"/>
-        <text x="342" y="146" fill="#0b1830" font-family="IBM Plex Mono, monospace" font-size="12">Dammam, KSA</text>
-        <circle cx="360" cy="130" r="6" fill="#c8102e" class="pulse" style="animation-delay:.5s"/><circle cx="360" cy="130" r="6" fill="#c8102e"/>
-        <text x="372" y="126" fill="#0b1830" font-family="IBM Plex Mono, monospace" font-size="12">Manama, Bahrain</text>
-        <circle cx="560" cy="190" r="6" fill="#c8102e" class="pulse" style="animation-delay:1s"/><circle cx="560" cy="190" r="6" fill="#c8102e"/>
-        <text x="572" y="186" fill="#0b1830" font-family="IBM Plex Mono, monospace" font-size="12">India</text>
-      </svg>
-      <div class="map-legend">
-        <div class="item"><span class="sw" style="background:#c8102e;"></span>Hun Power HQ — Dammam, Saudi Arabia</div>
-        <div class="item"><span class="sw" style="background:#c8102e;"></span>Avram Apex Gulf — Manama, Bahrain</div>
-        <div class="item"><span class="sw" style="background:#c8102e;"></span>ABK Industrial — India</div>
-      </div>
+
+    <div class="two-column">
+
+        <div>
+
+            <h2 class="section-title">
+                Safety is not a department.
+                <span>It is how we work.</span>
+            </h2>
+
+        </div>
+
+        <div class="hse-list">
+
+            <div class="hse-item">
+
+                <strong>
+                    HSE-First Execution
+                </strong>
+
+                <p>
+                    Risk-aware planning, permits,
+                    toolbox practices and disciplined
+                    site execution.
+                </p>
+
+            </div>
+
+            <div class="hse-item">
+
+                <strong>
+                    Quality Control
+                </strong>
+
+                <p>
+                    Inspection, documentation and
+                    execution aligned with project
+                    requirements.
+                </p>
+
+            </div>
+
+            <div class="hse-item">
+
+                <strong>
+                    Reliability Mindset
+                </strong>
+
+                <p>
+                    Root-cause thinking and practical
+                    maintenance solutions focused
+                    on uptime.
+                </p>
+
+            </div>
+
+        </div>
+
     </div>
-  </div>
+
 </section>
 
-<section id="clients">
-  <div class="wrap">
-    <div class="section-head reveal">
-      <div class="eyebrow">Major Clients</div>
-      <h2>Trusted across the region's largest industrial names.</h2>
-      <p style="font-size:12.5px;">Representative client reference list — logos available on request.</p>
+
+<!-- ======================================================
+     CTA
+     ====================================================== -->
+
+<section class="cta">
+
+    <div class="section-label">
+        INDUSTRIAL CHALLENGE?
     </div>
-    <div class="client-wall" id="clientWall"></div>
-  </div>
+
+    <h2>
+        Let's solve the
+        <span>challenge.</span>
+    </h2>
+
+    <a href="#contact" class="btn btn-red">
+        Talk To Our Team
+    </a>
+
 </section>
 
-<section id="why">
-  <div class="wrap">
-    <div class="section-head reveal">
-      <div class="eyebrow">Why Choose Us</div>
-      <h2>What holds three companies to one standard.</h2>
+
+<!-- ======================================================
+     CONTACT
+     ====================================================== -->
+
+<section id="contact" class="section contact">
+
+    <div class="section-label">
+        06 / CONTACT
     </div>
-    <div class="why-grid" id="whyGrid"></div>
-  </div>
+
+    <div class="two-column">
+
+        <div>
+
+            <h2 class="section-title">
+                Start a
+                <span>conversation.</span>
+            </h2>
+
+            <p class="contact-description">
+
+                Send your requirement to HUN GROUP.
+                Our team can coordinate the appropriate
+                company and technical department.
+
+            </p>
+
+            <br>
+
+            <p>
+                <strong>Email:</strong>
+                info@hunalquwah.com
+            </p>
+
+            <p>
+                <strong>Web:</strong>
+                www.hunalquwah.com
+            </p>
+
+        </div>
+
+
+        <form
+            class="contact-form"
+            id="contactForm">
+
+            <div class="form-group">
+
+                <label>
+                    Company
+                </label>
+
+                <select required>
+
+                    <option value="">
+                        Select Company
+                    </option>
+
+                    <option>
+                        Hun Power Maintenance Company
+                    </option>
+
+                    <option>
+                        Avram Apex Gulf Industrial
+                        & Contracting W.L.L.
+                    </option>
+
+                    <option>
+                        ABK Industrial &
+                        Contracting Pvt. Ltd.
+                    </option>
+
+                </select>
+
+            </div>
+
+
+            <div class="form-group">
+
+                <label>
+                    Name
+                </label>
+
+                <input
+                    type="text"
+                    required
+                    placeholder="Your name">
+
+            </div>
+
+
+            <div class="form-group">
+
+                <label>
+                    Company / Organization
+                </label>
+
+                <input
+                    type="text"
+                    placeholder="Company name">
+
+            </div>
+
+
+            <div class="form-group">
+
+                <label>
+                    Email
+                </label>
+
+                <input
+                    type="email"
+                    required
+                    placeholder="name@company.com">
+
+            </div>
+
+
+            <div class="form-group">
+
+                <label>
+                    Phone
+                </label>
+
+                <input
+                    type="tel"
+                    placeholder="+966">
+
+            </div>
+
+
+            <div class="form-group">
+
+                <label>
+                    Requirement
+                </label>
+
+                <textarea
+                    rows="6"
+                    required
+                    placeholder="Tell us about your requirement..."></textarea>
+
+            </div>
+
+
+            <button
+                type="submit"
+                class="btn btn-red">
+
+                Send Enquiry
+
+            </button>
+
+        </form>
+
+    </div>
+
 </section>
 
-<section id="projects" class="section-light">
-  <div class="wrap">
-    <div class="section-head reveal">
-      <div class="eyebrow">Latest Projects</div>
-      <h2>Selected work across the Group.</h2>
-    </div>
-    <div class="proj-filters" id="projFilters"></div>
-    <div class="proj-grid" id="projGrid"></div>
-  </div>
-</section>
 
-<section id="testimonials">
-  <div class="wrap">
-    <div class="test-wrap reveal">
-      <div class="eyebrow" style="justify-content:center;">Testimonials</div>
-      <div class="test-quote" id="testQuote"></div>
-      <div class="test-meta" id="testMeta"></div>
-      <div class="test-dots" id="testDots"></div>
-    </div>
-  </div>
-</section>
-
-<section id="news" class="section-light">
-  <div class="wrap">
-    <div class="section-head reveal">
-      <div class="eyebrow">News &amp; Insights</div>
-      <h2>From the field.</h2>
-    </div>
-    <div class="news-grid" id="newsGrid"></div>
-  </div>
-</section>
-
-<section id="careers">
-  <div class="wrap">
-    <div class="cta-band reveal">
-      <div><div class="eyebrow">Get In Touch</div><h2>Talk to the right company in the Group for your project.</h2></div>
-      <a href="/contact.html" class="btn-solid">Request a Quotation</a>
-    </div>
-  </div>
-</section>
+<!-- ======================================================
+     FOOTER
+     ====================================================== -->
 
 <footer>
-  <div class="wrap">
-    <div class="foot-grid">
-      <div class="foot-brand">
-        <div class="brand"><span class="tri-mark"><span></span><span></span><span></span></span><span class="brand-text"><span class="name">HPMC GROUP</span><br><span class="sub">INDUSTRIAL HOLDING</span></span></div>
-        <p>An industrial group spanning Saudi Arabia, Bahrain and India — oil filtration, mechanical maintenance, industrial contracting and EPC delivery.</p>
-      </div>
-      <div class="foot-col"><h4>Companies</h4><a href="#hunpower">Hun Power — KSA</a><a href="#avram">Avram Apex Gulf — Bahrain</a><a href="#abk">ABK Industrial — India</a></div>
-      <div class="foot-col"><h4>Company</h4><a href="#about-group">About Group</a><a href="#projects">Projects</a><a href="#careers">Careers</a><a href="/contact.html">Contact</a></div>
-      <div class="foot-col"><h4>Resources</h4><a href="#">Company Profile</a><a href="#">Certificates</a><a href="#">Catalogues</a><a href="#">Datasheets</a></div>
-      <div class="foot-col"><h4>Follow</h4><a href="#">LinkedIn</a><a href="#">Instagram</a><a href="#">YouTube</a></div>
+
+    <div class="footer-top">
+
+        <div class="footer-logo">
+            <span>HUN</span> GROUP
+        </div>
+
+        <div class="footer-links">
+
+            <a href="#about">
+                About
+            </a>
+
+            <a href="#services">
+                Services
+            </a>
+
+            <a href="#companies">
+                Companies
+            </a>
+
+            <a href="#contact">
+                Contact
+            </a>
+
+        </div>
+
     </div>
-    <div class="foot-bottom">
-      <span>© 2026 HPMC Group. All rights reserved.</span>
-      <span>Dammam · Manama · India</span>
+
+    <div class="footer-bottom">
+
+        © <span id="year"></span>
+        HUN GROUP.
+        All Rights Reserved.
+
     </div>
-  </div>
+
 </footer>
 
-<div class="floaters">
-  <button class="fab top" id="toTop" aria-label="Back to top"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19V5M5 12l7-7 7 7"/></svg></button>
-  <a class="fab chat" href="/contact.html" aria-label="Live chat"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg></a>
-  <a class="fab wa" href="https://wa.me/96638000000" target="_blank" rel="noopener" aria-label="WhatsApp"><svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.29-1.39c1.44.79 3.06 1.2 4.72 1.2 5.46 0 9.91-4.45 9.91-9.9C21.92 6.45 17.5 2 12.04 2zm5.8 14.1c-.24.68-1.4 1.32-1.93 1.4-.5.08-1.13.11-1.82-.11-.42-.13-.96-.31-1.65-.6-2.9-1.25-4.79-4.17-4.94-4.36-.15-.2-1.18-1.57-1.18-3 0-1.42.75-2.12 1.02-2.41.27-.28.58-.35.78-.35.19 0 .39 0 .56.01.18.01.42-.07.65.5.24.58.82 2 .89 2.15.07.15.12.32.02.51-.09.19-.14.31-.28.48-.14.16-.29.36-.42.48-.14.13-.28.28-.12.55.15.28.68 1.13 1.47 1.83 1.01.9 1.86 1.19 2.14 1.32.28.13.44.11.61-.07.17-.19.71-.83.9-1.11.19-.28.37-.23.63-.14.25.09 1.62.77 1.9.91.28.14.46.21.53.32.07.12.07.68-.17 1.36z"/></svg></a>
-</div>
 
-<div id="cookie">
-  <p>We use cookies to improve your browsing experience and analyze site traffic. By continuing, you accept our use of cookies.</p>
-  <button id="cookieAccept">Accept</button>
-</div>
+<!-- ======================================================
+     WHATSAPP
+     ====================================================== -->
+
+<a
+    class="whatsapp"
+    href="https://wa.me/966000000000"
+    target="_blank"
+    aria-label="WhatsApp">
+
+    ☎
+
+</a>
+
+
+<!-- ======================================================
+     JAVASCRIPT
+     ====================================================== -->
 
 <script>
-const companies = [
-  {id:"hunpower",name:"Hun Power Maintenance Company",country:"Saudi Arabia",color:"#c8102e",
-   tags:["Oil Filtration","Oil Mist PM/CM","Hydraulic Systems","Rental Equipment","Shutdown Support"]},
-  {id:"avram",name:"Avram Apex Gulf Industrial & Contracting W.L.L.",country:"Kingdom of Bahrain",color:"#e2173a",
-   tags:["Industrial Contracting","Fabrication & Welding","Heat Exchanger Services","Rotating Equipment","Commissioning"]},
-  {id:"abk",name:"ABK Industrial & Contracting Pvt. Ltd.",country:"India",color:"#8b95a5",
-   tags:["EPC Projects","Industrial Construction","Manufacturing Support","Procurement","Heavy Equipment Maintenance"]}
-];
-const coGrid = document.getElementById('coGrid');
-companies.forEach(c=>{
-  coGrid.innerHTML += `<div class="co-card reveal" id="${c.id}">
-    <div class="co-top" style="background:${c.color}"></div>
-    <div class="co-body">
-      <div class="co-flag" style="background:linear-gradient(135deg,${c.color},var(--navy-800));"></div>
-      <h3>${c.name}</h3>
-      <div class="co-country">${c.country.toUpperCase()}</div>
-      <div class="chips">${c.tags.map(t=>`<span class="chip">${t}</span>`).join('')}</div>
-      <a class="co-link" href="/contact.html">View company profile →</a>
-    </div>
-  </div>`;
-});
 
-const industries = [
-  ["Oil & Gas","M8 12h8M12 3v18"],["Petrochemical","M12 2l7 5v10l-7 5-7-5V7z"],["Power Generation","M13 2 4 14h6l-1 8 9-12h-6l1-8z"],
-  ["Marine","M2 18c2-3 6-3 8 0s6 3 8 0M4 12l16-6-4 8"],["Steel","M4 4h16v16H4z"],["Mining","M3 20l6-14 4 8 3-6 5 12"],
-  ["Cement","M4 20V10l8-6 8 6v10M9 20v-6h6v6"],["Manufacturing","M14.7 6.3a4 4 0 0 1-5.4 5.4L4 17l3 3 5.3-5.3a4 4 0 0 1 5.4-5.4l-3-3z"],
-  ["Water Treatment","M12 3c3 4 6 7.5 6 11a6 6 0 1 1-12 0c0-3.5 3-7 6-11z"],["Food Industry","M18 8h1a2 2 0 0 1 2 2v1a4 4 0 0 1-4 4h-1M2 8h14v6a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4z"]
-];
-const indGrid = document.getElementById('indGrid');
-industries.forEach(([name,path])=>{
-  indGrid.innerHTML += `<div class="ind-tile reveal"><svg class="ico" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="${path}"/></svg><div class="t">${name}</div></div>`;
-});
+/* Mobile Menu */
 
-const services = [
-  ["Oil Filtration","M4 4h16l-6 8v6l-4 2v-8L4 4z"],["Oil Flushing","M3 8c4 0 4 8 8 8s4-8 8-8"],
-  ["Oil Mist Systems","M12 3c3 4 6 7.5 6 11a6 6 0 1 1-12 0c0-3.5 3-7 6-11z"],["Hydraulic Services","M12 2v6M12 16v6M4.9 4.9l4.2 4.2M14.9 14.9l4.2 4.2"],
-  ["Shutdown Support","M12 8v4l3 2M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18z"],["Mechanical Maintenance","M14.7 6.3a4 4 0 0 1-5.4 5.4L4 17l3 3 5.3-5.3a4 4 0 0 1 5.4-5.4l-3-3z"],
-  ["Industrial Contracting","M3 21h18M5 21V7l7-4 7 4v14M9 21v-6h6v6"],["Fabrication & Welding","M13 2 4 14h6l-1 8 9-12h-6l1-8z"],
-  ["Rental Equipment","M2 8h14v6a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4z"],["Industrial Spare Parts","M4 4h4v4H4zM10 4h4v4h-4zM16 4h4v4h-4zM4 10h4v4H4zM10 10h4v4h-4zM16 10h4v4h-4z"],
-  ["Engineering Consultancy","M9 11l3 3L22 4M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"],["Commissioning","M9 12l2 2 4-4M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0z"]
-];
-const svcGrid = document.getElementById('svcGrid');
-services.forEach(([name,path])=>{
-  svcGrid.innerHTML += `<div class="svc-card reveal"><svg class="ico" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="${path}"/></svg><h3>${name}</h3><p>Delivered across the Group by the company best positioned in your market.</p></div>`;
-});
+function toggleMenu() {
 
-const clientNames = ["Saudi Aramco","SABIC","Ma'aden","YASREF","Petro Rabigh","SATORP","SEC","BAPCO","ALBA","GPIC","Tatweer Petroleum","NOGAHOLDING"];
-const clientWall = document.getElementById('clientWall');
-clientNames.forEach(n=>{ clientWall.innerHTML += `<div class="client-tile">${n}</div>`; });
+    const nav =
+        document.getElementById("navigation");
 
-const whyItems = [
-  ["01","Three Companies, One Standard","Every Group company operates under shared HSE, quality and engineering protocols, regardless of country."],
-  ["02","Regional Reach","Direct operating presence in Saudi Arabia, Bahrain and India, with mobilisation across the wider GCC."],
-  ["03","Full Asset Lifecycle","From routine filtration and PM/CM through fabrication, contracting and full EPC delivery."],
-  ["04","Rental Fleet On Demand","Oil filtration, dehydration and mechanical rental equipment available without capital outlay."],
-  ["05","Engineering-Led","Solutions specified and reviewed by qualified engineers, not just field technicians."],
-  ["06","Client-Facing Accountability","A single Group point of contact can coordinate multi-country scopes for regional clients."]
-];
-const whyGrid = document.getElementById('whyGrid');
-whyItems.forEach(([n,t,d])=>{ whyGrid.innerHTML += `<div class="why-card reveal"><div class="num">${n}</div><h3>${t}</h3><p>${d}</p></div>`; });
+    nav.classList.toggle("active");
 
-const projects = [
-  {tag:"Hun Power · KSA",cat:"filtration",title:"Refinery Lube Oil Filtration Upgrade",desc:"Fleet-wide offline filtration rollout across a major Eastern Province refinery."},
-  {tag:"Avram Apex Gulf · Bahrain",cat:"contracting",title:"Heat Exchanger Bundle Overhaul",desc:"Full mechanical overhaul and re-tubing of shell-and-tube exchangers during a planned T/A."},
-  {tag:"ABK Industrial · India",cat:"epc",title:"Manufacturing Plant EPC Package",desc:"Engineering, procurement and construction support for a greenfield manufacturing line."},
-  {tag:"Hun Power · KSA",cat:"maintenance",title:"Oil Mist System Retrofit",desc:"Retrofit of centrifugal pump fleet to continuous oil mist lubrication."},
-  {tag:"Avram Apex Gulf · Bahrain",cat:"fabrication",title:"Structural Fabrication Package",desc:"On-site fabrication and welding for petrochemical plant structural steel works."},
-  {tag:"ABK Industrial · India",cat:"contracting",title:"Rotating Equipment Overhaul",desc:"Pump and gearbox overhaul programme for a regional manufacturing client."}
-];
-const filters = ["All","filtration","maintenance","contracting","fabrication","epc"];
-const projFilters = document.getElementById('projFilters');
-const projGrid = document.getElementById('projGrid');
-filters.forEach((f,i)=>{ projFilters.innerHTML += `<button class="${i===0?'active':''}" data-f="${f}">${f==="All"?"All Projects":f.charAt(0).toUpperCase()+f.slice(1)}</button>`; });
-function renderProjects(filter){
-  projGrid.innerHTML="";
-  projects.filter(p=>filter==="All"||p.cat===filter).forEach(p=>{
-    projGrid.innerHTML += `<div class="proj-card reveal in">
-      <div class="proj-thumb" style="background:linear-gradient(135deg,var(--navy-800),var(--navy-950));display:flex;align-items:center;justify-content:center;">
-        <svg width="46" height="46" viewBox="0 0 24 24" fill="none" stroke="#c8102e" stroke-width="1.3" opacity="0.8"><path d="M4 4h16l-6 8v6l-4 2v-8L4 4z"/></svg>
-      </div>
-      <div class="proj-body"><span class="tag">${p.tag}</span><h3>${p.title}</h3><p>${p.desc}</p></div>
-    </div>`;
-  });
 }
-renderProjects("All");
-projFilters.addEventListener('click', e=>{
-  const btn = e.target.closest('button'); if(!btn) return;
-  projFilters.querySelectorAll('button').forEach(b=>b.classList.remove('active'));
-  btn.classList.add('active');
-  renderProjects(btn.dataset.f);
-});
 
-const testimonials = [
-  {q:"“HPMC Group's response time during our planned turnaround was faster than any contractor we've used in the region.”",m:"Maintenance Manager · Petrochemical Complex, Eastern Province"},
-  {q:"“Avram Apex Gulf's fabrication team integrated seamlessly with our site engineers throughout the shutdown.”",m:"Project Engineer · Bahrain Industrial Facility"},
-  {q:"“ABK Industrial delivered our EPC package on schedule despite a compressed construction window.”",m:"Plant Director · Manufacturing Facility, India"}
-];
-let tIdx=0;
-const testQuote=document.getElementById('testQuote'), testMeta=document.getElementById('testMeta'), testDots=document.getElementById('testDots');
-testimonials.forEach((t,i)=>{ testDots.innerHTML += `<button data-i="${i}" class="${i===0?'active':''}" aria-label="Testimonial ${i+1}"></button>`; });
-function showTest(i){
-  tIdx=i;
-  testQuote.textContent = testimonials[i].q;
-  testMeta.textContent = testimonials[i].m;
-  testDots.querySelectorAll('button').forEach((b,j)=>b.classList.toggle('active', j===i));
-}
-showTest(0);
-testDots.addEventListener('click', e=>{ const b=e.target.closest('button'); if(b) showTest(+b.dataset.i); });
-setInterval(()=>showTest((tIdx+1)%testimonials.length), 6000);
 
-const newsItems = [
-  {date:"July 2026",title:"Why Offline Filtration Extends Turbine Oil Life",desc:"A field engineer's guide to reducing varnish potential in rotating equipment."},
-  {date:"June 2026",title:"HPMC Group Expands Rental Fleet in the Eastern Province",desc:"New vacuum dehydration and filtration units added to support shutdown season."},
-  {date:"May 2026",title:"Avram Apex Gulf Completes Major Heat Exchanger Campaign",desc:"A look inside a multi-week exchanger overhaul in Bahrain."}
-];
-const newsGrid = document.getElementById('newsGrid');
-newsItems.forEach(n=>{
-  newsGrid.innerHTML += `<div class="news-card reveal">
-    <div class="news-thumb" style="background:linear-gradient(135deg,#eef1f4,#dfe3e8);"></div>
-    <div class="news-body"><span class="date">${n.date}</span><h3>${n.title}</h3><p>${n.desc}</p></div>
-  </div>`;
-});
+/* Close mobile menu after clicking link */
 
-const mItems = ["OIL FILTRATION","MECHANICAL MAINTENANCE","INDUSTRIAL CONTRACTING","FABRICATION & WELDING","EPC PROJECTS","SHUTDOWN SUPPORT","HYDRAULIC SYSTEMS","RENTAL EQUIPMENT"];
-document.getElementById('marqueeTrack').innerHTML = mItems.concat(mItems).map(t=>`<span>${t}</span>`).join('');
+document
+    .querySelectorAll("nav a")
+    .forEach(function(link) {
 
-document.querySelectorAll('.nav-item[data-nav]').forEach(item=>{
-  const btn = item.querySelector('button');
-  btn.addEventListener('click', e=>{
-    e.stopPropagation();
-    const willOpen = !item.classList.contains('open');
-    document.querySelectorAll('.nav-item[data-nav]').forEach(i=>{i.classList.remove('open');i.querySelector('button').setAttribute('aria-expanded','false');});
-    if(willOpen){item.classList.add('open');btn.setAttribute('aria-expanded','true');}
-  });
-});
-document.addEventListener('click', ()=>{document.querySelectorAll('.nav-item[data-nav]').forEach(i=>{i.classList.remove('open');i.querySelector('button').setAttribute('aria-expanded','false');});});
+        link.addEventListener("click", function() {
 
-const burgerBtn=document.getElementById('burgerBtn'), mobileDrawer=document.getElementById('mobileDrawer'), closeDrawer=document.getElementById('closeDrawer');
-burgerBtn.addEventListener('click', ()=>mobileDrawer.classList.add('open'));
-closeDrawer.addEventListener('click', ()=>mobileDrawer.classList.remove('open'));
-mobileDrawer.querySelectorAll('a').forEach(a=>a.addEventListener('click', ()=>mobileDrawer.classList.remove('open')));
+            document
+                .getElementById("navigation")
+                .classList.remove("active");
 
-const searchBtn=document.getElementById('searchBtn'), searchOverlay=document.getElementById('searchOverlay'), searchInput=document.getElementById('searchInput');
-searchBtn.addEventListener('click', ()=>{searchOverlay.classList.add('open'); setTimeout(()=>searchInput.focus(),50);});
-searchOverlay.addEventListener('click', e=>{if(e.target===searchOverlay) searchOverlay.classList.remove('open');});
-document.addEventListener('keydown', e=>{if(e.key==='Escape') searchOverlay.classList.remove('open');});
+        });
 
-const scrollbar=document.getElementById('scrollbar'), toTop=document.getElementById('toTop');
-window.addEventListener('scroll', ()=>{
-  const h=document.documentElement;
-  const pct=(h.scrollTop)/(h.scrollHeight-h.clientHeight)*100;
-  scrollbar.style.width=pct+'%';
-  toTop.classList.toggle('show', h.scrollTop>600);
-});
-toTop.addEventListener('click', ()=>window.scrollTo({top:0,behavior:'smooth'}));
+    });
 
-const io = new IntersectionObserver(entries=>{
-  entries.forEach(e=>{ if(e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target); } });
-},{threshold:0.15});
-document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
 
-const counters = document.querySelectorAll('[data-count]');
-const cio = new IntersectionObserver(entries=>{
-  entries.forEach(e=>{
-    if(e.isIntersecting){
-      const el=e.target, target=+el.dataset.count, dur=1400, start=performance.now();
-      function tick(now){
-        const p=Math.min((now-start)/dur,1);
-        el.textContent = Math.floor(p*target);
-        if(p<1) requestAnimationFrame(tick); else el.textContent=target;
-      }
-      requestAnimationFrame(tick);
-      cio.unobserve(el);
+/* Contact Form */
+
+document
+    .getElementById("contactForm")
+    .addEventListener("submit", function(event) {
+
+        event.preventDefault();
+
+        alert(
+            "Thank you for contacting HUN GROUP. " +
+            "Your enquiry has been received."
+        );
+
+        this.reset();
+
+    });
+
+
+/* Current Year */
+
+document
+    .getElementById("year")
+    .textContent =
+        new Date().getFullYear();
+
+
+/* Header shadow on scroll */
+
+window.addEventListener("scroll", function() {
+
+    const header =
+        document.querySelector("header");
+
+    if (window.scrollY > 50) {
+
+        header.style.boxShadow =
+            "0 10px 35px rgba(0,0,0,.25)";
+
+    } else {
+
+        header.style.boxShadow = "none";
+
     }
-  });
-},{threshold:0.5});
-counters.forEach(c=>cio.observe(c));
 
-const cookie=document.getElementById('cookie');
-if(!localStorage.getItem('hpmc_cookie_ok')){ setTimeout(()=>cookie.classList.add('show'), 1200); }
-document.getElementById('cookieAccept').addEventListener('click', ()=>{ cookie.classList.remove('show'); localStorage.setItem('hpmc_cookie_ok','1'); });
+});
+
 </script>
+
 </body>
 </html>
