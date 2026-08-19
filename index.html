@@ -1,967 +1,328 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
 
-<meta name="description"
-content="HUN POWER MAINTENANCE COMPANY - Industrial Engineering,Oil Mist Service saudi Arabia, Maintenance, Contracting and Industrial Supply across Saudi Arabia, Bahrain and India.">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
 
-<title>HUN POWER MAINTENANCE COMPANY | Industrial Engineering & Maintenance</title>
+    <meta name="description"
+          content="Hun Power Maintenance Company provides industrial maintenance, oil mist, oil filtration, oil flushing, mechanical maintenance, hydraulic and shutdown support services in Saudi Arabia.">
 
-<style>
-/* =========================================================
-   HUN POWER MAINTENANCE COMPANY - COMPLETE WEBSITE
-   HTML + CSS + JAVASCRIPT
-   ========================================================= */
+    <meta name="keywords"
+          content="Hun Power Maintenance Company, industrial maintenance Saudi Arabia, oil mist, oil filtration, oil flushing, petrochemical maintenance, refinery maintenance, mechanical maintenance">
 
-:root {
-    --red: #d71920;
-    --dark: #0b1117;
-    --dark2: #121a21;
-    --black: #05080b;
-    --white: #ffffff;
-    --light: #f4f6f7;
-    --gray: #69737d;
-    --line: #dfe3e6;
-    --max: 1400px;
-}
+    <meta name="author"
+          content="Hun Power Maintenance Company">
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+    <title>
+        Hun Power Maintenance Company | Industrial Maintenance & Reliability
+    </title>
 
-html {
-    scroll-behavior: smooth;
-}
-
-body {
-    font-family: Arial, Helvetica, sans-serif;
-    background: var(--light);
-    color: #10151b;
-    line-height: 1.6;
-}
-
-a {
-    text-decoration: none;
-    color: inherit;
-}
-
-button,
-input,
-textarea,
-select {
-    font-family: inherit;
-}
-
-/* =========================================================
-   HEADER
-   ========================================================= */
-
-header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 78px;
-    z-index: 1000;
-
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-
-    padding: 0 6%;
-
-    background: rgba(5, 8, 11, 0.94);
-    backdrop-filter: blur(15px);
-
-    border-bottom: 1px solid rgba(255,255,255,.08);
-}
-
-.logo {
-    font-size: 25px;
-    font-weight: 900;
-    letter-spacing: 2px;
-    color: white;
-}
-
-.logo span {
-    color: var(--red);
-}
-
-nav {
-    display: flex;
-    align-items: center;
-    gap: 30px;
-}
-
-nav a {
-    color: #ffffff;
-    font-size: 12px;
-    font-weight: bold;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    transition: .3s;
-}
-
-nav a:hover {
-    color: var(--red);
-}
-
-.nav-button {
-    background: var(--red);
-    padding: 12px 20px;
-}
-
-.nav-button:hover {
-    color: white;
-    background: #b81218;
-}
-
-.menu-button {
-    display: none;
-    border: none;
-    background: none;
-    color: white;
-    font-size: 28px;
-    cursor: pointer;
-}
-
-/* =========================================================
-   HERO
-   ========================================================= */
-
-.hero {
-    min-height: 100vh;
-
-    display: flex;
-    align-items: center;
-
-    position: relative;
-    overflow: hidden;
-
-    background:
-        linear-gradient(
-            90deg,
-            rgba(3,7,10,.97) 0%,
-            rgba(7,13,18,.91) 50%,
-            rgba(7,13,18,.72) 100%
-        ),
-        url("https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?auto=format&fit=crop&w=2200&q=85")
-        center/cover;
-}
-
-.hero::after {
-    content: "";
-
-    position: absolute;
-
-    width: 650px;
-    height: 650px;
-
-    right: -200px;
-    top: 100px;
-
-    border: 1px solid rgba(215,25,32,.5);
-
-    transform: rotate(35deg);
-}
-
-.hero-content {
-    position: relative;
-    z-index: 2;
-
-    max-width: 900px;
-
-    margin-left: 8%;
-    padding-top: 80px;
-}
-
-.eyebrow {
-    color: #ff3c43;
-
-    font-size: 12px;
-    font-weight: 800;
-
-    letter-spacing: 4px;
-
-    margin-bottom: 20px;
-}
-
-.hero h1 {
-    color: white;
-
-    font-size: clamp(50px, 7vw, 92px);
-
-    line-height: .98;
-
-    margin-bottom: 30px;
-}
-
-.hero h1 span {
-    color: var(--red);
-}
-
-.hero-text {
-    max-width: 720px;
-
-    color: #c4ccd2;
-
-    font-size: 19px;
-
-    margin-bottom: 35px;
-}
-
-.buttons {
-    display: flex;
-    gap: 15px;
-    flex-wrap: wrap;
-}
-
-.btn {
-    display: inline-block;
-
-    padding: 15px 25px;
-
-    font-size: 12px;
-
-    font-weight: 800;
-
-    letter-spacing: 1px;
-
-    text-transform: uppercase;
-
-    transition: .3s;
-
-    cursor: pointer;
-}
-
-.btn-red {
-    background: var(--red);
-    color: white;
-}
-
-.btn-red:hover {
-    background: #b51017;
-    transform: translateY(-2px);
-}
-
-.btn-outline {
-    border: 1px solid rgba(255,255,255,.45);
-    color: white;
-}
-
-.btn-outline:hover {
-    border-color: white;
-    background: white;
-    color: black;
-}
-
-.hero-stats {
-    display: flex;
-    gap: 70px;
-
-    margin-top: 65px;
-}
-
-.hero-stat strong {
-    display: block;
-
-    color: white;
-
-    font-size: 30px;
-}
-
-.hero-stat small {
-    color: #9ca6ae;
-
-    font-size: 11px;
-
-    text-transform: uppercase;
-
-    letter-spacing: 1px;
-}
-
-/* =========================================================
-   GENERAL
-   ========================================================= */
-
-.section {
-    padding: 110px 8%;
-}
-
-.section-label {
-    color: var(--red);
-
-    font-size: 11px;
-
-    font-weight: 800;
-
-    letter-spacing: 4px;
-
-    margin-bottom: 20px;
-}
-
-.section-title {
-    font-size: clamp(40px, 5vw, 68px);
-
-    line-height: 1.05;
-
-    margin-bottom: 45px;
-}
-
-.section-title span {
-    color: #89929a;
-}
-
-.two-column {
-    display: grid;
-
-    grid-template-columns: 1fr 1fr;
-
-    gap: 90px;
-}
-
-/* =========================================================
-   ABOUT
-   ========================================================= */
-
-.about {
-    background: white;
-}
-
-.about-text {
-    color: #5e6871;
-
-    font-size: 18px;
-
-    margin-bottom: 20px;
-}
-
-.about-box {
-    border-left: 4px solid var(--red);
-
-    padding: 30px;
-
-    background: var(--light);
-}
-
-.about-box strong {
-    font-size: 20px;
-}
-
-/* =========================================================
-   SERVICES
-   ========================================================= */
-
-.services {
-    background: var(--dark);
-
-    color: white;
-}
-
-.services .section-title {
-    color: white;
-}
-
-.service-grid {
-    display: grid;
-
-    grid-template-columns:
-        repeat(3, 1fr);
-
-    gap: 1px;
-
-    background: #394149;
-}
-
-.service {
-    min-height: 260px;
-
-    padding: 35px;
-
-    background: var(--dark2);
-
-    transition: .3s;
-}
-
-.service:hover {
-    background: #1b252d;
-
-    transform: translateY(-5px);
-}
-
-.service-number {
-    color: var(--red);
-
-    font-size: 12px;
-
-    font-weight: bold;
-
-    letter-spacing: 2px;
-}
-
-.service h3 {
-    font-size: 23px;
-
-    margin-top: 45px;
-
-    margin-bottom: 12px;
-}
-
-.service p {
-    color: #aeb7be;
-}
-
-/* =========================================================
-   INDUSTRIES
-   ========================================================= */
-
-.industries {
-    background: #eef0f0;
-}
-
-.industry-grid {
-    display: grid;
-
-    grid-template-columns:
-        repeat(4, 1fr);
-
-    border-top: 1px solid var(--line);
-
-    border-left: 1px solid var(--line);
-}
-
-.industry {
-    min-height: 150px;
-
-    display: flex;
-
-    align-items: center;
-
-    padding: 25px;
-
-    border-right: 1px solid var(--line);
-
-    border-bottom: 1px solid var(--line);
-
-    font-weight: 900;
-
-    font-size: 14px;
-
-    letter-spacing: 2px;
-}
-
-/* =========================================================
-   COMPANIES
-   ========================================================= */
-
-.companies {
-    background: white;
-}
-
-.company-grid {
-    display: grid;
-
-    grid-template-columns:
-        repeat(3, 1fr);
-
-    gap: 20px;
-}
-
-.company-card {
-    padding: 40px;
-
-    min-height: 350px;
-
-    background: #f5f6f6;
-
-    border-top: 5px solid var(--red);
-
-    transition: .3s;
-}
-
-.company-card:hover {
-    transform: translateY(-7px);
-
-    box-shadow:
-        0 20px 50px rgba(0,0,0,.08);
-}
-
-.country {
-    color: var(--red);
-
-    font-size: 11px;
-
-    font-weight: 900;
-
-    letter-spacing: 3px;
-}
-
-.company-card h3 {
-    font-size: 27px;
-
-    line-height: 1.15;
-
-    margin: 25px 0;
-}
-
-.company-card p {
-    color: var(--gray);
-
-    margin-bottom: 25px;
-}
-
-.company-link {
-    color: var(--red);
-
-    font-weight: 800;
-}
-
-/* =========================================================
-   HSE
-   ========================================================= */
-
-.hse {
-    background: #e5e8e7;
-}
-
-.hse-list {
-    display: flex;
-
-    flex-direction: column;
-}
-
-.hse-item {
-    padding: 22px 0;
-
-    border-bottom: 1px solid #c8cdcc;
-}
-
-.hse-item strong {
-    font-size: 20px;
-}
-
-.hse-item p {
-    color: var(--gray);
-
-    margin-top: 5px;
-}
-
-/* =========================================================
-   CTA
-   ========================================================= */
-
-.cta {
-    padding: 110px 8%;
-
-    color: white;
-
-    background:
-        linear-gradient(
-            90deg,
-            rgba(8,12,16,.98),
-            rgba(8,12,16,.85)
-        ),
-        url("https://images.unsplash.com/photo-1581094794329-c8112a89af12?auto=format&fit=crop&w=2200&q=85")
-        center/cover;
-}
-
-.cta h2 {
-    font-size: clamp(45px, 6vw, 80px);
-
-    line-height: 1;
-
-    margin-bottom: 35px;
-}
-
-.cta h2 span {
-    color: var(--red);
-}
-
-/* =========================================================
-   CONTACT
-   ========================================================= */
-
-.contact {
-    background: white;
-}
-
-.contact-description {
-    color: var(--gray);
-
-    font-size: 18px;
-}
-
-.contact-form {
-    display: grid;
-
-    gap: 18px;
-}
-
-.form-group label {
-    display: block;
-
-    font-size: 11px;
-
-    font-weight: 900;
-
-    text-transform: uppercase;
-
-    letter-spacing: 1px;
-
-    margin-bottom: 7px;
-}
-
-.form-group input,
-.form-group select,
-.form-group textarea {
-    width: 100%;
-
-    padding: 15px;
-
-    border: 1px solid #ccd2d5;
-
-    background: #f9fafb;
-
-    outline: none;
-
-    transition: .3s;
-}
-
-.form-group input:focus,
-.form-group select:focus,
-.form-group textarea:focus {
-    border-color: var(--red);
-
-    background: white;
-}
-
-.form-group textarea {
-    resize: vertical;
-}
-
-/* =========================================================
-   FOOTER
-   ========================================================= */
-
-footer {
-    background: var(--black);
-
-    color: #929ba2;
-
-    padding: 60px 8%;
-}
-
-.footer-top {
-    display: flex;
-
-    justify-content: space-between;
-
-    align-items: center;
-
-    gap: 30px;
-
-    padding-bottom: 35px;
-
-    border-bottom: 1px solid #252c32;
-}
-
-.footer-logo {
-    font-size: 28px;
-
-    font-weight: 900;
-
-    color: white;
-}
-
-.footer-logo span {
-    color: var(--red);
-}
-
-.footer-links {
-    display: flex;
-
-    gap: 25px;
-
-    flex-wrap: wrap;
-}
-
-.footer-links a {
-    font-size: 11px;
-
-    color: #aeb6bc;
-
-    text-transform: uppercase;
-
-    letter-spacing: 1px;
-}
-
-.footer-bottom {
-    padding-top: 25px;
-
-    font-size: 12px;
-}
-
-/* =========================================================
-   WHATSAPP
-   ========================================================= */
-
-.whatsapp {
-    position: fixed;
-
-    right: 25px;
-    bottom: 25px;
-
-    z-index: 1000;
-
-    width: 58px;
-    height: 58px;
-
-    display: flex;
-
-    justify-content: center;
-
-    align-items: center;
-
-    border-radius: 50%;
-
-    background: #25D366;
-
-    color: white;
-
-    font-size: 28px;
-
-    box-shadow:
-        0 8px 30px rgba(0,0,0,.25);
-}
-
-/* =========================================================
-   RESPONSIVE
-   ========================================================= */
-
-@media(max-width: 1000px) {
-
-    nav {
-        gap: 15px;
-    }
-
-    nav a {
-        font-size: 10px;
-    }
-
-    .service-grid {
-        grid-template-columns: repeat(2,1fr);
-    }
-
-    .company-grid {
-        grid-template-columns: 1fr;
-    }
-
-    .industry-grid {
-        grid-template-columns: repeat(2,1fr);
-    }
-}
-
-@media(max-width: 750px) {
-
-    header {
-        height: 70px;
-    }
-
-    .menu-button {
-        display: block;
-    }
-
-    nav {
-        display: none;
-
-        position: absolute;
-
-        top: 70px;
-
-        left: 0;
-
-        width: 100%;
-
-        flex-direction: column;
-
-        align-items: flex-start;
-
-        padding: 25px;
-
-        background: #080d12;
-    }
-
-    nav.active {
-        display: flex;
-    }
-
-    .hero-content {
-        margin-left: 6%;
-        margin-right: 6%;
-    }
-
-    .hero h1 {
-        font-size: 55px;
-    }
-
-    .hero-stats {
-        gap: 25px;
-
-        flex-wrap: wrap;
-    }
-
-    .two-column {
-        grid-template-columns: 1fr;
-
-        gap: 40px;
-    }
-
-    .service-grid {
-        grid-template-columns: 1fr;
-    }
-
-    .industry-grid {
-        grid-template-columns: 1fr;
-    }
-
-    .footer-top {
-        flex-direction: column;
-
-        align-items: flex-start;
-    }
-}
-
-@media(max-width: 500px) {
-
-    .section {
-        padding: 80px 6%;
-    }
-
-    .hero h1 {
-        font-size: 48px;
-    }
-
-    .hero-text {
-        font-size: 16px;
-    }
-
-    .hero-stats {
-        margin-top: 40px;
-    }
-
-    .buttons {
-        flex-direction: column;
-
-        align-items: flex-start;
-    }
-}
-</style>
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
 
 <body>
 
-<!-- ======================================================
+
+<!-- =========================================================
+     TOP BAR
+========================================================= -->
+
+<div class="topbar">
+
+    <div>
+        <span>Saudi Arabia</span>
+        <span>
+            Industrial Maintenance • Reliability • Technical Services
+        </span>
+    </div>
+
+    <div>
+        <span>info@hunalquwah.com</span>
+        <span>Saudi Arabia</span>
+    </div>
+
+</div>
+
+
+
+<!-- =========================================================
      HEADER
-     ====================================================== -->
+========================================================= -->
 
-<header>
+<header class="header">
 
-    <a href="#home" class="logo">
-        <span>HUN</span> GROUP
+    <a class="brand" href="index.html">
+
+        <img
+            src="assets/hun-logo-transparent.png"
+            alt="Hun Power Maintenance Company Logo"
+        >
+
+        <span class="brand-name">
+            Hun Power Maintenance Company
+        </span>
+
     </a>
 
+
     <button
-        class="menu-button"
-        onclick="toggleMenu()"
-        aria-label="Open Menu">
+        class="menu"
+        aria-label="Open navigation menu"
+    >
         ☰
     </button>
 
-    <nav id="navigation">
 
-        <a href="#home">Home</a>
+    <ul class="nav">
 
-        <a href="#about">About</a>
+        <li>
+            <a href="index.html">
+                Home
+            </a>
+        </li>
 
-        <a href="#services">Services</a>
+        <li>
+            <a href="about.html">
+                About
+            </a>
+        </li>
 
-        <a href="#industries">Industries</a>
+        <li>
+            <a href="services.html">
+                Services
+            </a>
+        </li>
 
-        <a href="#companies">Companies</a>
+        <li>
+            <a href="industries.html">
+                Industries
+            </a>
+        </li>
 
-        <a href="#hse">HSE & Quality</a>
+        <li>
+            <a href="projects.html">
+                Projects
+            </a>
+        </li>
 
-        <a href="#contact" class="nav-button">
-            Contact
-        </a>
+        <li>
+            <a href="hse-quality.html">
+                HSE & Quality
+            </a>
+        </li>
 
-    </nav>
+        <li>
+            <a href="contact.html"
+               class="cta">
+                Contact
+            </a>
+        </li>
+
+    </ul>
 
 </header>
 
 
-<!-- ======================================================
-     HERO
-     ====================================================== -->
 
-<section id="home" class="hero">
+<!-- =========================================================
+     HERO SECTION
+========================================================= -->
 
-    <div class="hero-content">
+<section class="hero-advanced">
 
-        <div class="eyebrow">
-            ENGINEERING • MAINTENANCE • INDUSTRIAL SUPPLY
+
+    <!-- REAL PETROCHEMICAL VIDEO -->
+
+    <div class="real4k-video"
+         aria-label="Petrochemical refinery video">
+
+        <iframe
+            src="https://player.vimeo.com/video/1000710773?background=1&autoplay=1&muted=1&loop=1&autopause=0&controls=0"
+            title="Petrochemical Refinery Industrial Video"
+            frameborder="0"
+            allow="autoplay; fullscreen; picture-in-picture"
+            allowfullscreen>
+        </iframe>
+
+    </div>
+
+
+    <!-- BLUE CORPORATE OVERLAY -->
+
+    <div class="video-overlay"></div>
+
+
+    <div class="container">
+
+
+        <!-- COMPANY LABEL -->
+
+        <div class="hero-label">
+
+            HUN POWER MAINTENANCE COMPANY
+
         </div>
 
+
+        <!-- MAIN TITLE -->
+
         <h1>
-            Engineering
-            <span>reliability</span>
-            for critical industries.
+
+            Industrial reliability.<br>
+
+            Engineered for
+            <span>uptime.</span>
+
         </h1>
 
-        <p class="hero-text">
 
-            Integrated industrial maintenance,
-            engineering, contracting and technical
-            supply for oil & gas, petrochemical,
-            refinery, power and heavy industries.
+        <!-- DESCRIPTION -->
+
+        <p class="sub">
+
+            Hun Power Maintenance Company provides specialist
+            industrial maintenance, lubrication, fluid conditioning
+            and mechanical services engineered to protect critical
+            equipment, improve operational reliability and support
+            safer plant operations.
 
         </p>
 
-        <div class="buttons">
+
+        <!-- BUTTONS -->
+
+        <div class="hero-actions">
 
             <a
-                href="#services"
-                class="btn btn-red">
-                Explore Services
+                class="btn"
+                href="services.html"
+            >
+                Explore Capabilities
             </a>
 
+
             <a
-                href="#contact"
-                class="btn btn-outline">
-                Request Enquiry
+                class="btn outline"
+                href="contact.html"
+            >
+                Talk to an Engineer
             </a>
 
         </div>
 
-        <div class="hero-stats">
 
-            <div class="hero-stat">
-                <strong>03</strong>
-                <small>Markets</small>
+        <!-- HERO INFORMATION -->
+
+        <div class="hero-side">
+
+            <span>
+                <strong>Saudi Arabia</strong>
+                / Primary Market
+            </span>
+
+            <span>
+                <strong>Industrial</strong>
+                / Specialist Services
+            </span>
+
+            <span>
+                <strong>Field Ready</strong>
+                / Technical Support
+            </span>
+
+        </div>
+
+
+
+        <!-- =====================================================
+             FLOATING TECHNICAL PANEL
+        ====================================================== -->
+
+        <div class="floating-panel">
+
+            <div class="tag">
+                CORE TECHNICAL FOCUS
             </div>
 
-            <div class="hero-stat">
-                <strong>10+</strong>
-                <small>Capabilities</small>
+
+            <h3>
+                Critical equipment.
+                Practical engineering.
+            </h3>
+
+
+            <!-- OIL MIST -->
+
+            <div class="fp-row">
+
+                <b>
+                    01
+                </b>
+
+                <span>
+
+                    <b>
+                        Oil Mist Systems
+                    </b>
+
+                    <br>
+
+                    PM • CM • Inspection • Commissioning
+
+                </span>
+
             </div>
 
-            <div class="hero-stat">
-                <strong>24/7</strong>
-                <small>Project Support</small>
+
+            <!-- FLUID CONDITIONING -->
+
+            <div class="fp-row">
+
+                <b>
+                    02
+                </b>
+
+                <span>
+
+                    <b>
+                        Fluid Conditioning
+                    </b>
+
+                    <br>
+
+                    Filtration • Flushing •
+                    Contamination Control
+
+                </span>
+
+            </div>
+
+
+            <!-- MECHANICAL -->
+
+            <div class="fp-row">
+
+                <b>
+                    03
+                </b>
+
+                <span>
+
+                    <b>
+                        Mechanical Reliability
+                    </b>
+
+                    <br>
+
+                    Maintenance • Repair •
+                    Shutdown Support
+
+                </span>
+
             </div>
 
         </div>
@@ -971,57 +332,236 @@ footer {
 </section>
 
 
-<!-- ======================================================
-     ABOUT
-     ====================================================== -->
 
-<section id="about" class="section about">
+<!-- =========================================================
+     TRUST / CAPABILITY BAR
+========================================================= -->
 
-    <div class="section-label">
-        01 / ABOUT HUN GROUP
-    </div>
+<section class="proof-bar">
 
-    <div class="two-column">
+    <div class="container proof-grid">
 
-        <div>
 
-            <h2 class="section-title">
-                Built for uptime.
-                <span>Focused on results.</span>
-            </h2>
+        <div class="proof">
+
+            <strong>
+                Reliability
+            </strong>
+
+            <span>
+                Engineering Mindset
+            </span>
 
         </div>
 
-        <div>
 
-            <p class="about-text">
+        <div class="proof">
 
-                HUN GROUP brings together specialist
-                industrial companies serving demanding
-                engineering and maintenance environments
-                across Saudi Arabia, Bahrain and India.
+            <strong>
+                Oil Mist
+            </strong>
 
-            </p>
+            <span>
+                Specialist Capability
+            </span>
 
-            <p class="about-text">
+        </div>
 
-                Our operating model combines field
-                execution, technical expertise, industrial
-                spares and responsive project support.
 
-            </p>
+        <div class="proof">
 
-            <div class="about-box">
+            <strong>
+                Fluid
+            </strong>
 
-                <strong>
-                    Our objective
-                </strong>
+            <span>
+                Conditioning
+            </span>
+
+        </div>
+
+
+        <div class="proof">
+
+            <strong>
+                Mechanical
+            </strong>
+
+            <span>
+                Field Services
+            </span>
+
+        </div>
+
+
+        <div class="proof">
+
+            <strong>
+                HSE
+            </strong>
+
+            <span>
+                Execution Discipline
+            </span>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================================================
+     ABOUT / HUN POWER DIFFERENCE
+========================================================= -->
+
+<section class="section">
+
+    <div class="container">
+
+        <div class="editorial">
+
+
+            <!-- LEFT -->
+
+            <div class="editorial-copy">
+
+                <div class="label">
+                    THE HUN POWER DIFFERENCE
+                </div>
+
+
+                <h2>
+
+                    Maintenance designed around
+
+                    <span>
+                        equipment reliability.
+                    </span>
+
+                </h2>
+
 
                 <p>
-                    Improve equipment reliability,
-                    reduce downtime and deliver safe,
-                    practical industrial solutions.
+
+                    Hun Power Maintenance Company supports
+                    industrial customers with focused technical
+                    services for lubrication systems, rotating
+                    equipment, fluid cleanliness and mechanical
+                    maintenance.
+
                 </p>
+
+
+                <p>
+
+                    Our role is to turn maintenance requirements
+                    into controlled field execution with clear
+                    scope, practical engineering and documented
+                    results.
+
+                </p>
+
+
+                <a
+                    class="btn"
+                    href="about.html"
+                >
+                    Discover Hun Power
+                </a>
+
+            </div>
+
+
+
+            <!-- RIGHT -->
+
+            <div class="editorial-list">
+
+
+                <div class="editorial-item">
+
+                    <b>
+                        Condition First
+                    </b>
+
+                    <span>
+                        Understand equipment condition before
+                        deciding the intervention.
+                    </span>
+
+                </div>
+
+
+                <div class="editorial-item">
+
+                    <b>
+                        Failure Focused
+                    </b>
+
+                    <span>
+                        Identify contamination, lubrication and
+                        mechanical risk factors.
+                    </span>
+
+                </div>
+
+
+                <div class="editorial-item">
+
+                    <b>
+                        Field Ready
+                    </b>
+
+                    <span>
+                        Plan work around real operating and
+                        site constraints.
+                    </span>
+
+                </div>
+
+
+                <div class="editorial-item">
+
+                    <b>
+                        Documented
+                    </b>
+
+                    <span>
+                        Capture findings, actions and
+                        recommendations.
+                    </span>
+
+                </div>
+
+
+                <div class="editorial-item">
+
+                    <b>
+                        HSE Driven
+                    </b>
+
+                    <span>
+                        Build safety controls into the work
+                        plan from the beginning.
+                    </span>
+
+                </div>
+
+
+                <div class="editorial-item">
+
+                    <b>
+                        Long-Term Value
+                    </b>
+
+                    <span>
+                        Focus on reliability improvement,
+                        not only task completion.
+                    </span>
+
+                </div>
 
             </div>
 
@@ -1032,228 +572,379 @@ footer {
 </section>
 
 
-<!-- ======================================================
-     SERVICES
-     ====================================================== -->
 
-<section id="services" class="section services">
+<!-- =========================================================
+     SPECIALIST SERVICES
+========================================================= -->
 
-    <div class="section-label">
-        02 / OUR CAPABILITIES
-    </div>
+<section class="section alt">
 
-    <h2 class="section-title">
-        Industrial services
-        <span>with field expertise.</span>
-    </h2>
+    <div class="container">
 
-    <div class="service-grid">
 
-        <article class="service">
+        <div class="section-head">
 
-            <div class="service-number">01</div>
+            <div class="label">
+                SPECIALIST CAPABILITIES
+            </div>
 
-            <h3>
-                Oil Mist PM & CM
-            </h3>
 
-            <p>
-                Inspection, troubleshooting,
-                commissioning, preventive and
-                corrective maintenance of oil mist
-                lubrication systems.
+            <h2 class="title">
+
+                Technical services for
+
+                <span>
+                    critical assets.
+                </span>
+
+            </h2>
+
+
+            <p class="lead">
+
+                A focused service portfolio covering
+                lubrication, fluid cleanliness, mechanical
+                integrity and shutdown support.
+
             </p>
 
-        </article>
+        </div>
 
 
-        <article class="service">
 
-            <div class="service-number">02</div>
-
-            <h3>
-                Oil Filtration
-            </h3>
-
-            <p>
-                Oil purification, filtration consulting,
-                contamination control and oil
-                cleanliness improvement.
-            </p>
-
-        </article>
+        <div class="service-premium">
 
 
-        <article class="service">
+            <!-- SERVICE 01 -->
 
-            <div class="service-number">03</div>
+            <div class="sp">
 
-            <h3>
-                Oil Flushing
-            </h3>
+                <div class="no">
+                    01 / LUBRICATION
+                </div>
 
-            <p>
-                Industrial oil flushing and
-                pre-commissioning cleanliness
-                support for lubrication systems.
-            </p>
+                <h3>
+                    Oil Mist PM & CM
+                </h3>
 
-        </article>
+                <p>
 
+                    Preventive and corrective maintenance,
+                    inspection, troubleshooting and
+                    commissioning for oil mist lubrication
+                    systems.
 
-        <article class="service">
+                </p>
 
-            <div class="service-number">04</div>
+                <a href="services.html#oilmist">
+                    View Capability →
+                </a>
 
-            <h3>
-                Mechanical Services
-            </h3>
-
-            <p>
-                Mechanical repair, plant maintenance,
-                pumps, rotating equipment and
-                machinery support.
-            </p>
-
-        </article>
+            </div>
 
 
-        <article class="service">
 
-            <div class="service-number">05</div>
+            <!-- SERVICE 02 -->
 
-            <h3>
-                Heat Exchangers
-            </h3>
+            <div class="sp">
 
-            <p>
-                Radiator, refrigerator and heat
-                exchanger maintenance and
-                inspection services.
-            </p>
+                <div class="no">
+                    02 / FLUID
+                </div>
 
-        </article>
+                <h3>
+                    Oil Filtration
+                </h3>
 
+                <p>
 
-        <article class="service">
+                    Industrial filtration and purification
+                    programs focused on particle control,
+                    cleanliness and lubricant condition.
 
-            <div class="service-number">06</div>
+                </p>
 
-            <h3>
-                Hydraulic & Hose
-            </h3>
+                <a href="services.html#filtration">
+                    View Capability →
+                </a>
 
-            <p>
-                Hose fabrication, inspection,
-                replacement and hydraulic
-                maintenance support.
-            </p>
-
-        </article>
+            </div>
 
 
-        <article class="service">
 
-            <div class="service-number">07</div>
+            <!-- SERVICE 03 -->
 
-            <h3>
-                Fabrication & Welding
-            </h3>
+            <div class="sp">
 
-            <p>
-                Industrial fabrication, welding,
-                structural modifications and
-                site support.
-            </p>
+                <div class="no">
+                    03 / CLEANLINESS
+                </div>
 
-        </article>
+                <h3>
+                    Oil Flushing
+                </h3>
 
+                <p>
 
-        <article class="service">
+                    Controlled circulation and flushing for
+                    new, repaired or contaminated lubrication
+                    and hydraulic systems.
 
-            <div class="service-number">08</div>
+                </p>
 
-            <h3>
-                Equipment Rental
-            </h3>
+                <a href="services.html#flushing">
+                    View Capability →
+                </a>
 
-            <p>
-                Oil filtration machines, generators
-                and selected industrial equipment
-                for projects and shutdowns.
-            </p>
-
-        </article>
+            </div>
 
 
-        <article class="service">
 
-            <div class="service-number">09</div>
+            <!-- SERVICE 04 -->
 
-            <h3>
-                Industrial Spares
-            </h3>
+            <div class="sp">
 
-            <p>
-                Technical sourcing and supply of
-                industrial spare parts and
-                maintenance materials.
-            </p>
+                <div class="no">
+                    04 / MECHANICAL
+                </div>
 
-        </article>
+                <h3>
+                    Mechanical Maintenance
+                </h3>
+
+                <p>
+
+                    Inspection, corrective maintenance and
+                    repair support for industrial equipment
+                    and rotating assets.
+
+                </p>
+
+                <a href="services.html#mechanical">
+                    View Capability →
+                </a>
+
+            </div>
+
+
+
+            <!-- SERVICE 05 -->
+
+            <div class="sp">
+
+                <div class="no">
+                    05 / HYDRAULIC
+                </div>
+
+                <h3>
+                    Hose & Hydraulic
+                </h3>
+
+                <p>
+
+                    Industrial and hydraulic hose fabrication,
+                    inspection, fitting replacement and
+                    field installation.
+
+                </p>
+
+                <a href="services.html#hose">
+                    View Capability →
+                </a>
+
+            </div>
+
+
+
+            <!-- SERVICE 06 -->
+
+            <div class="sp">
+
+                <div class="no">
+                    06 / SHUTDOWN
+                </div>
+
+                <h3>
+                    Turnaround Support
+                </h3>
+
+                <p>
+
+                    Specialist manpower, equipment coordination
+                    and technical field support for shutdowns
+                    and planned maintenance.
+
+                </p>
+
+                <a href="services.html#shutdown">
+                    View Capability →
+                </a>
+
+            </div>
+
+        </div>
 
     </div>
 
 </section>
 
 
-<!-- ======================================================
+
+<!-- =========================================================
      INDUSTRIES
-     ====================================================== -->
+========================================================= -->
 
-<section id="industries" class="section industries">
+<section class="industry-band section">
 
-    <div class="section-label">
-        03 / INDUSTRIES
-    </div>
+    <div class="container">
 
-    <h2 class="section-title">
-        Where reliability
-        <span>matters most.</span>
-    </h2>
 
-    <div class="industry-grid">
+        <div class="section-head">
 
-        <div class="industry">
-            OIL & GAS
+            <div class="label">
+                INDUSTRIES
+            </div>
+
+
+            <h2 class="title">
+
+                Where equipment reliability
+
+                <span>
+                    matters most.
+                </span>
+
+            </h2>
+
+
+            <p class="lead">
+
+                Our services are designed for environments
+                where equipment availability, lubrication
+                quality and maintenance execution have a
+                direct operational impact.
+
+            </p>
+
         </div>
 
-        <div class="industry">
-            PETROCHEMICAL
-        </div>
 
-        <div class="industry">
-            REFINERIES
-        </div>
 
-        <div class="industry">
-            POWER
-        </div>
+        <div class="industry-grid">
 
-        <div class="industry">
-            MARINE
-        </div>
 
-        <div class="industry">
-            MANUFACTURING
-        </div>
+            <div class="industry">
 
-        <div class="industry">
-            EPC
-        </div>
+                <small>
+                    01
+                </small>
 
-        <div class="industry">
-            HEAVY INDUSTRY
+                <h3>
+                    Oil & Gas
+                </h3>
+
+                <p>
+                    Maintenance and lubrication support
+                    for critical assets.
+                </p>
+
+            </div>
+
+
+
+            <div class="industry">
+
+                <small>
+                    02
+                </small>
+
+                <h3>
+                    Petrochemical
+                </h3>
+
+                <p>
+                    Reliability services for process
+                    and rotating equipment.
+                </p>
+
+            </div>
+
+
+
+            <div class="industry">
+
+                <small>
+                    03
+                </small>
+
+                <h3>
+                    Refineries
+                </h3>
+
+                <p>
+                    Shutdown, filtration and mechanical
+                    support.
+                </p>
+
+            </div>
+
+
+
+            <div class="industry">
+
+                <small>
+                    04
+                </small>
+
+                <h3>
+                    Power
+                </h3>
+
+                <p>
+                    Fluid conditioning and critical
+                    equipment support.
+                </p>
+
+            </div>
+
+
+
+            <div class="industry">
+
+                <small>
+                    05
+                </small>
+
+                <h3>
+                    Manufacturing
+                </h3>
+
+                <p>
+                    Production equipment maintenance
+                    and reliability.
+                </p>
+
+            </div>
+
+
+
+            <div class="industry">
+
+                <small>
+                    06
+                </small>
+
+                <h3>
+                    Heavy Industry
+                </h3>
+
+                <p>
+                    Field services for demanding
+                    industrial environments.
+                </p>
+
+            </div>
+
         </div>
 
     </div>
@@ -1261,166 +952,122 @@ footer {
 </section>
 
 
-<!-- ======================================================
-     COMPANIES
-     ====================================================== -->
 
-<section id="companies" class="section companies">
+<!-- =========================================================
+     RELIABILITY LIFECYCLE
+========================================================= -->
 
-    <div class="section-label">
-        04 / HUN GROUP
-    </div>
+<section class="section">
 
-    <h2 class="section-title">
-        Three companies.
-        <span>One industrial mindset.</span>
-    </h2>
+    <div class="container">
 
-    <div class="company-grid">
 
-        <article class="company-card">
+        <div class="section-head">
 
-            <div class="country">
-                SAUDI ARABIA
+            <div class="label">
+                RELIABILITY LIFECYCLE
             </div>
 
-            <h3>
-                Hun Power Maintenance Company
-            </h3>
 
-            <p>
+            <h2 class="title">
 
-                Industrial maintenance, reliability
-                services, oil mist, filtration,
-                mechanical support and technical
-                supply.
+                One process from
 
-            </p>
+                <span>
+                    assessment to improvement.
+                </span>
 
-            <a href="#contact" class="company-link">
-                Contact Hun Power →
-            </a>
-
-        </article>
-
-
-        <article class="company-card">
-
-            <div class="country">
-                BAHRAIN
-            </div>
-
-            <h3>
-                Avram Apex Gulf Industrial
-                & Contracting W.L.L.
-            </h3>
-
-            <p>
-
-                Industrial contracting and specialist
-                engineering services supporting
-                Bahrain and the wider GCC.
-
-            </p>
-
-            <a href="#contact" class="company-link">
-                Contact Avram Apex Gulf →
-            </a>
-
-        </article>
-
-
-        <article class="company-card">
-
-            <div class="country">
-                INDIA
-            </div>
-
-            <h3>
-                ABK Industrial &
-                Contracting Pvt. Ltd.
-            </h3>
-
-            <p>
-
-                Industrial engineering, contracting
-                and technical supply capabilities
-                supporting the Indian market.
-
-            </p>
-
-            <a href="#contact" class="company-link">
-                Contact ABK Industrial →
-            </a>
-
-        </article>
-
-    </div>
-
-</section>
-
-
-<!-- ======================================================
-     HSE
-     ====================================================== -->
-
-<section id="hse" class="section hse">
-
-    <div class="section-label">
-        05 / HSE & QUALITY
-    </div>
-
-    <div class="two-column">
-
-        <div>
-
-            <h2 class="section-title">
-                Safety is not a department.
-                <span>It is how we work.</span>
             </h2>
 
         </div>
 
-        <div class="hse-list">
 
-            <div class="hse-item">
 
-                <strong>
-                    HSE-First Execution
-                </strong>
+        <div class="lifecycle">
+
+
+            <div class="life">
+
+                <div class="circle">
+                    01
+                </div>
+
+                <h3>
+                    Assess
+                </h3>
 
                 <p>
-                    Risk-aware planning, permits,
-                    toolbox practices and disciplined
-                    site execution.
+
+                    Review equipment condition,
+                    scope, operating environment
+                    and risks.
+
                 </p>
 
             </div>
 
-            <div class="hse-item">
 
-                <strong>
-                    Quality Control
-                </strong>
+
+            <div class="life">
+
+                <div class="circle">
+                    02
+                </div>
+
+                <h3>
+                    Plan
+                </h3>
 
                 <p>
-                    Inspection, documentation and
-                    execution aligned with project
-                    requirements.
+
+                    Prepare resources, method
+                    statements, tools and HSE
+                    controls.
+
                 </p>
 
             </div>
 
-            <div class="hse-item">
 
-                <strong>
-                    Reliability Mindset
-                </strong>
+
+            <div class="life">
+
+                <div class="circle">
+                    03
+                </div>
+
+                <h3>
+                    Execute
+                </h3>
 
                 <p>
-                    Root-cause thinking and practical
-                    maintenance solutions focused
-                    on uptime.
+
+                    Perform the maintenance
+                    intervention with disciplined
+                    field execution.
+
+                </p>
+
+            </div>
+
+
+
+            <div class="life">
+
+                <div class="circle">
+                    04
+                </div>
+
+                <h3>
+                    Improve
+                </h3>
+
+                <p>
+
+                    Verify results, document
+                    findings and recommend
+                    reliability actions.
+
                 </p>
 
             </div>
@@ -1432,330 +1079,308 @@ footer {
 </section>
 
 
-<!-- ======================================================
-     CTA
-     ====================================================== -->
 
-<section class="cta">
+<!-- =========================================================
+     PROJECT EXPERIENCE
+========================================================= -->
 
-    <div class="section-label">
-        INDUSTRIAL CHALLENGE?
+<section class="section alt">
+
+    <div class="container">
+
+        <div class="case-study">
+
+
+            <div class="case-visual">
+
+            </div>
+
+
+            <div class="case-copy">
+
+                <div class="eyebrow">
+                    PROJECT EXPERIENCE
+                </div>
+
+
+                <h3>
+
+                    From maintenance task
+                    to measurable reliability
+                    outcome.
+
+                </h3>
+
+
+                <p>
+
+                    Hun Power supports industrial customers
+                    with specialist maintenance and technical
+                    services designed around equipment
+                    reliability.
+
+                </p>
+
+
+                <p>
+
+                    Our project portfolio can include
+                    customer-approved case studies,
+                    technical results, before-and-after
+                    data, equipment details and project
+                    photographs.
+
+                </p>
+
+
+                <a
+                    class="btn"
+                    href="projects.html"
+                >
+                    View Project Experience
+                </a>
+
+            </div>
+
+        </div>
+
     </div>
-
-    <h2>
-        Let's solve the
-        <span>challenge.</span>
-    </h2>
-
-    <a href="#contact" class="btn btn-red">
-        Talk To Our Team
-    </a>
 
 </section>
 
 
-<!-- ======================================================
-     CONTACT
-     ====================================================== -->
 
-<section id="contact" class="section contact">
+<!-- =========================================================
+     FINAL CALL TO ACTION
+========================================================= -->
 
-    <div class="section-label">
-        06 / CONTACT
+<section class="final-cta section">
+
+    <div class="container">
+
+
+        <h2>
+
+            Let's engineer a better
+            maintenance outcome.
+
+        </h2>
+
+
+        <p>
+
+            Share your equipment, service scope,
+            operating challenge or shutdown requirement.
+            Our team will coordinate the appropriate
+            technical response.
+
+        </p>
+
+
+        <a
+            class="btn"
+            href="contact.html"
+        >
+            Request Technical Support
+        </a>
+
     </div>
 
-    <div class="two-column">
+</section>
 
-        <div>
 
-            <h2 class="section-title">
-                Start a
-                <span>conversation.</span>
-            </h2>
 
-            <p class="contact-description">
+<!-- =========================================================
+     FOOTER
+========================================================= -->
 
-                Send your requirement to HUN GROUP.
-                Our team can coordinate the appropriate
-                company and technical department.
+<footer class="footer">
 
-            </p>
+    <div class="container">
+
+
+        <div class="footer-grid">
+
+
+            <!-- COMPANY -->
+
+            <div>
+
+                <img
+                    src="assets/hun-logo-transparent.png"
+                    alt="Hun Power Maintenance Company"
+                >
+
+
+                <p>
+
+                    <strong>
+                        Hun Power Maintenance Company
+                    </strong>
+
+                    is an industrial maintenance and
+                    technical services company supporting
+                    critical equipment, lubrication systems,
+                    fluid conditioning and mechanical
+                    reliability.
+
+                </p>
+
+            </div>
+
+
+
+            <!-- COMPANY LINKS -->
+
+            <div>
+
+                <h4>
+                    Company
+                </h4>
+
+
+                <p>
+                    <a href="about.html">
+                        About Hun Power
+                    </a>
+                </p>
+
+
+                <p>
+                    <a href="industries.html">
+                        Industries
+                    </a>
+                </p>
+
+
+                <p>
+                    <a href="projects.html">
+                        Projects & Experience
+                    </a>
+                </p>
+
+
+                <p>
+                    <a href="hse-quality.html">
+                        HSE & Quality
+                    </a>
+                </p>
+
+            </div>
+
+
+
+            <!-- SERVICES -->
+
+            <div>
+
+                <h4>
+                    Core Services
+                </h4>
+
+
+                <p>
+                    <a href="services.html#oilmist">
+                        Oil Mist Generator PM & CM
+                    </a>
+                </p>
+               
+               <p>
+                    <a href="services.html#Plant Shutdown">
+                        Plant Shutdown Support Service
+                    </a>
+                </p>
+
+
+                <p>
+                    <a href="services.html#filtration">
+                        Oil Filtration and Varnish Removal 
+                    </a>
+                </p>
+
+
+                <p>
+                    <a href="services.html#flushing">
+                        Oil Flushing
+                    </a>
+                </p>
+
+
+                <p>
+                    <a href="services.html#mechanical">
+                        Mechanical Maintenance
+                    </a>
+                </p>
+
+
+                <p>
+                    <a href="services.html#hose">
+                        Hose & Hydraulic Replacement and Inspection
+                    </a>
+                </p>
+
+            </div>
+
+
+
+            <!-- CONTACT -->
+
+            <div>
+
+                <h4>
+                    Contact
+                </h4>
+
+
+                <p>
+                    Saudi Arabia
+                </p>
+
+
+                <p>
+                    info@hunalquwah.com
+                </p>
+
+
+                <p>
+
+                    <a href="contact.html">
+                        Request Technical Support →
+                    </a>
+
+                </p>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- COPYRIGHT -->
+
+        <div class="copyright">
+
+            © 2026 Hun Power Maintenance Company.
+            All Rights Reserved.
 
             <br>
 
-            <p>
-                <strong>Email:</strong>
-                info@hunalquwah.com
-            </p>
-
-            <p>
-                <strong>Web:</strong>
-                www.hunalquwah.com
-            </p>
+            Industrial Maintenance & Technical Services
 
         </div>
-
-
-        <form
-            class="contact-form"
-            id="contactForm">
-
-            <div class="form-group">
-
-                <label>
-                    Company
-                </label>
-
-                <select required>
-
-                    <option value="">
-                        Select Company
-                    </option>
-
-                    <option>
-                        Hun Power Maintenance Company
-                    </option>
-
-                    <option>
-                        Avram Apex Gulf Industrial
-                        & Contracting W.L.L.
-                    </option>
-
-                    <option>
-                        ABK Industrial &
-                        Contracting Pvt. Ltd.
-                    </option>
-
-                </select>
-
-            </div>
-
-
-            <div class="form-group">
-
-                <label>
-                    Name
-                </label>
-
-                <input
-                    type="text"
-                    required
-                    placeholder="Your name">
-
-            </div>
-
-
-            <div class="form-group">
-
-                <label>
-                    Company / Organization
-                </label>
-
-                <input
-                    type="text"
-                    placeholder="Company name">
-
-            </div>
-
-
-            <div class="form-group">
-
-                <label>
-                    Email
-                </label>
-
-                <input
-                    type="email"
-                    required
-                    placeholder="name@company.com">
-
-            </div>
-
-
-            <div class="form-group">
-
-                <label>
-                    Phone
-                </label>
-
-                <input
-                    type="tel"
-                    placeholder="+966">
-
-            </div>
-
-
-            <div class="form-group">
-
-                <label>
-                    Requirement
-                </label>
-
-                <textarea
-                    rows="6"
-                    required
-                    placeholder="Tell us about your requirement..."></textarea>
-
-            </div>
-
-
-            <button
-                type="submit"
-                class="btn btn-red">
-
-                Send Enquiry
-
-            </button>
-
-        </form>
-
-    </div>
-
-</section>
-
-
-<!-- ======================================================
-     FOOTER
-     ====================================================== -->
-
-<footer>
-
-    <div class="footer-top">
-
-        <div class="footer-logo">
-            <span>HUN</span> GROUP
-        </div>
-
-        <div class="footer-links">
-
-            <a href="#about">
-                About
-            </a>
-
-            <a href="#services">
-                Services
-            </a>
-
-            <a href="#companies">
-                Companies
-            </a>
-
-            <a href="#contact">
-                Contact
-            </a>
-
-        </div>
-
-    </div>
-
-    <div class="footer-bottom">
-
-        © <span id="year"></span>
-        HUN GROUP.
-        All Rights Reserved.
 
     </div>
 
 </footer>
 
 
-<!-- ======================================================
-     WHATSAPP
-     ====================================================== -->
 
-<a
-    class="whatsapp"
-    href="https://wa.me/966000000000"
-    target="_blank"
-    aria-label="WhatsApp">
-
-    ☎
-
-</a>
-
-
-<!-- ======================================================
+<!-- =========================================================
      JAVASCRIPT
-     ====================================================== -->
+========================================================= -->
 
-<script>
+<script src="js/script.js"></script>
 
-/* Mobile Menu */
-
-function toggleMenu() {
-
-    const nav =
-        document.getElementById("navigation");
-
-    nav.classList.toggle("active");
-
-}
-
-
-/* Close mobile menu after clicking link */
-
-document
-    .querySelectorAll("nav a")
-    .forEach(function(link) {
-
-        link.addEventListener("click", function() {
-
-            document
-                .getElementById("navigation")
-                .classList.remove("active");
-
-        });
-
-    });
-
-
-/* Contact Form */
-
-document
-    .getElementById("contactForm")
-    .addEventListener("submit", function(event) {
-
-        event.preventDefault();
-
-        alert(
-            "Thank you for contacting HUN GROUP. " +
-            "Your enquiry has been received."
-        );
-
-        this.reset();
-
-    });
-
-
-/* Current Year */
-
-document
-    .getElementById("year")
-    .textContent =
-        new Date().getFullYear();
-
-
-/* Header shadow on scroll */
-
-window.addEventListener("scroll", function() {
-
-    const header =
-        document.querySelector("header");
-
-    if (window.scrollY > 50) {
-
-        header.style.boxShadow =
-            "0 10px 35px rgba(0,0,0,.25)";
-
-    } else {
-
-        header.style.boxShadow = "none";
-
-    }
-
-});
-
-</script>
 
 </body>
 </html>
