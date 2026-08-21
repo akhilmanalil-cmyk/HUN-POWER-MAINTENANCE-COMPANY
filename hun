@@ -1,0 +1,1071 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hun Power Maintenance Company | شركة هنا القوة للصيانة | Industrial Reliability & Power Engineering</title>
+  <meta name="description" content="Hun Power Maintenance Company (Hun Al-Quwah) specializes in critical turbine varnish removal, vacuum dehydration, oil mist lubrication, high-velocity flushing, industrial hose fabrication, and plant turnarounds in Dammam, Saudi Arabia & GCC.">
+  <meta name="keywords" content="Hun Power, Hun Al Quwah, Turbine Varnish Removal, Lube Oil Dehydration, Plant Turnaround, Saudi Arabia, Dammam, Oil Mist Lubrication, ISO 4406, ASTM D7843, Industrial Hose Testing">
+  <meta name="author" content="Hun Power Maintenance Company">
+  
+  <!-- OpenGraph / Social Meta Tags -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Hun Power Maintenance Company | Industrial Reliability & Turnaround Engineering">
+  <meta property="og:description" content="Mission-critical turbine maintenance, oil varnish removal, vacuum dehydration, and outage engineering across Saudi Arabia & the GCC.">
+  <meta property="og:site_name" content="Hun Power Maintenance Co.">
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800;900&family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="styles/main.css">
+  <link rel="stylesheet" href="styles/components.css">
+</head>
+<body>
+
+  <!-- Top Notification & Outage Hotline Bar -->
+  <aside class="top-notification-bar">
+    <div class="notification-content">
+      <span class="hotline-highlight">
+        <span class="pulse-dot red"></span>
+        <span data-i18n="top_hotline">24/7 Outage & Emergency Hotline: +966 55 032 7581</span>
+      </span>
+      <span class="top-cert-text" data-i18n="top_cert">ISO 9001 / 45001 / 14001 Certified • Saudi Aramco & SABIC Ready</span>
+    </div>
+  </aside>
+
+  <!-- Sticky Main Header Navigation -->
+  <header class="main-header">
+    <div class="container nav-container">
+      <!-- Brand Logo -->
+      <a href="#" class="brand-logo" aria-label="Hun Power Maintenance Company">
+        <div class="logo-icon-wrap">
+          <svg class="logo-icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+            <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
+          </svg>
+        </div>
+        <div class="brand-text-block">
+          <span class="brand-title"><span data-i18n="brand_name">HUN POWER</span> <span data-i18n="brand_suffix" style="color:var(--text-main);font-weight:400;">MAINTENANCE</span></span>
+          <span class="brand-sub" data-i18n="brand_tagline">Industrial Reliability & Engineering</span>
+        </div>
+      </a>
+
+      <!-- Desktop Navigation Menu -->
+      <nav aria-label="Primary Navigation">
+        <ul class="nav-links">
+          <li><a href="#home" class="nav-link active" data-i18n="nav_home">Home</a></li>
+          <li><a href="#services" class="nav-link" data-i18n="nav_services">Core Capabilities</a></li>
+          <li><a href="#turnaround" class="nav-link" data-i18n="nav_turnaround">Turnarounds (T/A)</a></li>
+          <li><a href="#fleet" class="nav-link" data-i18n="nav_fleet">Equipment Fleet</a></li>
+          <li><a href="#calculator" class="nav-link" data-i18n="nav_calculator">ROI Calculator</a></li>
+          <li><a href="#projects" class="nav-link" data-i18n="nav_projects">Projects</a></li>
+          <li><a href="#contact" class="nav-link" data-i18n="nav_contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Header Actions -->
+      <div class="nav-actions">
+        <button class="lang-switch-btn" id="lang-toggle-btn" title="Switch Language / تغيير اللغة" aria-label="Toggle Language">
+          🌐 <span>العربية</span>
+        </button>
+        <button class="theme-toggle-btn" id="theme-toggle-btn" title="Toggle Theme" aria-label="Toggle Dark or Light Theme">
+          🌓
+        </button>
+        <a href="#quote-wizard" class="btn btn-primary btn-sm" data-i18n="btn_request_quote">Request Quote / Audit</a>
+        <button class="mobile-menu-toggle" id="mobile-menu-toggle" aria-label="Open Mobile Navigation Menu">
+          <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer Menu -->
+  <aside class="mobile-drawer" id="mobile-drawer" aria-label="Mobile Navigation Drawer">
+    <div>
+      <div style="display:flex;justify-content:space-between;align-items:center;">
+        <div class="brand-logo">
+          <div class="logo-icon-wrap" style="width:36px;height:36px;">
+            <svg class="logo-icon-svg" style="width:20px;height:20px;" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+              <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
+            </svg>
+          </div>
+          <span style="font-size:1.1rem;font-weight:800;color:var(--text-main);">HUN POWER</span>
+        </div>
+        <button id="mobile-drawer-close" style="background:none;border:none;color:var(--text-muted);font-size:1.5rem;cursor:pointer;">✕</button>
+      </div>
+
+      <ul class="mobile-nav-links">
+        <li><a href="#home" class="mobile-nav-link active" data-i18n="nav_home">Home</a></li>
+        <li><a href="#services" class="mobile-nav-link" data-i18n="nav_services">Core Capabilities</a></li>
+        <li><a href="#turnaround" class="mobile-nav-link" data-i18n="nav_turnaround">Turnarounds (T/A)</a></li>
+        <li><a href="#fleet" class="mobile-nav-link" data-i18n="nav_fleet">Equipment Fleet</a></li>
+        <li><a href="#calculator" class="mobile-nav-link" data-i18n="nav_calculator">ROI Calculator</a></li>
+        <li><a href="#projects" class="mobile-nav-link" data-i18n="nav_projects">Projects</a></li>
+        <li><a href="#contact" class="mobile-nav-link" data-i18n="nav_contact">Contact</a></li>
+      </ul>
+    </div>
+
+    <div style="display:flex;flex-direction:column;gap:1rem;margin-top:2rem;">
+      <button class="btn btn-danger" onclick="openEmergencyModal()" data-i18n="btn_emergency">24/7 Emergency Outage</button>
+      <a href="#quote-wizard" class="btn btn-primary" data-i18n="btn_request_quote">Request Quote / Audit</a>
+    </div>
+  </aside>
+
+  <!-- Hero Section -->
+  <section class="hero-section" id="home">
+    <canvas id="power-grid-canvas"></canvas>
+    <div class="hero-glow-orb hero-glow-1"></div>
+    <div class="hero-glow-orb hero-glow-2"></div>
+
+    <div class="container">
+      <div class="hero-grid">
+        <div class="hero-content">
+          <div class="badge-tag" data-i18n="hero_badge">Leading Industrial Reliability in Saudi Arabia & GCC</div>
+          
+          <h1 class="hero-title">
+            <span class="gradient-text" data-i18n="hero_title_1">Pioneering Heavy Industry</span><br>
+            <span data-i18n="hero_title_2">Power Asset Reliability</span><br>
+            <span class="cyan-gradient" data-i18n="hero_title_3">& Critical Plant Maintenance</span>
+          </h1>
+
+          <p class="hero-desc" data-i18n="hero_desc">
+            Hun Power Maintenance Company (Hun Al-Quwah) delivers mission-critical turbine varnish removal, vacuum dehydration, oil mist lubrication, high-pressure hose fabrication, and turnkey turnaround (T/A) engineering across the GCC.
+          </p>
+
+          <div class="hero-cta-group">
+            <a href="#services" class="btn btn-primary btn-lg" data-i18n="hero_btn_explore">Explore Capabilities</a>
+            <a href="#calculator" class="btn btn-outline btn-lg" data-i18n="hero_btn_calc">Calculate Plant ROI</a>
+            <button class="btn btn-danger btn-lg" onclick="openEmergencyModal()" data-i18n="btn_emergency">24/7 Emergency Outage</button>
+          </div>
+
+          <div class="hero-trust-badges">
+            <div class="trust-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+              <span data-i18n="trust_aramco">Aramco & SABIC Spec</span>
+            </div>
+            <div class="trust-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><path d="M8 12l2 2 4-4"></path></svg>
+              <span data-i18n="trust_iso">Triple ISO Certified</span>
+            </div>
+            <div class="trust-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg>
+              <span data-i18n="trust_dispatch">Dammam Rapid Mobilization</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hero Visual HUD Monitor Card -->
+        <div class="hero-visual-hud">
+          <div class="hud-header">
+            <div class="hud-title">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--accent-gold)" stroke-width="2.2"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg>
+              <span data-i18n="hud_title">Plant Fleet Reliability Monitor</span>
+            </div>
+            <span class="hud-status-badge"><span class="pulse-dot"></span> <span data-i18n="hud_status">SYSTEMS OPERATIONAL</span></span>
+          </div>
+
+          <div class="hud-metrics-grid">
+            <div class="hud-metric-box">
+              <div class="hud-metric-label" data-i18n="hud_metric_1_label">Turbine Fleet Uptime</div>
+              <div class="hud-metric-val">99.82<span>%</span></div>
+              <div class="hud-progress-bar-wrap"><div class="hud-progress-fill" style="width:99.8%;"></div></div>
+            </div>
+
+            <div class="hud-metric-box">
+              <div class="hud-metric-label" data-i18n="hud_metric_2_label">Varnish Elimination Rate</div>
+              <div class="hud-metric-val">94.6<span>%</span></div>
+              <div class="hud-progress-bar-wrap"><div class="hud-progress-fill" style="width:94.6%;"></div></div>
+            </div>
+
+            <div class="hud-metric-box">
+              <div class="hud-metric-label" data-i18n="hud_metric_3_label">Lube Oil Life Extended</div>
+              <div class="hud-metric-val">4.2<span>x</span></div>
+              <div class="hud-progress-bar-wrap"><div class="hud-progress-fill" style="width:84%;"></div></div>
+            </div>
+
+            <div class="hud-metric-box">
+              <div class="hud-metric-label" data-i18n="hud_metric_4_label">Emergency Outage SLA</div>
+              <div class="hud-metric-val">&lt; 2.0<span>hrs</span></div>
+              <div class="hud-progress-bar-wrap"><div class="hud-progress-fill" style="width:95%;"></div></div>
+            </div>
+          </div>
+
+          <div class="hud-alert-strip">
+            <span class="pulse-dot"></span>
+            <span data-i18n="hud_alert">Dammam & Jubail Heavy Response Skids On Standby 24/7/365</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Statistics Counter Strip -->
+  <section class="stats-counter-strip" aria-label="Company Statistics">
+    <div class="container">
+      <div class="stats-grid">
+        <div class="stat-card">
+          <div class="stat-number" data-target="99.8" data-suffix="%" data-i18n="stat_1_num">99.8%</div>
+          <div class="stat-label" data-i18n="stat_1_label">Critical Asset Uptime</div>
+          <div class="stat-subtext" data-i18n="stat_1_sub">Zero unplanned turbine trips across active contracts</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number" data-target="500" data-prefix="+" data-i18n="stat_2_num">+500</div>
+          <div class="stat-label" data-i18n="stat_2_label">Turbomachinery Serviced</div>
+          <div class="stat-subtext" data-i18n="stat_2_sub">Gas/steam turbines, centrifugal compressors & gearboxes</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number" data-target="15" data-prefix="+" data-i18n="stat_3_num">+15</div>
+          <div class="stat-label" data-i18n="stat_3_label">Years GCC Excellence</div>
+          <div class="stat-subtext" data-i18n="stat_3_sub">Headquartered in Dammam serving Saudi Arabia & GCC</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number" data-target="0" data-i18n="stat_4_num">0</div>
+          <div class="stat-label" data-i18n="stat_4_label">Lost Time Incidents (LTI)</div>
+          <div class="stat-subtext" data-i18n="stat_4_sub">Strict Aramco & ISO 45001 safety target zero</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Accreditation & Partner Marquee -->
+  <section class="partners-marquee-section" aria-label="Accreditation & Partners">
+    <div class="container">
+      <div class="marquee-heading" data-i18n="marquee_title">Engineering Solutions Trusted by Major Industrial Operators</div>
+    </div>
+    <div class="marquee-wrapper">
+      <div class="marquee-track">
+        <div class="client-badge-item">⚡ SAUDI ELECTRICITY COMPANY (SEC)</div>
+        <div class="client-badge-item">🛢 SAUDI ARAMCO SPECIFIED</div>
+        <div class="client-badge-item">🔷 SABIC PETROCHEMICALS</div>
+        <div class="client-badge-item">🌊 SALINE WATER CONVERSION (SWCC)</div>
+        <div class="client-badge-item">⛏ MA'ADEN MINING</div>
+        <div class="client-badge-item">🏅 ISO 9001:2015 CERTIFIED</div>
+        <div class="client-badge-item">🛡 ISO 45001:2018 HEALTH & SAFETY</div>
+        <div class="client-badge-item">🌿 ISO 14001:2015 ENVIRONMENT</div>
+        <div class="client-badge-item">🏭 SADARA CHEMICAL COMPANY</div>
+        <div class="client-badge-item">⛽ PETRO RABIGH</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Core Services Section -->
+  <section class="section section-alt" id="services">
+    <div class="container">
+      <div class="section-header">
+        <div class="badge-tag cyan" data-i18n="services_badge">Specialized Engineering Services</div>
+        <h2 class="section-title"><span data-i18n="services_title">Precision Reliability & Maintenance Solutions</span></h2>
+        <p class="section-subtitle" data-i18n="services_sub">
+          Comprehensive engineering interventions engineered to eliminate catastrophic failure modes and maximize plant lifecycle efficiency.
+        </p>
+      </div>
+
+      <!-- Filter Tabs -->
+      <div class="filter-tabs-container">
+        <button class="filter-tab-btn active" data-filter="all" data-i18n="filter_all">All Services</button>
+        <button class="filter-tab-btn" data-filter="turbines" data-i18n="filter_turbines">Turbines & Rotating</button>
+        <button class="filter-tab-btn" data-filter="fluid" data-i18n="filter_fluid">Fluid & Lube Engineering</button>
+        <button class="filter-tab-btn" data-filter="turnaround" data-i18n="filter_turnaround">Turnarounds (T/A)</button>
+        <button class="filter-tab-btn" data-filter="hose" data-i18n="filter_hose">Hoses & Mechanical Tools</button>
+      </div>
+
+      <!-- Services Grid -->
+      <div class="services-grid">
+        <article class="service-card" data-category="turbines fluid">
+          <div>
+            <div class="service-icon-box">
+              <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"></circle><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path></svg>
+            </div>
+            <h3 class="service-card-title" data-i18n="srv_1_title">Turbine Varnish Removal & Vacuum Dehydration</h3>
+            <p class="service-card-desc" data-i18n="srv_1_desc">
+              Eliminate soft contaminant varnish deposits in servo-valves, bearings, and hydraulic control circuits using advanced electrostatic oil cleaning and high-vacuum dehydration skids.
+            </p>
+            <ul class="service-feature-list">
+              <li class="service-feature-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg><span data-i18n="srv_1_f1">Reduces MPC from Critical (>40) to Normal (<15)</span></li>
+              <li class="service-feature-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg><span data-i18n="srv_1_f2">Removes moisture down to &lt; 30 PPM</span></li>
+              <li class="service-feature-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg><span data-i18n="srv_1_f3">Prevents high-temperature bearing trip and valve sticking</span></li>
+            </ul>
+          </div>
+          <div class="service-card-footer">
+            <span class="service-spec-badge" data-i18n="srv_1_badge">ISO 4406 / ASTM D7843</span>
+            <button class="learn-more-btn" onclick="openServiceModal('srv_varnish')"><span data-i18n="btn_view_specs">View Technical Specs</span> <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></button>
+          </div>
+        </article>
+
+        <article class="service-card" data-category="turnaround fluid">
+          <div>
+            <div class="service-icon-box">
+              <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg>
+            </div>
+            <h3 class="service-card-title" data-i18n="srv_2_title">Turnaround (T/A) & Plant Shutdown Execution</h3>
+            <p class="service-card-desc" data-i18n="srv_2_desc">
+              End-to-end shutdown management, rapid isolation, mechanical overhaul, high-velocity oil flushing (HVOF), and fast-track recommissioning for refineries and power stations.
+            </p>
+            <ul class="service-feature-list">
+              <li class="service-feature-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg><span data-i18n="srv_2_f1">24/7 dedicated multi-disciplinary outage response teams</span></li>
+              <li class="service-feature-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg><span data-i18n="srv_2_f2">High-velocity line flushing up to 5,000 LPM with particle tracking</span></li>
+              <li class="service-feature-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg><span data-i18n="srv_2_f3">Strict adherence to critical path milestones & Aramco safety standards</span></li>
+            </ul>
+          </div>
+          <div class="service-card-footer">
+            <span class="service-spec-badge" data-i18n="srv_2_badge">Turnkey Outage Management</span>
+            <button class="learn-more-btn" onclick="openServiceModal('srv_turnaround')"><span data-i18n="btn_view_specs">View Technical Specs</span> <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></button>
+          </div>
+        </article>
+
+        <article class="service-card" data-category="fluid">
+          <div>
+            <div class="service-icon-box">
+              <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"></path></svg>
+            </div>
+            <h3 class="service-card-title" data-i18n="srv_3_title">Oil Mist Lubrication & Dewatering Rigs</h3>
+            <p class="service-card-desc" data-i18n="srv_3_desc">
+              Closed-loop micro-mist lubrication systems that maintain positive pressure in bearing housings, preventing ingress of desert dust, sand, and humidity.
+            </p>
+            <ul class="service-feature-list">
+              <li class="service-feature-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg><span data-i18n="srv_3_f1">Reduces bearing failure rates by up to 60-70%</span></li>
+              <li class="service-feature-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg><span data-i18n="srv_3_f2">Cuts oil consumption by up to 40%</span></li>
+              <li class="service-feature-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg><span data-i18n="srv_3_f3">Continuous moisture separation and moisture purging</span></li>
+            </ul>
+          </div>
+          <div class="service-card-footer">
+            <span class="service-spec-badge" data-i18n="srv_3_badge">API 610 / API 686 Compliant</span>
+            <button class="learn-more-btn" onclick="openServiceModal('srv_oil_mist')"><span data-i18n="btn_view_specs">View Technical Specs</span> <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></button>
+          </div>
+        </article>
+
+        <article class="service-card" data-category="hose">
+          <div>
+            <div class="service-icon-box">
+              <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path></svg>
+            </div>
+            <h3 class="service-card-title" data-i18n="srv_4_title">High-Pressure Industrial Hose Assembly & Testing</h3>
+            <p class="service-card-desc" data-i18n="srv_4_desc">
+              Precision fabrication, on-site crimping, and computerized hydrostatic pressure testing up to 10,000 PSI for chemical, oil, steam, and hydraulic applications.
+            </p>
+            <ul class="service-feature-list">
+              <li class="service-feature-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg><span data-i18n="srv_4_f1">Custom assemblies with SS316, PTFE, composite & rubber</span></li>
+              <li class="service-feature-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg><span data-i18n="srv_4_f2">Certified hydrostatic burst test bench with digital certificates</span></li>
+              <li class="service-feature-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg><span data-i18n="srv_4_f3">RFID tag tracking for preventive hose replacement schedules</span></li>
+            </ul>
+          </div>
+          <div class="service-card-footer">
+            <span class="service-spec-badge" data-i18n="srv_4_badge">Hydro-Tested to 10k PSI</span>
+            <button class="learn-more-btn" onclick="openServiceModal('srv_hose')"><span data-i18n="btn_view_specs">View Technical Specs</span> <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></button>
+          </div>
+        </article>
+
+        <article class="service-card" data-category="turbines">
+          <div>
+            <div class="service-icon-box">
+              <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="20" x2="18" y2="10"></line><line x1="12" y1="20" x2="12" y2="4"></line><line x1="6" y1="20" x2="6" y2="14"></line></svg>
+            </div>
+            <h3 class="service-card-title" data-i18n="srv_5_title">Rotating Equipment Overhaul & Vibration Diagnostics</h3>
+            <p class="service-card-desc" data-i18n="srv_5_desc">
+              Laser shaft alignment, dynamic balancing, thermal thermography, and FFT spectrum vibration analysis for critical pumps, blowers, and turbo-generators.
+            </p>
+            <ul class="service-feature-list">
+              <li class="service-feature-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg><span data-i18n="srv_5_f1">Laser geometric alignment down to 0.01 mm tolerance</span></li>
+              <li class="service-feature-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg><span data-i18n="srv_5_f2">ISO 10816 vibration severity baseline benchmarking</span></li>
+              <li class="service-feature-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg><span data-i18n="srv_5_f3">Bearing defect frequency identification & proactive balancing</span></li>
+            </ul>
+          </div>
+          <div class="service-card-footer">
+            <span class="service-spec-badge" data-i18n="srv_5_badge">ISO 10816 Vibration Standard</span>
+            <button class="learn-more-btn" onclick="openServiceModal('srv_rotating')"><span data-i18n="btn_view_specs">View Technical Specs</span> <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></button>
+          </div>
+        </article>
+
+        <article class="service-card" data-category="hose">
+          <div>
+            <div class="service-icon-box">
+              <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="8" x2="12" y2="12"></line><line x1="12" y1="16" x2="12.01" y2="16"></line></svg>
+            </div>
+            <h3 class="service-card-title" data-i18n="srv_6_title">Precision Regulators, Gauges & Instrumentation</h3>
+            <p class="service-card-desc" data-i18n="srv_6_desc">
+              Supply, repair, and certified calibration of industrial gas and fluid regulators, pressure transmitters, relief valves, and mechanical instrumentation.
+            </p>
+            <ul class="service-feature-list">
+              <li class="service-feature-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg><span data-i18n="srv_6_f1">High-accuracy calibration against traceable standards</span></li>
+              <li class="service-feature-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg><span data-i18n="srv_6_f2">Corrosion-resistant alloys for harsh sour gas (H2S) environments</span></li>
+              <li class="service-feature-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg><span data-i18n="srv_6_f3">Rapid on-site calibration carts for turnaround verification</span></li>
+            </ul>
+          </div>
+          <div class="service-card-footer">
+            <span class="service-spec-badge" data-i18n="srv_6_badge">NIST & SASO Traceable</span>
+            <button class="learn-more-btn" onclick="openServiceModal('srv_instrumentation')"><span data-i18n="btn_view_specs">View Technical Specs</span> <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></button>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Interactive Engineering ROI Calculator -->
+  <section class="section" id="calculator">
+    <div class="container">
+      <div class="section-header">
+        <div class="badge-tag emerald" data-i18n="calc_badge">Interactive Reliability Engineering Tool</div>
+        <h2 class="section-title"><span data-i18n="calc_title">Turbine Varnish & Oil Cleanliness ROI Estimator</span></h2>
+        <p class="section-subtitle" data-i18n="calc_sub">
+          Calculate the exact financial savings, equipment lifespan extension, and risk reduction achievable by applying Hun Power filtration and varnish decontamination.
+        </p>
+      </div>
+
+      <div class="calculator-card-wrapper">
+        <div class="calculator-grid">
+          <!-- Input Controls -->
+          <div class="calc-input-section">
+            <div class="calc-input-group">
+              <label for="calc-equip-type" class="calc-label" data-i18n="calc_label_equip">Select Primary Equipment Type:</label>
+              <select id="calc-equip-type" class="calc-select">
+                <option value="gas_turbine" data-i18n="calc_opt_gas_turbine">Heavy Duty Gas Turbine (Power Gen)</option>
+                <option value="steam_turbine" data-i18n="calc_opt_steam_turbine">Steam Turbine Generator</option>
+                <option value="compressor" data-i18n="calc_opt_compressor">Centrifugal Process Compressor</option>
+                <option value="hydraulic" data-i18n="calc_opt_hydraulic">Critical Electro-Hydraulic Control (EHC)</option>
+                <option value="gearbox" data-i18n="calc_opt_gearbox">Heavy Industrial Mill Gearbox</option>
+              </select>
+            </div>
+
+            <div class="calc-input-group">
+              <div class="calc-label-row">
+                <label for="calc-volume" class="calc-label" data-i18n="calc_label_volume">Lube Oil Reservoir Capacity (Liters):</label>
+                <span class="calc-current-val" id="calc-volume-display">12,000 L</span>
+              </div>
+              <input type="range" id="calc-volume" class="calc-slider" min="2000" max="45000" step="1000" value="12000">
+            </div>
+
+            <div class="calc-input-group">
+              <div class="calc-label-row">
+                <label for="calc-hours" class="calc-label" data-i18n="calc_label_hours">Annual Operating Hours:</label>
+                <span class="calc-current-val" id="calc-hours-display">7,500 hrs/yr</span>
+              </div>
+              <input type="range" id="calc-hours" class="calc-slider" min="2000" max="8760" step="250" value="7500">
+            </div>
+
+            <div class="calc-input-group">
+              <div class="calc-label-row">
+                <label for="calc-downtime" class="calc-label" data-i18n="calc_label_downtime_cost">Estimated Downtime Cost / Hour ($ USD):</label>
+                <span class="calc-current-val" id="calc-downtime-display">$20,000/hr</span>
+              </div>
+              <input type="range" id="calc-downtime" class="calc-slider" min="5000" max="60000" step="2500" value="20000">
+            </div>
+
+            <div class="calc-input-group">
+              <div class="calc-label-row">
+                <label for="calc-mpc" class="calc-label" data-i18n="calc_label_mpc">Current Varnish Potential (MPC Rating):</label>
+                <span class="calc-current-val" id="calc-mpc-display">38 ΔE (Moderate)</span>
+              </div>
+              <input type="range" id="calc-mpc" class="calc-slider" min="10" max="60" step="1" value="38">
+            </div>
+          </div>
+
+          <!-- Dynamic Output Results -->
+          <div class="calc-results-panel">
+            <div>
+              <div class="results-header">
+                <h3 class="results-title" data-i18n="calc_res_title">Projected Reliability Impact</h3>
+                <p class="results-subtitle" data-i18n="calc_res_sub">Based on ISO 4406 Cleanliness & ASTM D7843 Varnish Remediation</p>
+              </div>
+
+              <div class="roi-hero-number">
+                <div class="roi-hero-label" data-i18n="calc_res_hero_label">Estimated 3-Year Net Cost Savings</div>
+                <div class="roi-hero-val" id="calc-roi-total">$384,500</div>
+              </div>
+
+              <div class="roi-breakdown-list">
+                <div class="roi-metric-item">
+                  <div class="roi-metric-name" data-i18n="calc_res_metric_1">Lube Oil Life Multiplier</div>
+                  <div class="roi-metric-num" id="calc-metric-life">4.2x Extension</div>
+                </div>
+
+                <div class="roi-metric-item">
+                  <div class="roi-metric-name" data-i18n="calc_res_metric_2">Bearing & Valve Failure Reduction</div>
+                  <div class="roi-metric-num" id="calc-metric-failure">-85% Failure Risk</div>
+                </div>
+
+                <div class="roi-metric-item">
+                  <div class="roi-metric-name" data-i18n="calc_res_metric_3">Downtime Risk Mitigated</div>
+                  <div class="roi-metric-num" id="calc-metric-downtime">3.8 Days Avoided</div>
+                </div>
+
+                <div class="roi-metric-item">
+                  <div class="roi-metric-name" data-i18n="calc_res_metric_4">Waste Oil Disposal Avoided</div>
+                  <div class="roi-metric-num" id="calc-metric-waste">21.1 Metric Tons</div>
+                </div>
+              </div>
+            </div>
+
+            <div style="display:flex;flex-direction:column;gap:0.75rem;">
+              <button class="btn btn-primary" id="btn-export-roi" data-i18n="calc_btn_export">Export Technical ROI Summary</button>
+              <button class="btn btn-cyan" id="btn-book-audit" data-i18n="calc_btn_audit">Book On-Site Oil Sampling Audit</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Mobilization Fleet Showcase -->
+  <section class="section section-alt" id="fleet">
+    <div class="container">
+      <div class="section-header">
+        <div class="badge-tag" data-i18n="fleet_badge">Technology & Mobilization Rigs</div>
+        <h2 class="section-title"><span data-i18n="fleet_title">State-of-the-Art Mobile Equipment Fleet</span></h2>
+        <p class="section-subtitle" data-i18n="fleet_sub">
+          Specialized mobile skids and testing laboratories ready for rapid deployment across Saudi Arabia and GCC industrial complexes.
+        </p>
+      </div>
+
+      <div class="fleet-grid">
+        <div class="fleet-card">
+          <span class="fleet-badge">MOBILE FLUID PURIFICATION</span>
+          <h3 class="fleet-card-title" data-i18n="fleet_1_title">Mobile High-Vacuum Dehydrator Skid (VDU-120)</h3>
+          <p style="color:var(--text-muted);font-size:0.875rem;">Trailer-mounted explosion-proof vacuum dehydration unit for on-site moisture extraction and sub-micron micro-filtration.</p>
+          <table class="fleet-specs-table">
+            <tr><td>Flow Capacity</td><td data-i18n="fleet_1_spec_1">120 Liters / Minute</td></tr>
+            <tr><td>Moisture Target</td><td data-i18n="fleet_1_spec_2">&lt; 25 PPM</td></tr>
+            <tr><td>Particulate Cleanliness</td><td data-i18n="fleet_1_spec_3">ISO 13/11/8</td></tr>
+          </table>
+        </div>
+
+        <div class="fleet-card">
+          <span class="fleet-badge" style="background:rgba(245,158,11,0.15);color:var(--accent-gold);">ON-LINE VARNISH REMEDIATION</span>
+          <h3 class="fleet-card-title" data-i18n="fleet_2_title">Electrostatic Varnish Recovery Unit (VRU-Pro)</h3>
+          <p style="color:var(--text-muted);font-size:0.875rem;">Zero-interruption electrostatic skid extracting soft degradation molecules directly while turbine runs at full load.</p>
+          <table class="fleet-specs-table">
+            <tr><td>Extraction Technology</td><td data-i18n="fleet_2_spec_1">Electrostatic Adsorption</td></tr>
+            <tr><td>MPC Target</td><td data-i18n="fleet_2_spec_2">&lt; 10 ΔE</td></tr>
+            <tr><td>Max Fluid Temperature</td><td data-i18n="fleet_2_spec_3">Up to 85°C On-Line</td></tr>
+          </table>
+        </div>
+
+        <div class="fleet-card">
+          <span class="fleet-badge" style="background:rgba(16,185,129,0.15);color:var(--accent-emerald);">HIGH-VELOCITY TURBULENT FLUSH</span>
+          <h3 class="fleet-card-title" data-i18n="fleet_3_title">High-Velocity Oil Flushing Rig (HVOF-5000)</h3>
+          <p style="color:var(--text-muted);font-size:0.875rem;">Massive 5,000 LPM flushing skids capable of turbulent Reynolds numbers exceeding 10,000 for plant commissioning and turnaround lines.</p>
+          <table class="fleet-specs-table">
+            <tr><td>Maximum Flow Rate</td><td data-i18n="fleet_3_spec_1">5,000 Liters / Minute</td></tr>
+            <tr><td>Reynolds Flow Index</td><td data-i18n="fleet_3_spec_2">&gt; 10,000 (Turbulent)</td></tr>
+            <tr><td>Laser Verification</td><td data-i18n="fleet_3_spec_3">Real-Time Particle Sizing</td></tr>
+          </table>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Turnaround (T/A) & Shutdown Framework -->
+  <section class="section" id="turnaround">
+    <div class="container">
+      <div class="section-header">
+        <div class="badge-tag cyan" data-i18n="ta_badge">Turnaround & Outage Excellence</div>
+        <h2 class="section-title"><span data-i18n="ta_title">Structured 5-Phase Turnaround Lifecycle</span></h2>
+        <p class="section-subtitle" data-i18n="ta_sub">
+          Engineered outage management ensuring zero critical path delays and seamless recommissioning.
+        </p>
+      </div>
+
+      <div class="turnaround-roadmap">
+        <div class="turnaround-step-card">
+          <div class="turnaround-step-num">01</div>
+          <h3 class="turnaround-step-title" data-i18n="ta_step_1_title">Pre-Outage Oil & Asset Audit</h3>
+          <p class="turnaround-step-desc" data-i18n="ta_step_1_desc">Baseline MPC testing, ISO 4406 particle analysis, and scoping of critical rotating machinery.</p>
+        </div>
+
+        <div class="turnaround-step-card">
+          <div class="turnaround-step-num">02</div>
+          <h3 class="turnaround-step-title" data-i18n="ta_step_2_title">Mobilization & Isolation</h3>
+          <p class="turnaround-step-desc" data-i18n="ta_step_2_desc">Deployment of mobile filtration skids, hose benches, and certified engineering technicians to site.</p>
+        </div>
+
+        <div class="turnaround-step-card">
+          <div class="turnaround-step-num">03</div>
+          <h3 class="turnaround-step-title" data-i18n="ta_step_3_title">Decontamination & Overhaul</h3>
+          <p class="turnaround-step-desc" data-i18n="ta_step_3_desc">Aggressive on-line varnish extraction, vacuum dewatering, and mechanical rotating equipment refurbishment.</p>
+        </div>
+
+        <div class="turnaround-step-card">
+          <div class="turnaround-step-num">04</div>
+          <h3 class="turnaround-step-title" data-i18n="ta_step_4_title">High-Velocity Flushing</h3>
+          <p class="turnaround-step-desc" data-i18n="ta_step_4_desc">Turbulent oil flushing (Reynolds &gt; 10,000) and hydrostatic testing of all connected hose lines.</p>
+        </div>
+
+        <div class="turnaround-step-card">
+          <div class="turnaround-step-num">05</div>
+          <h3 class="turnaround-step-title" data-i18n="ta_step_5_title">Certification & Handover</h3>
+          <p class="turnaround-step-desc" data-i18n="ta_step_5_desc">Final ISO cleanliness sign-off, vibration baseline verification, and comprehensive warranty handover.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Case Studies & Field Proof -->
+  <section class="section section-alt" id="projects">
+    <div class="container">
+      <div class="section-header">
+        <div class="badge-tag" data-i18n="case_badge">Proven GCC Track Record</div>
+        <h2 class="section-title"><span data-i18n="case_title">Engineering Case Studies & Field Results</span></h2>
+        <p class="section-subtitle" data-i18n="case_sub">
+          Real-world reliability transformations delivered to power plants, petrochemical complexes, and refineries.
+        </p>
+      </div>
+
+      <div class="cases-grid">
+        <div class="case-card">
+          <div>
+            <div class="case-sector-badge" data-i18n="case_1_sector">Power Generation (Combined Cycle)</div>
+            <h3 class="case-title" data-i18n="case_1_title">Gas Turbine EHC Varnish Elimination</h3>
+            <p style="color:var(--text-muted);font-size:0.9rem;" data-i18n="case_1_desc">Resolved persistent servo-valve sticking on two 250MW gas turbines in the Eastern Province. Reduced varnish potential and stabilized governor response.</p>
+          </div>
+          <div class="case-metrics-comparison">
+            <div class="case-metric-box">
+              <div class="label">Before Intervention</div>
+              <div class="val-before" data-i18n="case_1_before">MPC Rating: 48 (Severe)</div>
+            </div>
+            <div class="case-metric-box">
+              <div class="label">After Hun Power</div>
+              <div class="val-after" data-i18n="case_1_after">MPC Rating: 8.5 (Normal)</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="case-card">
+          <div>
+            <div class="case-sector-badge" data-i18n="case_2_sector">Petrochemical Complex</div>
+            <h3 class="case-title" data-i18n="case_2_title">Emergency Ethylene Cracker Lube Flushing</h3>
+            <p style="color:var(--text-muted);font-size:0.9rem;" data-i18n="case_2_desc">Mobilized 5,000 LPM flushing skids for an emergency outage, achieving ISO cleanliness target 36 hours ahead of scheduled turnaround window.</p>
+          </div>
+          <div class="case-metrics-comparison">
+            <div class="case-metric-box">
+              <div class="label">Before Intervention</div>
+              <div class="val-before" data-i18n="case_2_before">ISO Code: 22/19/16</div>
+            </div>
+            <div class="case-metric-box">
+              <div class="label">After Hun Power</div>
+              <div class="val-after" data-i18n="case_2_after">ISO Code: 14/12/9</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="case-card">
+          <div>
+            <div class="case-sector-badge" data-i18n="case_3_sector">Desalination & Water Plant</div>
+            <h3 class="case-title" data-i18n="case_3_title">High-Pressure RO Pump Overhaul & Alignment</h3>
+            <p style="color:var(--text-muted);font-size:0.9rem;" data-i18n="case_3_desc">Performed complete mechanical rebuild, dynamic balancing, and laser alignment on 8 critical seawater intake high-pressure multistage pumps.</p>
+          </div>
+          <div class="case-metrics-comparison">
+            <div class="case-metric-box">
+              <div class="label">Before Intervention</div>
+              <div class="val-before" data-i18n="case_3_before">Vibration: 7.2 mm/s (Alarm)</div>
+            </div>
+            <div class="case-metric-box">
+              <div class="label">After Hun Power</div>
+              <div class="val-after" data-i18n="case_3_after">Vibration: 0.8 mm/s (Excellent)</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Quality, HSE & Certifications -->
+  <section class="section" id="quality">
+    <div class="container">
+      <div class="section-header">
+        <div class="badge-tag emerald" data-i18n="qhse_badge">Safety & Quality Governance</div>
+        <h2 class="section-title"><span data-i18n="qhse_title">Certified to the Highest International Standards</span></h2>
+        <p class="section-subtitle" data-i18n="qhse_sub">
+          Hun Power operates under rigorous QHSE protocols aligned with Saudi Vision 2030 industrial excellence.
+        </p>
+      </div>
+
+      <div class="qhse-grid">
+        <div class="qhse-card">
+          <div class="qhse-icon"><svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg></div>
+          <h3 class="qhse-title" data-i18n="qhse_1_title">ISO 9001:2015</h3>
+          <p class="qhse-desc" data-i18n="qhse_1_desc">Total Quality Management across all maintenance engineering, fabrication, and calibration workflows.</p>
+        </div>
+
+        <div class="qhse-card">
+          <div class="qhse-icon"><svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><circle cx="12" cy="12" r="10"></circle><path d="M8 12l2 2 4-4"></path></svg></div>
+          <h3 class="qhse-title" data-i18n="qhse_2_title">ISO 45001:2018</h3>
+          <p class="qhse-desc" data-i18n="qhse_2_desc">Occupational Health & Safety management with strict Target Zero lost time incidents (LTI).</p>
+        </div>
+
+        <div class="qhse-card">
+          <div class="qhse-icon"><svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"></path></svg></div>
+          <h3 class="qhse-title" data-i18n="qhse_3_title">ISO 14001:2015</h3>
+          <p class="qhse-desc" data-i18n="qhse_3_desc">Environmental protection through waste lube oil reduction and sustainable industrial filtration.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Interactive Service & Outage Request Wizard -->
+  <section class="section section-alt" id="quote-wizard">
+    <div class="container">
+      <div class="section-header">
+        <div class="badge-tag cyan" data-i18n="wizard_badge">Fast Technical Consultation</div>
+        <h2 class="section-title"><span data-i18n="wizard_title">Interactive Service & Outage Request Wizard</span></h2>
+        <p class="section-subtitle" data-i18n="wizard_sub">
+          Submit your plant details to receive an immediate technical consultation and mobilization timeline.
+        </p>
+      </div>
+
+      <div class="wizard-container">
+        <!-- Step Indicators -->
+        <div class="wizard-steps-header">
+          <div class="wizard-step-indicator active" data-step="1">
+            <div class="wizard-step-circle">1</div>
+            <div class="wizard-step-text" data-i18n="wiz_step_1">1. Facility Type</div>
+          </div>
+          <div class="wizard-step-indicator" data-step="2">
+            <div class="wizard-step-circle">2</div>
+            <div class="wizard-step-text" data-i18n="wiz_step_2">2. Required Service</div>
+          </div>
+          <div class="wizard-step-indicator" data-step="3">
+            <div class="wizard-step-circle">3</div>
+            <div class="wizard-step-text" data-i18n="wiz_step_3">3. Urgency & Scope</div>
+          </div>
+          <div class="wizard-step-indicator" data-step="4">
+            <div class="wizard-step-circle">4</div>
+            <div class="wizard-step-text" data-i18n="wiz_step_4">4. Contact & Submit</div>
+          </div>
+        </div>
+
+        <!-- Wizard Panel 1: Facility Type -->
+        <div class="wizard-step-panel active" data-step="1">
+          <h3 style="font-size:1.15rem;color:var(--text-main);margin-bottom:1.5rem;">Step 1: Select Your Facility or Industry</h3>
+          <div class="wizard-options-grid">
+            <div class="wizard-choice-card selected" data-param="facility" data-value="power">
+              <div class="wizard-choice-icon">⚡</div>
+              <div class="wizard-choice-title" data-i18n="wiz_fac_power">Power Generation Plant</div>
+              <div class="wizard-choice-sub">Gas / Steam / Combined Cycle</div>
+            </div>
+            <div class="wizard-choice-card" data-param="facility" data-value="petro">
+              <div class="wizard-choice-icon">🛢</div>
+              <div class="wizard-choice-title" data-i18n="wiz_fac_petro">Oil & Gas / Petrochemicals</div>
+              <div class="wizard-choice-sub">Refineries & Chemical Plants</div>
+            </div>
+            <div class="wizard-choice-card" data-param="facility" data-value="desal">
+              <div class="wizard-choice-icon">🌊</div>
+              <div class="wizard-choice-title" data-i18n="wiz_fac_desal">Water & Desalination</div>
+              <div class="wizard-choice-sub">RO & Thermal Plants</div>
+            </div>
+            <div class="wizard-choice-card" data-param="facility" data-value="mfg">
+              <div class="wizard-choice-icon">🏭</div>
+              <div class="wizard-choice-title" data-i18n="wiz_fac_mfg">Heavy Manufacturing / Mining</div>
+              <div class="wizard-choice-sub">Steel, Cement & Metals</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Wizard Panel 2: Required Service -->
+        <div class="wizard-step-panel" data-step="2">
+          <h3 style="font-size:1.15rem;color:var(--text-main);margin-bottom:1.5rem;">Step 2: Select Primary Engineering Service</h3>
+          <div class="wizard-options-grid">
+            <div class="wizard-choice-card selected" data-param="service" data-value="varnish">
+              <div class="wizard-choice-icon">🧪</div>
+              <div class="wizard-choice-title" data-i18n="wiz_srv_varnish">Turbine Varnish & Dehydration</div>
+              <div class="wizard-choice-sub">Electrostatic VRU Skids</div>
+            </div>
+            <div class="wizard-choice-card" data-param="service" data-value="turnaround">
+              <div class="wizard-choice-icon">🔧</div>
+              <div class="wizard-choice-title" data-i18n="wiz_srv_ta">Turnaround (T/A) & Flushing</div>
+              <div class="wizard-choice-sub">5000 LPM High-Velocity Flushing</div>
+            </div>
+            <div class="wizard-choice-card" data-param="service" data-value="hose">
+              <div class="wizard-choice-icon">🛡</div>
+              <div class="wizard-choice-title" data-i18n="wiz_srv_hose">Hose Fabrication & Testing</div>
+              <div class="wizard-choice-sub">Hydro-Tested to 10k PSI</div>
+            </div>
+            <div class="wizard-choice-card" data-param="service" data-value="overhaul">
+              <div class="wizard-choice-icon">📊</div>
+              <div class="wizard-choice-title" data-i18n="wiz_srv_overhaul">Rotating Equipment Diagnostics</div>
+              <div class="wizard-choice-sub">Laser Alignment & Vibration</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Wizard Panel 3: Urgency & Scope -->
+        <div class="wizard-step-panel" data-step="3">
+          <h3 style="font-size:1.15rem;color:var(--text-main);margin-bottom:1.5rem;">Step 3: What is the Urgency Level?</h3>
+          <div class="wizard-options-grid">
+            <div class="wizard-choice-card" data-param="urgency" data-value="planned">
+              <div class="wizard-choice-icon">📅</div>
+              <div class="wizard-choice-title" data-i18n="wiz_urg_normal">Planned Maintenance (30-90 Days)</div>
+              <div class="wizard-choice-sub">Standard engineering proposal</div>
+            </div>
+            <div class="wizard-choice-card" data-param="urgency" data-value="upcoming">
+              <div class="wizard-choice-icon">⏳</div>
+              <div class="wizard-choice-title" data-i18n="wiz_urg_soon">Upcoming Outage (1-4 Weeks)</div>
+              <div class="wizard-choice-sub">Rapid mobilization review</div>
+            </div>
+            <div class="wizard-choice-card selected" data-param="urgency" data-value="emergency">
+              <div class="wizard-choice-icon" style="color:#ef4444;">🚨</div>
+              <div class="wizard-choice-title" data-i18n="wiz_urg_emergency">EMERGENCY OUTAGE (Immediate)</div>
+              <div class="wizard-choice-sub">2-4 Hour dispatch readiness</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Wizard Panel 4: Contact & Dispatch Details -->
+        <div class="wizard-step-panel" data-step="4">
+          <h3 style="font-size:1.15rem;color:var(--text-main);margin-bottom:1.5rem;">Step 4: Contact & Facility Dispatch Info</h3>
+          <div class="wizard-form-row">
+            <input type="text" id="wiz-name" class="wizard-input-field" placeholder="Your Full Name / Position" data-i18n="wiz_name_ph" required>
+            <input type="text" id="wiz-company" class="wizard-input-field" placeholder="Company Name (e.g. SEC, Aramco, SABIC)" data-i18n="wiz_company_ph">
+          </div>
+          <div class="wizard-form-row">
+            <input type="email" id="wiz-email" class="wizard-input-field" placeholder="Official Business Email" data-i18n="wiz_email_ph" required>
+            <input type="tel" id="wiz-phone" class="wizard-input-field" placeholder="Direct Mobile / WhatsApp (+966)" data-i18n="wiz_phone_ph" required>
+          </div>
+          <div>
+            <textarea id="wiz-notes" class="wizard-input-field" rows="3" placeholder="Equipment Details / Reservoir Size / Location" data-i18n="wiz_notes_ph"></textarea>
+          </div>
+        </div>
+
+        <!-- Wizard Navigation Actions -->
+        <div class="wizard-actions-bar">
+          <button class="btn btn-outline" id="wiz-btn-prev" style="visibility:hidden;" data-i18n="btn_wiz_prev">Back</button>
+          <div>
+            <button class="btn btn-primary" id="wiz-btn-next" data-i18n="btn_wiz_next">Next Step</button>
+            <button class="btn btn-primary" id="wiz-btn-submit" style="display:none;" data-i18n="btn_wiz_submit">Submit Service Request</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Technical FAQ Accordion -->
+  <section class="section" id="faq">
+    <div class="container">
+      <div class="section-header">
+        <div class="badge-tag" data-i18n="faq_badge">Engineering Knowledge Base</div>
+        <h2 class="section-title"><span data-i18n="faq_title">Frequently Asked Technical Questions</span></h2>
+        <p class="section-subtitle" data-i18n="faq_sub">
+          Clear answers on varnish chemistry, ISO contamination standards, and turnaround mobilization.
+        </p>
+      </div>
+
+      <div class="faq-accordion">
+        <div class="faq-item active">
+          <button class="faq-question-btn">
+            <span data-i18n="faq_1_q">What causes varnish formation in gas and steam turbine lube systems?</span>
+            <svg class="faq-toggle-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"></polyline></svg>
+          </button>
+          <div class="faq-answer-content" data-i18n="faq_1_a">
+            Varnish is formed by the thermal and oxidative degradation of turbine lube oils under high operating temperatures, localized micro-dieseling, and spark discharge. Sub-micron soft degradation products polymerize and deposit onto cooler metallic surfaces such as servo-valves, bearings, and heat exchangers, causing sticking and catastrophic trips.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question-btn">
+            <span data-i18n="faq_2_q">How fast can Hun Power mobilize emergency skids to Dammam, Jubail, or Yanbu?</span>
+            <svg class="faq-toggle-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"></polyline></svg>
+          </button>
+          <div class="faq-answer-content" data-i18n="faq_2_a">
+            Our Dammam headquarters maintains dedicated rapid-response skids (VDUs, VRUs, and flushing rigs) on 24/7 standby. We guarantee mobilization to Eastern Province facilities (Dammam, Jubail, Khobar, Ras Tanura) within 2-4 hours, and Western Province (Yanbu, Rabigh, Jeddah) within 12-24 hours.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question-btn">
+            <span data-i18n="faq_3_q">What standards are used for hydrostatic hose testing?</span>
+            <svg class="faq-toggle-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"></polyline></svg>
+          </button>
+          <div class="faq-answer-content" data-i18n="faq_3_a">
+            All hose assemblies fabricated by Hun Power are tested according to ISO 1402 / SAE J517 hydrostatic standards up to 1.5x - 2.0x the maximum working pressure (up to 10,000 PSI) on our computerized test bench, complete with serialized digital test certificates.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question-btn">
+            <span data-i18n="faq_4_q">Can varnish removal be executed while the turbine remains on-line?</span>
+            <svg class="faq-toggle-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"></polyline></svg>
+          </button>
+          <div class="faq-answer-content" data-i18n="faq_4_a">
+            Yes! Hun Power electrostatic VRU skids operate continuously on-line while the turbine or compressor is generating power. The system extracts both suspended and dissolved varnish precursors, progressively cleaning both the fluid and internal metal reservoir surfaces without shutting down the plant.
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact & Dammam Headquarters Location -->
+  <section class="section section-alt" id="contact">
+    <div class="container">
+      <div class="section-header">
+        <div class="badge-tag cyan" data-i18n="contact_badge">Headquarters & GCC Dispatch</div>
+        <h2 class="section-title"><span data-i18n="contact_title">Get in Touch with Our Engineering Team</span></h2>
+        <p class="section-subtitle" data-i18n="contact_sub">
+          Headquartered in Dammam with operational support across Saudi Arabia and the Arabian Gulf.
+        </p>
+      </div>
+
+      <div class="contact-grid">
+        <div class="contact-info-card">
+          <div>
+            <div class="contact-detail-row">
+              <div class="contact-icon-bubble">📍</div>
+              <div>
+                <div class="contact-detail-label" data-i18n="contact_addr_label">Headquarters Address</div>
+                <div class="contact-detail-val" data-i18n="contact_addr_val">Prince Mohammed Bin Fahd Road, At Tubayshi District, Dammam 32233, Eastern Province, Saudi Arabia</div>
+              </div>
+            </div>
+
+            <div class="contact-detail-row">
+              <div class="contact-icon-bubble">📞</div>
+              <div>
+                <div class="contact-detail-label" data-i18n="contact_phone_label">Direct Phone & Dispatch</div>
+                <div class="contact-detail-val" data-i18n="contact_phone_val">+966 55 032 7581 / 013 830 1332</div>
+              </div>
+            </div>
+
+            <div class="contact-detail-row">
+              <div class="contact-icon-bubble">✉</div>
+              <div>
+                <div class="contact-detail-label" data-i18n="contact_email_label">Official Correspondence</div>
+                <div class="contact-detail-val" data-i18n="contact_email_val">Admin@hunalquwah.com / Sales@hunalquwah.com</div>
+              </div>
+            </div>
+
+            <div class="contact-detail-row">
+              <div class="contact-icon-bubble">⏰</div>
+              <div>
+                <div class="contact-detail-label" data-i18n="contact_hours_label">Operating Hours</div>
+                <div class="contact-detail-val" data-i18n="contact_hours_val">Sat – Thu: 7:00 AM – 4:00 PM | Emergency Teams: 24/7/365</div>
+              </div>
+            </div>
+          </div>
+
+          <div style="display:flex;gap:1rem;margin-top:1.5rem;">
+            <a href="tel:+966550327581" class="btn btn-primary" style="flex:1;" data-i18n="btn_call_now">Call Emergency Dispatch</a>
+            <a href="https://wa.me/966550327581" target="_blank" class="btn btn-cyan" style="flex:1;" data-i18n="btn_whatsapp">WhatsApp Engineering Desk</a>
+          </div>
+        </div>
+
+        <!-- Stylized Location & Coverage Map Mock -->
+        <div class="contact-map-mock">
+          <div class="map-grid-pattern"></div>
+          
+          <div class="map-hq-pin">
+            <div style="display:flex;align-items:center;gap:0.75rem;">
+              <span class="pulse-dot red"></span>
+              <div>
+                <strong style="color:var(--text-main);font-size:1.05rem;">Hun Power Maintenance HQ (Dammam)</strong>
+                <p style="color:var(--text-muted);font-size:0.8rem;margin-top:0.2rem;">Prince Mohammed Bin Fahd Rd, At Tubayshi</p>
+              </div>
+            </div>
+          </div>
+
+          <div style="position:relative;z-index:2;background:rgba(15,23,42,0.85);border:1px solid var(--border-subtle);border-radius:10px;padding:1.25rem;backdrop-filter:blur(10px);">
+            <h4 style="color:var(--accent-gold);font-size:0.95rem;margin-bottom:0.5rem;">GCC Rapid Deployment Radius:</h4>
+            <div style="display:grid;grid-template-columns:1fr 1fr;gap:0.75rem;font-size:0.825rem;color:var(--text-muted);">
+              <div>✔ Dammam & Jubail: <strong>2 - 4 Hrs</strong></div>
+              <div>✔ Riyadh Hub: <strong>4 - 6 Hrs</strong></div>
+              <div>✔ Yanbu & Western: <strong>12 - 24 Hrs</strong></div>
+              <div>✔ GCC Countries: <strong>24 - 48 Hrs</strong></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Emergency 24/7 Outage Floating Action Button (FAB) -->
+  <button class="emergency-fab" onclick="openEmergencyModal()" title="24/7 Emergency Outage Hotline" aria-label="Emergency Outage Hotline">
+    <span class="pulse-dot red" style="width:10px;height:10px;"></span>
+    <span data-i18n="btn_emergency">24/7 Emergency Outage</span>
+  </button>
+
+  <!-- Generic Modal Backdrop & Container -->
+  <div class="modal-backdrop" id="generic-modal" role="dialog" aria-modal="true">
+    <div class="modal-window">
+      <button class="modal-close-btn" onclick="closeModal()" aria-label="Close Modal">✕</button>
+      <h3 id="generic-modal-title" style="font-size:1.4rem;font-weight:800;color:var(--accent-gold);margin-bottom:1.25rem;"></h3>
+      <div id="generic-modal-body"></div>
+    </div>
+  </div>
+
+  <!-- Toast Notification Container -->
+  <div class="toast-container" id="toast-container"></div>
+
+  <!-- Main Footer -->
+  <footer class="main-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand-col">
+          <div class="brand-logo">
+            <div class="logo-icon-wrap">
+              <svg class="logo-icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
+              </svg>
+            </div>
+            <span class="brand-title"><span>HUN POWER</span> MAINTENANCE</span>
+          </div>
+          <p data-i18n="footer_desc">
+            Hun Power Maintenance Company (Hun Al-Quwah) is a premier Saudi engineering provider specializing in turbine varnish elimination, oil mist lubrication, high-velocity flushing, and plant turnaround reliability services.
+          </p>
+          <div style="display:flex;gap:0.75rem;">
+            <span class="badge-tag cyan" style="font-size:0.75rem;">ISO 9001:2015</span>
+            <span class="badge-tag emerald" style="font-size:0.75rem;">ISO 45001:2018</span>
+          </div>
+        </div>
+
+        <div>
+          <h4 class="footer-heading" data-i18n="footer_links_title">Capabilities</h4>
+          <ul class="footer-links-list">
+            <li><a href="#services">Turbine Varnish Removal</a></li>
+            <li><a href="#turnaround">Turnaround Execution (T/A)</a></li>
+            <li><a href="#services">Oil Mist Lubrication</a></li>
+            <li><a href="#services">High-Pressure Hoses</a></li>
+            <li><a href="#fleet">Mobile Dehydrators</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-heading" data-i18n="footer_company_title">Company & Quality</h4>
+          <ul class="footer-links-list">
+            <li><a href="#quality">QHSE Standards</a></li>
+            <li><a href="#projects">Project Case Studies</a></li>
+            <li><a href="#calculator">Reliability ROI Model</a></li>
+            <li><a href="#faq">Technical FAQs</a></li>
+            <li><a href="#contact">Dammam Headquarters</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-heading" data-i18n="footer_newsletter_title">Reliability Bulletin</h4>
+          <p style="color:var(--text-muted);font-size:0.85rem;margin-bottom:1rem;" data-i18n="footer_newsletter_desc">
+            Subscribe to receive technical whitepapers on ISO 4406 standards and varnish mitigation.
+          </p>
+          <form onsubmit="event.preventDefault(); showToast('Subscribed to Reliability Bulletin', 'success'); this.reset();" style="display:flex;gap:0.5rem;">
+            <input type="email" class="wizard-input-field" placeholder="engineer@plant.com" style="font-size:0.85rem;padding:0.6rem 0.85rem;" required>
+            <button type="submit" class="btn btn-primary btn-sm">Join</button>
+          </form>
+        </div>
+      </div>
+
+      <div class="footer-bottom-bar">
+        <div data-i18n="footer_copyright">© 2026 Hun Power Maintenance Company (Hun Al-Quwah). All rights reserved. Commercial Reg: Dammam, KSA.</div>
+        <div style="display:flex;gap:1.5rem;">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Engineering Service</a>
+          <a href="#">QHSE Statement</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/i18n.js"></script>
+  <script src="js/canvas.js"></script>
+  <script src="js/calculator.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
